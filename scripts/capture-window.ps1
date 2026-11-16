@@ -13,6 +13,7 @@ public static class WinCapture {
     [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
     [DllImport("user32.dll")] public static extern bool PrintWindow(IntPtr h, IntPtr dc, uint flags);
     [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr h);
+    [DllImport("dwmapi.dll")] public static extern int DwmGetWindowAttribute(IntPtr h, int attr, out RECT r, int size);
 }
 '@
 
@@ -31,6 +32,17 @@ $dc = $graphics.GetHdc()
 [void][WinCapture]::PrintWindow($handle, $dc, 2)   # 2 = PW_RENDERFULLCONTENT (WPF and DirectX content)
 $graphics.ReleaseHdc($dc)
 $graphics.Dispose()
+
+# GetWindowRect includes the invisible resize borders of Windows 10/11, which PrintWindow paints black. The visible
+# frame is DWMWA_EXTENDED_FRAME_BOUNDS (9): keep only that part.
+$frame = New-Object WinCapture+RECT
+$size = [Runtime.InteropServices.Marshal]::SizeOf([type][WinCapture+RECT])
+if ([WinCapture]::DwmGetWindowAttribute($handle, 9, [ref]$frame, $size) -eq 0) {
+    $crop = New-Object System.Drawing.Rectangle ($frame.Left - $rect.Left), ($frame.Top - $rect.Top), ($frame.Right - $frame.Left), ($frame.Bottom - $frame.Top)
+    $visible = $bitmap.Clone($crop, $bitmap.PixelFormat)
+    $bitmap.Dispose()
+    $bitmap = $visible
+}
 $bitmap.Save($Output, [System.Drawing.Imaging.ImageFormat]::Png)
+Write-Host "Saved $Output ($($bitmap.Width) x $($bitmap.Height))"
 $bitmap.Dispose()
-Write-Host "Saved $Output ($width x $height)"
