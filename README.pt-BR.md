@@ -74,7 +74,7 @@ Para voltar à original, desinstale o **GTAVXR PT-BR** pela lista de aplicativos
 | O menu de VR dentro do jogo | ⏳ Traduzido, aguardando entrar no próprio GTAVXR |
 | O Trainer dentro do jogo | ⏳ Traduzido, aguardando entrar no próprio GTAVXR |
 
-Os menus de dentro do jogo fazem parte dos arquivos de jogo do GTAVXR, que o GTAVXR confere antes de cada partida: mudar esses arquivos impediria o jogo de abrir. Por isso a tradução deles (1.084 textos) foi oferecida aos autores do GTAVXR, para vir embutida. Até lá os menus do jogo continuam em inglês ou espanhol. Os textos estão em [`translations/`](translations).
+Os menus de dentro do jogo fazem parte dos arquivos de jogo do GTAVXR, que o GTAVXR confere antes de cada partida: mudar esses arquivos impediria o jogo de abrir. Por isso a tradução deles (1.084 textos) foi oferecida aos autores do GTAVXR, para vir embutida ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)). Até lá os menus do jogo continuam em inglês ou espanhol. Os textos estão em [`translations/`](translations).
 
 <img src="docs/images/suite-pt-BR-language.png" alt="A página de configurações da Suite em português, com os botões de idioma Português e English" width="820">
 

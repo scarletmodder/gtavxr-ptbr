@@ -46,7 +46,7 @@ They are texts this version of the translation does not know yet, usually becaus
 
 ## The menus inside the game are in English or Spanish
 
-Expected for now: the in-game VR menu and the Trainer cannot be translated from outside without stopping GTAVXR from starting, so their translation was offered to the GTAVXR authors. See [Known limitations](../README.md#%EF%B8%8F-known-limitations).
+Expected for now: the in-game VR menu and the Trainer cannot be translated from outside without stopping GTAVXR from starting, so their translation was offered to the GTAVXR authors ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)). See [Known limitations](../README.md#%EF%B8%8F-known-limitations).
 
 ## After translating, Play takes longer once
 

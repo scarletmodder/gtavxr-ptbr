@@ -61,7 +61,7 @@ O `restore` só devolve o original se o arquivo ainda for a cópia traduzida e a
 
 O menu de VR (`vr_format_text.h`, 308 textos) e o Trainer (`localization.h`, 776 textos) são compilados dentro das DLLs nativas do runtime do GTAVXR. Antes de cada partida a Suite compara o SHA-256 de cada um desses arquivos com o manifesto dela (`versions/gtavxr-1-0-2.json`) e se recusa a abrir com `INSTALL_RUNTIME_CHANGED` quando algum difere. Alterá-los quebraria o Jogar.
 
-A tradução deles está em `translations/vr-menu.pt-BR.json` e `translations/trainer.pt-BR.json`, com os mesmos ids do código do GTAVXR, e foi oferecida ao projeto GTAVXR para vir embutida, como um terceiro idioma ao lado do inglês e do espanhol.
+A tradução deles está em `translations/vr-menu.pt-BR.json` e `translations/trainer.pt-BR.json`, com os mesmos ids do código do GTAVXR, e foi oferecida ao projeto GTAVXR para vir embutida ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)), como um terceiro idioma ao lado do inglês e do espanhol.
 
 ## Efeito colateral: mods de conteúdo reconstruídos uma vez
 

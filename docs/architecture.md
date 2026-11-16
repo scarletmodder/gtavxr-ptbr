@@ -61,7 +61,7 @@ Only one translated copy is tracked: translating a second `GTAVXR.exe` while ano
 
 The VR menu (`vr_format_text.h`, 308 texts) and the Trainer (`localization.h`, 776 texts) are compiled into GTAVXR's native runtime DLLs. Before every launch the Suite compares the SHA-256 of each of those files with its own manifest (`versions/gtavxr-1-0-2.json`) and refuses to start with `INSTALL_RUNTIME_CHANGED` when one differs. Patching them would break Play.
 
-Their translation is in `translations/vr-menu.pt-BR.json` and `translations/trainer.pt-BR.json`, with the same ids as the GTAVXR source, and was offered to the GTAVXR project to be built in, as a third language next to English and Spanish.
+Their translation is in `translations/vr-menu.pt-BR.json` and `translations/trainer.pt-BR.json`, with the same ids as the GTAVXR source, and was offered to the GTAVXR project to be built in ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)), as a third language next to English and Spanish.
 
 ## Side effect: content mods rebuilt once
 

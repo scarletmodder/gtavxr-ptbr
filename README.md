@@ -74,7 +74,7 @@ To go back to the original, uninstall **GTAVXR PT-BR** from the Windows list of 
 | The VR menu inside the game | ⏳ Translated, waiting to be included in GTAVXR itself |
 | The Trainer inside the game | ⏳ Translated, waiting to be included in GTAVXR itself |
 
-The in-game menus are part of GTAVXR's game files, which GTAVXR checks before every launch: changing them would stop the game from starting. So their Portuguese translation (1,084 texts) was offered to the GTAVXR authors, to come built in. Until then the in-game menus stay in English or Spanish. The texts are in [`translations/`](translations).
+The in-game menus are part of GTAVXR's game files, which GTAVXR checks before every launch: changing them would stop the game from starting. So their Portuguese translation (1,084 texts) was offered to the GTAVXR authors, to come built in ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)). Until then the in-game menus stay in English or Spanish. The texts are in [`translations/`](translations).
 
 <img src="docs/images/suite-pt-BR-language.png" alt="The Suite settings page in Portuguese, with the language buttons Português and English" width="820">
 
