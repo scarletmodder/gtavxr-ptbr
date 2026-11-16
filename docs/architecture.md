@@ -1,103 +1,103 @@
-**English** | [Português](architecture.pt-BR.md)
+**Português** | [English](architecture.en.md)
 
-# Architecture
+# Arquitetura
 
-How GTAVXR PT-BR changes the GTAVXR Suite, and how it translates the in-game menus without changing any GTAVXR game file.
+Como o GTAVXR PT-BR muda a Suite do GTAVXR, e como traduz os menus de dentro do jogo sem alterar nenhum arquivo de jogo do GTAVXR.
 
-## The pieces
-
-```mermaid
-flowchart LR
-    setup["Installer<br/>(Inno Setup)"] -->|check, apply, restore| tool["GtavxrPtbr.exe<br/>(.NET Framework 4.8)"]
-    tool -->|reads| tr["translations/<br/>suite + content-catalog"]
-    tool -->|rewrites the Spanish column| suite["Your GTAVXR.exe"]
-    tool -->|keeps| orig["GTAVXR.exe.pt-BR.original"]
-    tool -->|"language: es"| settings["Suite settings.json"]
-    tool -->|undo data| state["%LOCALAPPDATA%\GTAVXR-PTBR\state.json"]
-    tool -->|ingame-add| lib["GTAVXR library<br/>GtavxrPtbr.asi"]
-```
-
-- **`installer/gtavxr-ptbr.iss`**: the Inno Setup wizard. It never ships a file of GTAVXR. It finds the Suite, asks which copy to translate, runs `check` from its temporary folder before anything is copied, runs `apply` after copying the tool, then `ingame-add` when that option is checked, and `ingame-remove` and `restore` when uninstalled.
-- **`src/GtavxrPtbr`**: the command-line tool. `SuitePatcher` does the rewrite with [Mono.Cecil](https://github.com/jbevain/cecil); `Program` handles the files, the backup, the state and the Suite settings.
-- **`src/GtavxrPtbrAsi`**: the in-game mod, `GtavxrPtbr.asi` (C++), with its test (`test_patch.cpp`) and a stand-in for the CI (`fake_tables.cpp`).
-- **`translations/`**: four JSON files of `{id, en, pt}` rows. Two go into the Suite; two go into the in-game mod.
-
-## What the Suite looks like inside
-
-The Suite (`GTAVXR.exe`) is a .NET Framework WPF program. Its texts live in three places:
-
-1. **`GtavxrSuite.L`**, a static table `key → {spanish, english}` built in the class constructor. The compiled code for each row is always the same: `ldstr key`, `ldc.i4.2`, `newarr string`, a local store and load, then `ldc.i4.0`, `ldstr spanish`, `stelem.ref`, and the same for index 1 with the English text. The Suite shows column 1 when `settings.json` says `"language": "en"` and column 0 for anything else.
-2. **The language button**, a literal `"Español"` in the settings view.
-3. **`GtavxrSuite.content-catalog.json`**, an embedded resource with the names and descriptions of the content mods, as `{"es": ..., "en": ...}` pairs.
-
-## The rewrite
-
-GTAVXR PT-BR replaces the **Spanish** column with Portuguese and leaves English untouched:
-
-- In the constructor of `GtavxrSuite.L`, for each `ldstr key; ldc.i4.2; newarr` it looks a few instructions ahead for `ldc.i4.0` followed by `ldstr`, and replaces that operand with the Portuguese text of `key`. Keys without a translation keep their Spanish text and are counted as missing.
-- The `"Español"` literal becomes `"Português"`.
-- In the catalog resource, a regular expression replaces each `"es"` value whose `"en"` pair has a translation, keeping the rest of the file byte for byte.
-- An embedded resource, `GtavxrPtbr.Marker` (it holds the tool name and version), marks the file as translated, so a second run stops with `ALREADY_PATCHED` and `restore` knows the file is the translated one.
-
-Every other resource, including the embedded GTAVXR distribution bundle, is written back unchanged.
-
-So the Suite keeps working as designed: `"en"` shows English, anything else shows the column that now holds Portuguese. That is why `--set-language` writes `"language": "es"`.
-
-## Safety
-
-`apply` works in this order. Up to step 5 a failure leaves the original untouched; if the swap itself fails, the kept original is copied back so `GTAVXR.exe` never goes missing:
-
-1. refuse while the Suite runs from that file (exit 5);
-2. read the file and count what is covered; stop below 80% of the table (exit 3) or if already translated (exit 4);
-3. write the translated copy to `GTAVXR.exe.pt-BR.tmp` and check that it loads and carries the marker;
-4. copy the original to `GTAVXR.exe.pt-BR.original` and compare its SHA-256 with the original;
-5. swap the files with `File.Replace`;
-6. write `state.json` with both hashes and the paths, right after the swap;
-7. only then switch the Suite language (a failure there is a warning) and record the language it had before.
-
-Only one translated copy is tracked: translating a second `GTAVXR.exe` while another is still translated stops with exit 8. A newer GTAVXR PT-BR run on a copy translated by an older one translates again from the kept original, so the texts are refreshed.
-
-`restore` puts the original back only if the file is still the translated copy and the backup still has the recorded hash. After a GTAVXR update in place it leaves the new file as it is; if the file was moved or deleted it keeps the original where it is and says so. It switches the language back only if it is still `"es"`, so a change the player made later is kept.
-
-## The in-game menus: a mod of our own, not a patch
-
-The VR menu (`vr_format_text.h`, 308 texts) and the Trainer (`localization.h`, 776 texts) are compiled into GTAVXR's game files: the VR menu into the game executable that GTAVXR prepares, the Trainer into `gtavxr_trainer.dll`. Before every launch the Suite compares the SHA-256 of each of those files with its own manifest (`versions/gtavxr-1-0-2.json`) and refuses to start with `INSTALL_RUNTIME_CHANGED` when one differs. So those files are never changed.
-
-What GTAVXR does allow is script mods: `.asi` files written for ScriptHookV, which its host (`GTAVXRHost.dll`) loads into the game when a profile has the mod turned on. GTAVXR PT-BR ships one, `GtavxrPtbr.asi` (`src/GtavxrPtbrAsi`, C++, all our own code), and the installer adds it to the GTAVXR library with the Suite's own import command (`GTAVXR.exe --import-mods`).
+## As peças
 
 ```mermaid
 flowchart LR
-    tool["GtavxrPtbr.exe<br/>ingame-add"] -->|--import-mods| lib["GTAVXR library<br/>(mod card)"]
-    tool -->|turns it on| prof["profiles/*/profile.json"]
-    host["GTAVXRHost.dll"] -->|loads| asi["GtavxrPtbr.asi"]
-    asi -->|in memory: Spanish column points at Portuguese| vr["VR menu table<br/>(game exe)"]
-    asi -->|in memory| trainer["Trainer table<br/>(gtavxr_trainer.dll)"]
+    setup["Instalador<br/>(Inno Setup)"] -->|check, apply, restore| tool["GtavxrPtbr.exe<br/>(.NET Framework 4.8)"]
+    tool -->|lê| tr["translations/<br/>suite + content-catalog"]
+    tool -->|reescreve a coluna em espanhol| suite["Seu GTAVXR.exe"]
+    tool -->|guarda| orig["GTAVXR.exe.pt-BR.original"]
+    tool -->|"language: es"| settings["settings.json da Suite"]
+    tool -->|dados para desfazer| state["%LOCALAPPDATA%\GTAVXR-PTBR\state.json"]
+    tool -->|ingame-add| lib["Biblioteca do GTAVXR<br/>GtavxrPtbr.asi"]
 ```
 
-Both tables are arrays of pointers to C strings: the VR menu rows are `{source, english, spanish}` and the Trainer rows `{english, spanish}`. Once a second, the mod:
+- **`installer/gtavxr-ptbr.iss`**: o assistente do Inno Setup. Nunca leva arquivo do GTAVXR. Encontra a Suite, pergunta qual cópia traduzir, roda o `check` a partir da pasta temporária antes de copiar qualquer coisa, roda o `apply` depois de copiar a ferramenta, depois o `ingame-add` quando essa opção está marcada, e o `ingame-remove` e o `restore` na desinstalação.
+- **`src/GtavxrPtbr`**: a ferramenta de linha de comando. `SuitePatcher` faz a reescrita com o [Mono.Cecil](https://github.com/jbevain/cecil); `Program` cuida dos arquivos, da cópia de segurança, do estado e dos ajustes da Suite.
+- **`src/GtavxrPtbrAsi`**: o mod dos menus do jogo, `GtavxrPtbr.asi` (C++), com o teste dele (`test_patch.cpp`) e uma imitação para o CI (`fake_tables.cpp`).
+- **`translations/`**: quatro arquivos JSON de linhas `{id, en, pt}`. Dois vão para a Suite; dois vão para o mod dos menus do jogo.
 
-1. finds each table in the loaded module's read-only data: it looks for a pointer to a text that is always in the table (`"SETTINGS / AJUSTES"` for the VR menu, `"Previous Trainer Options"` for the Trainer), then walks back and forward over rows whose every column points at a valid string, and keeps the longest run; it accepts the table only when at least 70% of its keys are known texts, so a table laid out differently (for example with a Portuguese column of GTAVXR's own) is left alone instead of being written out of step;
-2. for each row whose key (the source text, or the English text for the Trainer) has a translation, makes the page writable and points the Spanish column at the Portuguese text, which lives in the mod itself;
-3. holds a reference to the Trainer while it reads it, and gives up (instead of crashing the game) if a page cannot be read;
-4. writes how many rows it found and replaced to `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log`.
+## Como a Suite é por dentro
 
-The VR menu is translated once per game process. The Trainer DLL can be reloaded by GTAVXR during a session, so the mod checks whether the table it patched is still there and patches again when it is new.
+A Suite (`GTAVXR.exe`) é um programa WPF do .NET Framework. Os textos dela ficam em três lugares:
 
-Why this is safe for GTAVXR's check: the files on disk keep their exact bytes, so their hashes still match the manifest; only the running copy in memory changes, and only the Spanish column. Portuguese therefore appears when the game language is Spanish. If a future GTAVXR moves or renames the texts, the anchor is not found, the mod changes nothing and says so in its log.
+1. **`GtavxrSuite.L`**, uma tabela estática `chave → {espanhol, inglês}` montada no construtor da classe. O código compilado de cada linha é sempre igual: `ldstr chave`, `ldc.i4.2`, `newarr string`, um store e um load de variável local, depois `ldc.i4.0`, `ldstr espanhol`, `stelem.ref`, e o mesmo para o índice 1 com o texto em inglês. A Suite mostra a coluna 1 quando o `settings.json` diz `"language": "en"` e a coluna 0 para qualquer outro valor.
+2. **O botão de idioma**, um literal `"Español"` na tela de ajustes.
+3. **`GtavxrSuite.content-catalog.json`**, um recurso embutido com os nomes e descrições dos mods de conteúdo, em pares `{"es": ..., "en": ...}`.
 
-The texts come from `translations/vr-menu.pt-BR.json` and `translations/trainer.pt-BR.json`; `scripts/gen_asi_texts.py` turns them into `src/GtavxrPtbrAsi/texts.g.h`, and the CI fails when that file is out of date. The same translation was also offered to the GTAVXR project to be built in as a third language ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)); the mod does not depend on it.
+## A reescrita
 
-`ingame-add` writes `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.json` with the card id and the profiles it turned the mod on in; `ingame-remove` (run by the uninstaller before `restore`) turns it off in those profiles, deletes the card and the files that only it used.
+O GTAVXR PT-BR troca a coluna em **espanhol** pelo português e não mexe no inglês:
 
-## Side effect: content mods rebuilt once
+- No construtor de `GtavxrSuite.L`, para cada `ldstr chave; ldc.i4.2; newarr`, procura algumas instruções adiante um `ldc.i4.0` seguido de `ldstr` e troca esse operando pelo texto em português da `chave`. Chaves sem tradução mantêm o espanhol e entram na conta das que faltam.
+- O literal `"Español"` vira `"Português"`.
+- No recurso do catálogo, uma expressão regular troca cada valor `"es"` cujo par `"en"` tem tradução, mantendo o resto do arquivo byte a byte.
+- Um recurso embutido, `GtavxrPtbr.Marker` (guarda o nome e a versão da ferramenta), marca o arquivo como traduzido, para que uma segunda execução pare com `ALREADY_PATCHED` e o `restore` saiba que o arquivo é o traduzido.
 
-The hash of the catalog resource is part of the key the Suite uses to decide whether a content mod must be prepared again. After translating, the first Play rebuilds the content mods in use. This is listed in the known limitations.
+Todos os outros recursos, inclusive o pacote de distribuição do GTAVXR embutido, são regravados sem mudança.
 
-## Tests and pipeline
+Assim a Suite continua funcionando como foi feita: `"en"` mostra o inglês, qualquer outro valor mostra a coluna que agora tem o português. Por isso o `--set-language` grava `"language": "es"`.
 
-- `tests/GtavxrPtbr.Tests/PatcherTests.cs` builds a small stand-in Suite with Mono.Cecil (same IL pattern, the `"Español"` literal and a catalog resource) and checks the rewrite, the marker, refusals and the catalog escaping.
-- `tests/GtavxrPtbr.Tests/TranslationFileTests.cs` checks every translation file: same placeholders as English, no empty row, no long dash, unique ids.
-- `src/GtavxrPtbrAsi/test_patch.cpp` loads a GTAVXR game file without running it, applies the in-game patch and checks that every known row became Portuguese, every unknown row kept its text, the other columns did not change and a second run changes nothing. The CI runs it against `fake_tables.dll`, a stand-in laid out like the real tables.
-- `.github/workflows/ci.yml` runs the tests on every push. `.github/workflows/release.yml` builds the installer, installs and uninstalls it on a clean Windows runner, and publishes a release from `main` when the version in `GtavxrPtbr.csproj` has no tag yet.
+## Segurança
 
-The real `GTAVXR.exe` is not in the repository (it belongs to LVL-VR). Each release is also checked by hand against the real GTAVXR 1.0.2: `check` reports 422/422 Suite texts and 129/129 catalog texts, `apply` and `restore` round-trip to the original SHA-256, and the translated Suite is opened and its pages read. The in-game mod is checked with `test_patch` against copies of the real game exe and `gtavxr_trainer.dll` (308/308 and 776/776), and `ingame-add` and `ingame-remove` are run against a copy of the Suite data folder.
+O `apply` segue esta ordem. Até o passo 5 uma falha deixa o original intacto; se a própria troca falhar, a original guardada é copiada de volta, para o `GTAVXR.exe` nunca sumir:
+
+1. recusa enquanto a Suite estiver rodando a partir daquele arquivo (saída 5);
+2. lê o arquivo e conta o que é coberto; para abaixo de 80% da tabela (saída 3) ou se já estiver traduzido (saída 4);
+3. grava a cópia traduzida em `GTAVXR.exe.pt-BR.tmp` e confere que ela carrega e tem a marca;
+4. copia o original para `GTAVXR.exe.pt-BR.original` e compara o SHA-256 com o original;
+5. troca os arquivos com `File.Replace`;
+6. grava o `state.json` com os dois hashes e os caminhos, logo depois da troca;
+7. só então muda o idioma da Suite (uma falha aí é só aviso) e registra o idioma que estava antes.
+
+Só uma cópia traduzida é acompanhada: traduzir um segundo `GTAVXR.exe` enquanto outro ainda está traduzido para com a saída 8. Um GTAVXR PT-BR mais novo rodando numa cópia traduzida por um mais antigo traduz de novo a partir da original guardada, então os textos são atualizados.
+
+O `restore` só devolve o original se o arquivo ainda for a cópia traduzida e a cópia de segurança ainda tiver o hash registrado. Depois de uma atualização do GTAVXR no mesmo lugar, deixa o arquivo novo como está; se o arquivo foi movido ou apagado, mantém a original onde está e avisa. Ele só volta o idioma se ainda estiver em `"es"`, para manter uma mudança que a pessoa tenha feito depois.
+
+## Os menus do jogo: um mod nosso, não um patch
+
+O menu de VR (`vr_format_text.h`, 308 textos) e o Trainer (`localization.h`, 776 textos) são compilados nos arquivos de jogo do GTAVXR: o menu de VR no executável do jogo que o GTAVXR prepara, o Trainer no `gtavxr_trainer.dll`. Antes de cada partida a Suite compara o SHA-256 de cada um desses arquivos com o manifesto dela (`versions/gtavxr-1-0-2.json`) e se recusa a abrir com `INSTALL_RUNTIME_CHANGED` quando algum é diferente. Por isso esses arquivos nunca são alterados.
+
+O que o GTAVXR permite são mods de script: arquivos `.asi` feitos para o ScriptHookV, que o host dele (`GTAVXRHost.dll`) carrega no jogo quando o perfil tem o mod ligado. O GTAVXR PT-BR leva um, o `GtavxrPtbr.asi` (`src/GtavxrPtbrAsi`, C++, todo código nosso), e o instalador adiciona ele à biblioteca do GTAVXR pelo próprio comando de importação da Suite (`GTAVXR.exe --import-mods`).
+
+```mermaid
+flowchart LR
+    tool["GtavxrPtbr.exe<br/>ingame-add"] -->|--import-mods| lib["Biblioteca do GTAVXR<br/>(cartão do mod)"]
+    tool -->|liga| prof["profiles/*/profile.json"]
+    host["GTAVXRHost.dll"] -->|carrega| asi["GtavxrPtbr.asi"]
+    asi -->|na memória: coluna em espanhol aponta para o português| vr["Tabela do menu de VR<br/>(exe do jogo)"]
+    asi -->|na memória| trainer["Tabela do Trainer<br/>(gtavxr_trainer.dll)"]
+```
+
+As duas tabelas são listas de ponteiros para textos em C: as linhas do menu de VR são `{source, english, spanish}` e as do Trainer `{english, spanish}`. Uma vez por segundo, o mod:
+
+1. acha cada tabela nos dados somente leitura do módulo carregado: procura um ponteiro para um texto que sempre está na tabela (`"SETTINGS / AJUSTES"` no menu de VR, `"Previous Trainer Options"` no Trainer), anda para trás e para frente pelas linhas em que toda coluna aponta para um texto válido e fica com a sequência mais longa; só aceita a tabela quando pelo menos 70% das chaves são textos conhecidos, então uma tabela montada de outro jeito (por exemplo com uma coluna em português do próprio GTAVXR) fica como está, em vez de ser escrita fora do lugar;
+2. em cada linha cuja chave (o texto de origem, ou o texto em inglês no Trainer) tem tradução, libera a escrita na página e aponta a coluna em espanhol para o texto em português, que mora no próprio mod;
+3. segura uma referência ao Trainer enquanto lê, e desiste (em vez de derrubar o jogo) se uma página não puder ser lida;
+4. grava quantas linhas achou e trocou em `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log`.
+
+O menu de VR é traduzido uma vez por processo do jogo. A DLL do Trainer pode ser recarregada pelo GTAVXR durante a partida, então o mod confere se a tabela que ele trocou ainda está lá e troca de novo quando ela é nova.
+
+Por que isso é seguro para a conferência do GTAVXR: os arquivos no disco ficam com os mesmos bytes, então os hashes continuam batendo com o manifesto; só a cópia em execução na memória muda, e só a coluna em espanhol. Por isso o português aparece quando o idioma do jogo é espanhol. Se um GTAVXR futuro mover ou renomear os textos, a âncora não é achada, o mod não muda nada e diz isso no log.
+
+Os textos vêm de `translations/vr-menu.pt-BR.json` e `translations/trainer.pt-BR.json`; o `scripts/gen_asi_texts.py` transforma eles em `src/GtavxrPtbrAsi/texts.g.h`, e o CI falha quando esse arquivo está desatualizado. A mesma tradução também foi oferecida ao projeto GTAVXR para vir embutida como terceiro idioma ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)); o mod não depende disso.
+
+O `ingame-add` grava `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.json` com o id do cartão e os perfis em que ligou o mod; o `ingame-remove` (rodado pelo desinstalador antes do `restore`) desliga nesses perfis, apaga o cartão e os arquivos que só ele usava.
+
+## Efeito colateral: mods de conteúdo reconstruídos uma vez
+
+O hash do recurso do catálogo faz parte da chave que a Suite usa para decidir se um mod de conteúdo precisa ser preparado de novo. Depois de traduzir, o primeiro Jogar reconstrói os mods de conteúdo em uso. Isso está nas limitações conhecidas.
+
+## Testes e esteira
+
+- `tests/GtavxrPtbr.Tests/PatcherTests.cs` monta com o Mono.Cecil uma Suite de mentira (mesmo padrão de IL, o literal `"Español"` e um recurso de catálogo) e confere a reescrita, a marca, as recusas e o escape do catálogo.
+- `tests/GtavxrPtbr.Tests/TranslationFileTests.cs` confere cada arquivo de tradução: mesmos marcadores do inglês, nenhuma linha vazia, nenhum travessão, ids únicos.
+- `src/GtavxrPtbrAsi/test_patch.cpp` carrega um arquivo de jogo do GTAVXR sem executar, aplica a troca dos menus do jogo e confere que toda linha conhecida virou português, toda linha desconhecida manteve o texto, as outras colunas não mudaram e uma segunda execução não muda nada. O CI roda esse teste contra o `fake_tables.dll`, uma imitação montada como as tabelas reais.
+- `.github/workflows/ci.yml` roda os testes a cada push. `.github/workflows/release.yml` gera o instalador, instala e desinstala numa máquina Windows limpa e publica uma versão a partir da `main` quando a versão do `GtavxrPtbr.csproj` ainda não tem tag.
+
+O `GTAVXR.exe` real não está no repositório (ele pertence à LVL-VR). Cada versão também é conferida à mão contra o GTAVXR 1.0.2 real: o `check` mostra 422/422 textos da Suite e 129/129 do catálogo, `apply` e `restore` voltam ao SHA-256 original, e a Suite traduzida é aberta e as páginas lidas. O mod dos menus do jogo é conferido com o `test_patch` contra cópias do exe real do jogo e do `gtavxr_trainer.dll` (308/308 e 776/776), e o `ingame-add` e o `ingame-remove` rodam contra uma cópia da pasta de dados da Suite.

@@ -1,52 +1,52 @@
-**English** | [Português](translation-guide.pt-BR.md)
+**Português** | [English](translation-guide.en.md)
 
-# Translation guide
+# Guia de tradução
 
-The rules and fixed terms used in every file of [`translations/`](../translations). If a word sounds wrong in the game, [open an issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) with the `id` of the row, the current text and your suggestion.
+As regras e os termos fixos usados em todos os arquivos de [`translations/`](../translations). Se uma palavra soar errada no jogo, [abra uma issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) com o `id` da linha, o texto atual e a sua sugestão.
 
-## The files
+## Os arquivos
 
-| File | What it is | Texts |
+| Arquivo | O que é | Textos |
 |---|---|---|
-| `suite.pt-BR.json` | The Suite window (applied by the installer) | 422 |
-| `content-catalog.pt-BR.json` | Names and descriptions of the content mods in the Suite (applied by the installer) | 101 unique texts, 129 places |
-| `vr-menu.pt-BR.json` | The VR menu inside the game (offered to GTAVXR, not applied) | 308 |
-| `trainer.pt-BR.json` | The Trainer inside the game (offered to GTAVXR, not applied) | 776 |
+| `suite.pt-BR.json` | A janela da Suite (aplicada pelo instalador) | 422 |
+| `content-catalog.pt-BR.json` | Nomes e descrições dos mods de conteúdo na Suite (aplicados pelo instalador) | 101 textos únicos, 129 lugares |
+| `vr-menu.pt-BR.json` | O menu de VR dentro do jogo (aplicado pelo mod dos menus do jogo e oferecido ao GTAVXR) | 308 |
+| `trainer.pt-BR.json` | O Trainer dentro do jogo (aplicado pelo mod dos menus do jogo e oferecido ao GTAVXR) | 776 |
 
-Each row is `{"id", "en", "pt"}`: the identifier in the GTAVXR source, the English text and the Portuguese text. The tests check that every row keeps the same placeholders as the English, is not empty and has no long dash.
+Cada linha é `{"id", "en", "pt"}`: o identificador no código do GTAVXR, o texto em inglês e o texto em português. Os testes conferem que cada linha mantém os mesmos marcadores do inglês, não está vazia e não tem travessão.
 
-## Rules
+## Regras
 
-- Natural Brazilian Portuguese, like a game localized in Brazil. The player is addressed as "você".
-- Translated from the English; the Spanish only settles doubts about meaning.
-- No em dash or en dash: comma, colon or parentheses instead.
-- Placeholders stay exactly as they are: `{0}`, `%s`, `%d`, `%.1f`, `%%`, `~r~`, `~s~`, `\n`, `>`, `<`, `·`, quotes and spaces at the start and the end.
-- Capitalization follows the English: ALL CAPS stays all caps; Title Case becomes sentence case, as usual in Portuguese.
-- Length: in-game menus have a fixed width. Stay close to the English length; above 1.3 times the longer of English and Spanish, abbreviate naturally.
-- Not translated: proper names (Michael, Los Santos, names of mods, shops, missions), brand names of vehicles and weapons, acronyms (HUD, VR, OpenXR, DLSS, FSR, FPS, DLC), units.
+- Português do Brasil natural, como um jogo localizado no Brasil. A pessoa é tratada por "você".
+- Traduzido a partir do inglês; o espanhol só tira dúvida de sentido.
+- Sem travessão nem meia-risca: vírgula, dois-pontos ou parênteses.
+- Os marcadores ficam exatamente como estão: `{0}`, `%s`, `%d`, `%.1f`, `%%`, `~r~`, `~s~`, `\n`, `>`, `<`, `·`, aspas e os espaços do início e do fim.
+- A caixa segue a do inglês: TUDO MAIÚSCULO continua maiúsculo; Title Case vira caixa de frase, como é comum em português.
+- Tamanho: os menus do jogo têm largura fixa. Ficar perto do tamanho do inglês; acima de 1,3 vez o maior entre inglês e espanhol, abreviar com naturalidade.
+- Não se traduz: nomes próprios (Michael, Los Santos, nomes de mods, lojas, missões), marcas de veículos e armas, siglas (HUD, VR, OpenXR, DLSS, FSR, FPS, DLC), unidades.
 
-## Fixed terms
+## Termos fixos
 
-| English | Portuguese |
+| Inglês | Português |
 |---|---|
-| headset | óculos VR (short label: Óculos) |
+| headset | óculos VR (rótulo curto: Óculos) |
 | controllers | controles |
-| grip | botão de agarrar (short: Agarrar) |
+| grip | botão de agarrar (curto: Agarrar) |
 | trigger | gatilho |
 | thumbstick | analógico |
 | recenter | recentralizar |
 | snap turning / smooth turning | giro por passos / giro suave |
 | haptics, vibration | vibração |
-| profile / save / story | perfil / jogo salvo (short: Save) / modo história |
-| settings | configurações (short, in menus: Ajustes) |
+| profile / save / story | perfil / jogo salvo (curto: Save) / modo história |
+| settings | configurações (curto, em menus: Ajustes) |
 | wanted level | nível de procurado |
 | god mode / never wanted | modo deus / nunca procurado |
-| waypoint | ponto marcado no mapa (short: Marcador) |
+| waypoint | ponto marcado no mapa (curto: Marcador) |
 | teleport / spawn | teleportar / gerar |
 | ped | pedestre, pessoa |
 | loadout | equipamento |
 | toggle / reset | opção liga/desliga / redefinir |
 | frame generation / frame | geração de quadros / quadro |
 | library / stable / test version | biblioteca / estável / versão de teste |
-| Trainer, Suite, runtime | kept in English |
-| ON / OFF | kept as ON and OFF |
+| Trainer, Suite, runtime | mantidos em inglês |
+| ON / OFF | mantidos como ON e OFF |

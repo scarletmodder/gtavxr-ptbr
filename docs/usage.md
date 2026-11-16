@@ -1,103 +1,103 @@
-**English** | [Português](usage.pt-BR.md)
+**Português** | [English](usage.en.md)
 
-# Usage
+# Uso
 
-## Before you start
+## Antes de começar
 
-- GTAVXR is downloaded: the `GTAVXR.exe` from the [official page](https://github.com/LVL-VR/GTAVXR/releases), opened at least once.
-- GTAVXR is closed.
+- O GTAVXR está baixado: o `GTAVXR.exe` da [página oficial](https://github.com/LVL-VR/GTAVXR/releases), aberto pelo menos uma vez.
+- O GTAVXR está fechado.
 
-## The installer, page by page
+## O instalador, página por página
 
-1. **Welcome.** What the installer does: it translates the copy of GTAVXR you already have and keeps the original next to it.
+1. **Boas-vindas.** O que o instalador faz: traduz a cópia do GTAVXR que você já tem e guarda a original ao lado.
 
-   <img src="images/installer-en-welcome.png" alt="Welcome page of the installer" width="560">
+   <img src="images/installer-pt-BR-welcome.png" alt="Página de boas-vindas do instalador" width="560">
 
-2. **What this translation needs.** Shows whether the GTAVXR Suite was **found** in the usual places: your Downloads folder, your Desktop, or the folder where the Suite installs itself when you use **Install on this PC** in its settings. **Open the GTAVXR page** opens the official download page. **Check again** looks once more, after you download it.
+2. **O que esta tradução precisa.** Mostra se a Suite do GTAVXR foi **encontrada** nos lugares de costume: a pasta Downloads, a Área de Trabalho, ou a pasta onde a Suite se instala quando você usa **Instalar neste PC** nos ajustes dela. **Abrir a página do GTAVXR** abre a página oficial de download. **Conferir de novo** procura outra vez, depois que você baixar.
 
-   <img src="images/installer-en-needs.png" alt="Page that shows whether GTAVXR was found" width="560">
+   <img src="images/installer-pt-BR-needs.png" alt="Página que mostra se o GTAVXR foi encontrado" width="560">
 
-3. **Which GTAVXR to translate.** The `GTAVXR.exe` you open to play. **Browse** lets you choose another one. When you press **Next**, the texts of that file are checked; nothing changes yet.
+3. **Qual GTAVXR traduzir.** O `GTAVXR.exe` que você abre para jogar. **Procurar** deixa escolher outro. Quando você clica em **Avançar**, os textos desse arquivo são conferidos; nada muda ainda.
 
-   <img src="images/installer-en-pick.png" alt="Page to choose the GTAVXR.exe file" width="560">
+   <img src="images/installer-pt-BR-pick.png" alt="Página para escolher o arquivo GTAVXR.exe" width="560">
 
-4. **Additional tasks.** Two options, both checked:
-   - **Switch the Suite language to Portuguese.** Unchecked, the translation is applied but the Suite opens in the language it had; you can switch it later in **Settings**.
-   - **Also translate the menus inside the game.** Adds the mod **GTAVXR PT-BR menus do jogo** to your GTAVXR library and turns it on in the profiles you have, so the VR menu and the Trainer show Portuguese. Unchecked, only the Suite is translated.
+4. **Tarefas adicionais.** Duas opções, as duas marcadas:
+   - **Mudar o idioma da Suite para português.** Desmarcada, a tradução é aplicada mas a Suite abre no idioma que tinha; dá para trocar depois em **Ajustes**.
+   - **Traduzir também os menus de dentro do jogo.** Adiciona o mod **GTAVXR PT-BR menus do jogo** à sua biblioteca do GTAVXR e liga ele nos perfis que você tem, para o menu de VR e o Trainer mostrarem português. Desmarcada, só a Suite é traduzida.
 
-   <img src="images/installer-en-tasks.png" alt="Page with the option to switch the Suite language to Portuguese" width="560">
+   <img src="images/installer-pt-BR-tasks.png" alt="Página com a opção de mudar o idioma da Suite para português" width="560">
 
-5. **Ready to install.** A summary of the file and the option. **Install** copies the small tool and translates the file.
+5. **Pronto para instalar.** Um resumo do arquivo e da opção. **Instalar** copia a ferramenta pequena e traduz o arquivo.
 
-   <img src="images/installer-en-ready.png" alt="Summary before installing" width="560">
+   <img src="images/installer-pt-BR-ready.png" alt="Resumo antes de instalar" width="560">
 
-6. **Finish.** Says that GTAVXR is in Portuguese, and whether the in-game menus mod was added. **Open GTAVXR now** opens the translated Suite.
+6. **Concluir.** Diz que o GTAVXR está em português e se o mod dos menus do jogo foi adicionado. **Abrir o GTAVXR agora** abre a Suite traduzida.
 
-   <img src="images/installer-en-finish.png" alt="Last page of the installer" width="560">
+   <img src="images/installer-pt-BR-finish.png" alt="Última página do instalador" width="560">
 
-The pictures above are from version 1.0; version 1.1 adds the second option on the **Additional tasks** page.
+As imagens acima são da versão 1.0; a versão 1.1 acrescenta a segunda opção na página **Tarefas adicionais**.
 
-## The menus inside the game
+## Os menus de dentro do jogo
 
-With the in-game menus mod on, start GTAVXR as usual. In the game, open the VR menu, go to **Settings** and switch **Language** until the texts are in Portuguese: Portuguese takes the place of Spanish, so the option may still say Spanish. The Trainer follows the VR menu; it also has its own **Language** option, where Spanish now shows Portuguese.
+Com o mod dos menus do jogo ligado, abra o GTAVXR como sempre. No jogo, abra o menu de VR, vá em **Ajustes** e troque o **Idioma** até os textos ficarem em português: o português ocupa o lugar do espanhol, então a opção ainda pode dizer espanhol. O Trainer segue o menu de VR; ele também tem a opção **Idioma** própria, onde espanhol agora mostra português.
 
-A profile created after the install starts without the mod, and test profiles are left as they are. To use it there, turn **GTAVXR PT-BR menus do jogo** on in that profile in the Suite.
+Um perfil criado depois da instalação começa sem o mod, e perfis de teste ficam como estão. Para usar nele, ligue **GTAVXR PT-BR menus do jogo** nesse perfil, na Suite.
 
-The mod is also published on its own, as `GTAVXR-PTBR-InGame-vX.Y.Z.zip` in each release: add that .zip as a mod in the Suite and turn it on in your profile.
+O mod também sai sozinho, como `GTAVXR-PTBR-InGame-vX.Y.Z.zip` em cada versão: adicione esse .zip como mod na Suite e ligue no seu perfil.
 
-## What changes on your computer
+## O que muda no seu computador
 
-| Where | What |
+| Onde | O quê |
 |---|---|
-| Your `GTAVXR.exe` | Its Spanish texts are replaced by Portuguese ones; English stays as it is |
-| `GTAVXR.exe.pt-BR.original`, next to it | The original file, untouched |
-| The Suite `settings.json` (`%LOCALAPPDATA%\GTAVXR\Suite`, or the data folder chosen in the Suite) | `"language"` set to the Portuguese column, only with the option checked |
-| `%LOCALAPPDATA%\Programs\GTAVXR PT-BR` | The tool, its translations and the uninstaller |
-| The GTAVXR library (the Suite data folder) | The mod **GTAVXR PT-BR menus do jogo** (`GtavxrPtbr.asi`), only with the in-game option checked |
-| Each profile's `profile.json` | The mod turned on, only with the in-game option checked |
-| `%LOCALAPPDATA%\GTAVXR-PTBR` | `state.json` (what to undo), `in-game.json` (which mod and profiles to undo) and `last-run.log` (what the last run did) |
-| `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log` | What the in-game mod did in the last session (how many texts it replaced) |
+| O seu `GTAVXR.exe` | Os textos em espanhol viram português; o inglês fica como está |
+| `GTAVXR.exe.pt-BR.original`, ao lado | O arquivo original, intacto |
+| O `settings.json` da Suite (`%LOCALAPPDATA%\GTAVXR\Suite`, ou a pasta de dados escolhida na Suite) | `"language"` na coluna em português, só com a opção marcada |
+| `%LOCALAPPDATA%\Programs\GTAVXR PT-BR` | A ferramenta, as traduções e o desinstalador |
+| A biblioteca do GTAVXR (a pasta de dados da Suite) | O mod **GTAVXR PT-BR menus do jogo** (`GtavxrPtbr.asi`), só com a opção dos menus do jogo marcada |
+| O `profile.json` de cada perfil | O mod ligado, só com a opção dos menus do jogo marcada |
+| `%LOCALAPPDATA%\GTAVXR-PTBR` | `state.json` (o que desfazer), `in-game.json` (qual mod e quais perfis desfazer) e `last-run.log` (o que a última execução fez) |
+| `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log` | O que o mod dos menus do jogo fez na última partida (quantos textos trocou) |
 
-No file of GTAVXR's game is changed: the in-game mod changes the texts in memory while the game runs, so GTAVXR's check of its game files still passes.
+Nenhum arquivo de jogo do GTAVXR é alterado: o mod troca os textos na memória enquanto o jogo roda, então a conferência que o GTAVXR faz dos arquivos de jogo continua passando.
 
-## When GTAVXR is updated
+## Quando o GTAVXR atualizar
 
-A new `GTAVXR.exe` comes in English and Spanish only. Run the GTAVXR PT-BR installer again and choose the new file.
+Um `GTAVXR.exe` novo vem só em inglês e espanhol. Rode de novo o instalador do GTAVXR PT-BR e escolha o arquivo novo.
 
-- If you installed a newer GTAVXR PT-BR, the same run also brings its new texts.
-- If the new version has the same texts, it is translated as before.
-- If at least 80% of its texts are known, it is translated, and the new texts stay in Spanish until a new GTAVXR PT-BR comes out.
-- Below that, the installer says the version is not covered yet and changes nothing.
+- Se você instalou um GTAVXR PT-BR mais novo, a mesma execução já traz os textos novos dele.
+- Se a versão nova tiver os mesmos textos, ela é traduzida como antes.
+- Se pelo menos 80% dos textos forem conhecidos, ela é traduzida, e os textos novos ficam em espanhol até sair um GTAVXR PT-BR novo.
+- Abaixo disso, o instalador avisa que a versão ainda não é coberta e não muda nada.
 
-If the Suite updated itself in place, the backup of the old version no longer matches it; uninstalling then leaves the new file as it is.
+Se a Suite se atualizou no mesmo lugar, a cópia de segurança da versão antiga não corresponde mais a ela; a desinstalação então deixa o arquivo novo como está.
 
-## Uninstall
+## Desinstalar
 
-Windows Settings, **Apps**, **Installed apps**, **GTAVXR PT-BR**, **Uninstall**. The uninstaller:
+Configurações do Windows, **Aplicativos**, **Aplicativos instalados**, **GTAVXR PT-BR**, **Desinstalar**. O desinstalador:
 
-1. takes the in-game menus mod out of your profiles and the GTAVXR library (if you had added that mod yourself before installing, it stays in the library);
-2. puts the original `GTAVXR.exe` back, if your copy is still the translated one;
-3. switches the Suite language back to what it was before, if it is still on the Portuguese column;
-4. removes the tool and its state file (the folder `%LOCALAPPDATA%\GTAVXR-PTBR` keeps only `last-run.log`).
+1. tira o mod dos menus do jogo dos seus perfis e da biblioteca do GTAVXR (se você já tinha adicionado esse mod antes de instalar, ele fica na biblioteca);
+2. devolve o `GTAVXR.exe` original, se a sua cópia ainda for a traduzida;
+3. volta o idioma da Suite ao que era antes, se ele ainda estiver na coluna em português;
+4. remove a ferramenta e o arquivo de estado (a pasta `%LOCALAPPDATA%\GTAVXR-PTBR` fica só com o `last-run.log`).
 
-If GTAVXR is open, it asks you to close it first; **Cancel** stops the uninstall and changes nothing. If your `GTAVXR.exe` was moved or deleted, the original stays where it was kept, `GTAVXR.exe.pt-BR.original`.
+Se o GTAVXR estiver aberto, ele pede para fechar antes; **Cancelar** interrompe a desinstalação sem mudar nada. Se o seu `GTAVXR.exe` foi movido ou apagado, a original continua onde foi guardada, `GTAVXR.exe.pt-BR.original`.
 
-Only one copy of `GTAVXR.exe` is translated at a time. To translate a different copy, uninstall first. A newer GTAVXR PT-BR installed over an older one updates the texts of the copy it translated.
+Só uma cópia do `GTAVXR.exe` fica traduzida por vez. Para traduzir outra cópia, desinstale antes. Um GTAVXR PT-BR mais novo instalado por cima de um mais antigo atualiza os textos da cópia que ele traduziu.
 
-## Command line
+## Linha de comando
 
-The installed tool can be used directly from `%LOCALAPPDATA%\Programs\GTAVXR PT-BR`:
+A ferramenta instalada pode ser usada direto de `%LOCALAPPDATA%\Programs\GTAVXR PT-BR`:
 
 ```bash
 GtavxrPtbr find
 ```
 
 ```bash
-GtavxrPtbr check --exe "C:\path\to\GTAVXR.exe"
+GtavxrPtbr check --exe "C:\caminho\para\GTAVXR.exe"
 ```
 
 ```bash
-GtavxrPtbr apply --exe "C:\path\to\GTAVXR.exe" --set-language
+GtavxrPtbr apply --exe "C:\caminho\para\GTAVXR.exe" --set-language
 ```
 
 ```bash
@@ -109,28 +109,28 @@ GtavxrPtbr restore
 ```
 
 ```bash
-GtavxrPtbr ingame-add --exe "C:\path\to\GTAVXR.exe" --mod "GTAVXR PT-BR menus do jogo.zip"
+GtavxrPtbr ingame-add --exe "C:\caminho\para\GTAVXR.exe" --mod "GTAVXR PT-BR menus do jogo.zip"
 ```
 
 ```bash
 GtavxrPtbr ingame-remove
 ```
 
-`ingame-add` imports the mod through the Suite's own import command and turns it on in every profile; `ingame-remove` undoes it. Both need GTAVXR closed.
+`ingame-add` importa o mod pelo próprio comando de importação da Suite e liga ele em todos os perfis; `ingame-remove` desfaz. Os dois precisam do GTAVXR fechado.
 
-| Exit code | Meaning |
+| Código de saída | Significado |
 |---|---|
-| 0 | Done |
-| 1 | Error (the message says which) |
-| 2 | Wrong command or option |
-| 3 | This GTAVXR version is not covered yet (less than 80% of its texts are known) |
-| 4 | Already translated |
-| 5 | GTAVXR is running |
-| 6 | Nothing to restore (or no in-game mod to remove) |
-| 7 | The file is not the GTAVXR Suite |
-| 8 | Another copy is already translated (uninstall first) |
+| 0 | Feito |
+| 1 | Erro (a mensagem diz qual) |
+| 2 | Comando ou opção errada |
+| 3 | Esta versão do GTAVXR ainda não é coberta (menos de 80% dos textos conhecidos) |
+| 4 | Já traduzido |
+| 5 | O GTAVXR está aberto |
+| 6 | Nada para devolver (ou nenhum mod dos menus do jogo para tirar) |
+| 7 | O arquivo não é a Suite do GTAVXR |
+| 8 | Outra cópia já está traduzida (desinstale antes) |
 
-The installer also accepts `/SUITE="C:\path\to\GTAVXR.exe"` to choose the file, which makes a silent install possible:
+O instalador também aceita `/SUITE="C:\caminho\para\GTAVXR.exe"` para escolher o arquivo, o que permite instalar em silêncio:
 
 ```bash
 GTAVXR-PTBR-Setup-v1.1.0.exe /VERYSILENT /SUITE="C:\Games\GTAVXR\GTAVXR.exe"

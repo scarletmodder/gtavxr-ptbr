@@ -1,4 +1,4 @@
-**English** | [Português](README.pt-BR.md)
+**Português** | [English](README.en.md)
 
 <div align="center">
 
@@ -6,120 +6,120 @@
 
 # GTAVXR PT-BR
 
-**GTAVXR in Brazilian Portuguese: the Suite and the menus inside the game.**
+**O GTAVXR em português do Brasil: a Suite e os menus de dentro do jogo.**
 
-A small installer that translates GTAVXR, the virtual reality mod for GTA V Legacy: the program you open to play it, and the VR menu and the Trainer you see in the headset. It works on the copy you already have, and uninstalling puts everything back.
+Um instalador pequeno que traduz o GTAVXR, o mod de realidade virtual para o GTA V Legacy: o programa que você abre para jogar e o menu de VR e o Trainer que você vê no headset. Ele trabalha na cópia que você já tem, e desinstalar devolve tudo.
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows11&logoColor=white&style=flat)](#-what-you-need)
+[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows11&logoColor=white&style=flat)](#-o-que-você-precisa)
 [![GTAVXR](https://img.shields.io/badge/GTAVXR-1.0.2-8A2BE2?style=flat)](https://github.com/LVL-VR/GTAVXR/releases)
-[![Languages](https://img.shields.io/badge/English%20%7C%20Portugu%C3%AAs-informational?style=flat)](README.pt-BR.md)
-[![Latest version](https://img.shields.io/github/v/release/scarletmodder/gtavxr-ptbr?label=latest%20version&style=flat)](../../releases/latest)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat)](LICENSE)
+[![Idiomas](https://img.shields.io/badge/English%20%7C%20Portugu%C3%AAs-informational?style=flat)](README.en.md)
+[![Última versão](https://img.shields.io/github/v/release/scarletmodder/gtavxr-ptbr?label=%C3%BAltima%20vers%C3%A3o&style=flat)](../../releases/latest)
+[![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green?style=flat)](LICENSE)
 
-### [⬇️ Download the latest version](../../releases/latest)
+### [⬇️ Baixar a última versão](../../releases/latest)
 
-[What you need](#-what-you-need) · [Install](#%EF%B8%8F-download-and-install) · [What is translated](#-what-is-translated) · [Known limitations](#%EF%B8%8F-known-limitations) · [Problems?](#-if-something-goes-wrong) · [All the guides](#-guides)
+[O que você precisa](#-o-que-você-precisa) · [Instalar](#%EF%B8%8F-baixar-e-instalar) · [O que é traduzido](#-o-que-é-traduzido) · [Limitações conhecidas](#%EF%B8%8F-limitações-conhecidas) · [Problemas?](#-se-algo-der-errado) · [Todos os guias](#-guias)
 
-<img src="docs/images/suite-pt-BR-play.png" alt="The GTAVXR Suite in Portuguese: the Play page with the Jogar button, the profile and its settings" width="820">
+<img src="docs/images/suite-pt-BR-play.png" alt="A Suite do GTAVXR em português: a página Jogar com o botão Jogar, o perfil e os ajustes dele" width="820">
 
 </div>
 
-## 👋 What it is
+## 👋 O que é
 
-[GTAVXR](https://github.com/LVL-VR/GTAVXR) is a free mod by LVL-VR that lets you play GTA V Legacy in a virtual reality headset. You open it through a program called the **Suite** (the window with the big **Play** button), which comes in English and Spanish.
+O [GTAVXR](https://github.com/LVL-VR/GTAVXR) é um mod gratuito da LVL-VR para jogar o GTA V Legacy num headset de realidade virtual. Você abre o mod por um programa chamado **Suite** (a janela com o botão grande **Play**), que vem em inglês e espanhol.
 
-GTAVXR PT-BR translates that window into Brazilian Portuguese: every menu, button, message, explanation and the descriptions of the content mods. After installing it, the Suite's language button reads **Português** and **English**.
+O GTAVXR PT-BR traduz essa janela para o português do Brasil: todos os menus, botões, mensagens, explicações e as descrições dos mods de conteúdo. Depois de instalar, o botão de idioma da Suite mostra **Português** e **English**.
 
-It also translates the menus you use inside the game, the **VR menu** and the **Trainer**, through a small GTAVXR mod of its own that the installer adds to your GTAVXR library and turns on in your profiles. That mod changes the texts in memory while you play: no file of GTAVXR is changed.
+Ele também traduz os menus que você usa dentro do jogo, o **menu de VR** e o **Trainer**, por um mod pequeno do próprio GTAVXR PT-BR que o instalador adiciona à sua biblioteca do GTAVXR e liga nos seus perfis. Esse mod troca os textos na memória enquanto você joga: nenhum arquivo do GTAVXR é alterado.
 
-- **Nothing of GTAVXR comes with this installer.** You download GTAVXR from its official page, and this installer only changes the texts of your copy.
-- **The original is kept** next to your copy, untouched. Uninstalling GTAVXR PT-BR from Windows puts it back exactly as it was.
-- **Your saves are not touched.** What changes is the Suite's language (if you leave that option checked) and, for the in-game menus, the mod **GTAVXR PT-BR menus do jogo** in your GTAVXR library and in the profiles you had. Uninstalling takes both back.
+- **Nada do GTAVXR vem neste instalador.** Você baixa o GTAVXR da página oficial dele, e este instalador só muda os textos da sua cópia.
+- **A original fica guardada** ao lado da sua cópia, intacta. Desinstalar o GTAVXR PT-BR pelo Windows devolve a original exatamente como era.
+- **Seus saves não são tocados.** O que muda é o idioma da Suite (se você deixar essa opção marcada) e, para os menus do jogo, o mod **GTAVXR PT-BR menus do jogo** na sua biblioteca do GTAVXR e nos perfis que você tinha. Desinstalar desfaz os dois.
 
-## ✅ What you need
+## ✅ O que você precisa
 
-| You need | What it is |
+| Você precisa | O que é |
 |---|---|
-| A PC with Windows 10 or 11 | Where GTAVXR runs |
-| [GTAVXR](https://github.com/LVL-VR/GTAVXR/releases) 1.0.2 | The VR mod, made by LVL-VR. Download `GTAVXR.exe` from its official page and open it once |
+| Um PC com Windows 10 ou 11 | Onde o GTAVXR roda |
+| [GTAVXR](https://github.com/LVL-VR/GTAVXR/releases) 1.0.2 | O mod de VR, feito pela LVL-VR. Baixe o `GTAVXR.exe` na página oficial e abra uma vez |
 
-You do not have to check this by hand. The installer looks for GTAVXR and opens its official page when it is not found. It does not install GTAVXR or any other program for you.
+Você não precisa conferir isso à mão. O instalador procura o GTAVXR e abre a página oficial dele quando não encontra. Ele não instala o GTAVXR nem nenhum outro programa para você.
 
-## ⬇️ Download and install
+## ⬇️ Baixar e instalar
 
-1. Open the [**latest version**](../../releases/latest) and download `GTAVXR-PTBR-Setup-vX.Y.Z.exe`.
-2. Close GTAVXR if it is open, and run the file. It installs only for your Windows user and does not ask for an administrator password. The installer is not digitally signed, so Windows may show a warning: choose **More info** and then **Run anyway**.
+1. Abra a [**última versão**](../../releases/latest) e baixe o `GTAVXR-PTBR-Setup-vX.Y.Z.exe`.
+2. Feche o GTAVXR se estiver aberto e rode o arquivo. Ele instala só para o seu usuário do Windows e não pede senha de administrador. O instalador não tem assinatura digital, então o Windows pode mostrar um aviso: escolha **Mais informações** e depois **Executar assim mesmo**.
 
-   <img src="docs/images/installer-en-welcome.png" alt="First page of the installer, explaining that it translates the copy of GTAVXR you already have" width="560">
+   <img src="docs/images/installer-pt-BR-welcome.png" alt="Primeira página do instalador, explicando que ele traduz a cópia do GTAVXR que você já tem" width="560">
 
-3. One page shows whether GTAVXR was **found**. If it was not, the button opens the official GTAVXR page.
+3. Uma página mostra se o GTAVXR foi **encontrado**. Se não foi, o botão abre a página oficial do GTAVXR.
 
-   <img src="docs/images/installer-en-needs.png" alt="Installer page that shows that the GTAVXR Suite was found, with a button to the official GTAVXR page" width="560">
+   <img src="docs/images/installer-pt-BR-needs.png" alt="Página do instalador mostrando que a Suite do GTAVXR foi encontrada, com um botão para a página oficial do GTAVXR" width="560">
 
-4. Confirm which `GTAVXR.exe` to translate: the one you open to play. Usually it is already filled in. When you press **Next**, its texts are checked before anything changes.
+4. Confirme qual `GTAVXR.exe` traduzir: o que você abre para jogar. Em geral ele já vem preenchido. Quando você clica em **Avançar**, os textos dele são conferidos antes de qualquer mudança.
 
-   <img src="docs/images/installer-en-pick.png" alt="Installer page to choose the GTAVXR.exe file, with a Browse button" width="560">
+   <img src="docs/images/installer-pt-BR-pick.png" alt="Página do instalador para escolher o arquivo GTAVXR.exe, com o botão Procurar" width="560">
 
-5. Leave **Switch the Suite language to Portuguese** and **Also translate the menus inside the game** checked, press **Next** and **Install**.
-6. On the last page, press **Finish**. GTAVXR opens in Portuguese.
-7. In the game, open the VR menu, go to **Settings** and switch **Language** until the texts are in Portuguese. Portuguese takes the place of Spanish there, so the option may still say Spanish. The Trainer follows the VR menu, and has its own **Language** option in its settings too.
+5. Deixe marcados **Mudar o idioma da Suite para português** e **Traduzir também os menus de dentro do jogo**, clique em **Avançar** e em **Instalar**.
+6. Na última página, clique em **Concluir**. O GTAVXR abre em português.
+7. No jogo, abra o menu de VR, vá em **Ajustes** e troque o **Idioma** até os textos ficarem em português. Lá o português ocupa o lugar do espanhol, então a opção ainda pode dizer espanhol. O Trainer segue o menu de VR e também tem a opção **Idioma** nos ajustes dele.
 
-   <img src="docs/images/installer-en-finish.png" alt="Last page of the installer, saying that GTAVXR is in Portuguese, with the option to open GTAVXR" width="560">
+   <img src="docs/images/installer-pt-BR-finish.png" alt="Última página do instalador, dizendo que o GTAVXR está em português, com a opção de abrir o GTAVXR" width="560">
 
-To go back to the original, uninstall **GTAVXR PT-BR** from the Windows list of installed apps. Every page of the installer is in the [usage guide](docs/usage.md).
+Para voltar à original, desinstale o **GTAVXR PT-BR** pela lista de aplicativos instalados do Windows. Todas as páginas do instalador estão no [guia de uso](docs/usage.md).
 
-## 🌎 What is translated
+## 🌎 O que é traduzido
 
-| Part of GTAVXR | Status |
+| Parte do GTAVXR | Situação |
 |---|---|
-| The Suite: Play, Mods and Settings pages, messages, profile editor, explanations | ✅ Translated (422 of 422 texts in GTAVXR 1.0.2) |
-| Names and descriptions of the content mods in the Suite | ✅ Translated (129 of 129 texts) |
-| The VR menu inside the game | ✅ Translated (308 of 308 texts), through the in-game mod |
-| The Trainer inside the game | ✅ Translated (776 of 776 texts), through the in-game mod |
+| A Suite: páginas Jogar, Mods e Ajustes, mensagens, editor de perfil, explicações | ✅ Traduzida (422 de 422 textos no GTAVXR 1.0.2) |
+| Nomes e descrições dos mods de conteúdo na Suite | ✅ Traduzidos (129 de 129 textos) |
+| O menu de VR dentro do jogo | ✅ Traduzido (308 de 308 textos), pelo mod dos menus do jogo |
+| O Trainer dentro do jogo | ✅ Traduzido (776 de 776 textos), pelo mod dos menus do jogo |
 
-The in-game menus are part of GTAVXR's game files, which GTAVXR checks before every launch, so those files are never changed. Instead, the mod **GTAVXR PT-BR menus do jogo** (`GtavxrPtbr.asi`, our own code) is loaded by GTAVXR like any script mod and points the Spanish texts of both menus at Portuguese ones, in memory. The same translation was also offered to the GTAVXR authors, to come built in one day as a third language ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)). The texts are in [`translations/`](translations).
+Os menus de dentro do jogo fazem parte dos arquivos de jogo do GTAVXR, que o GTAVXR confere antes de cada partida, então esses arquivos nunca são alterados. Em vez disso, o mod **GTAVXR PT-BR menus do jogo** (`GtavxrPtbr.asi`, código nosso) é carregado pelo GTAVXR como qualquer mod de script e aponta os textos em espanhol dos dois menus para textos em português, na memória. A mesma tradução também foi oferecida aos autores do GTAVXR, para um dia vir embutida como terceiro idioma ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)). Os textos estão em [`translations/`](translations).
 
-The in-game mod is also published on its own, as `GTAVXR-PTBR-InGame-vX.Y.Z.zip` in each [release](../../releases/latest), for players who prefer to add it in the Suite themselves.
+O mod dos menus do jogo também sai sozinho, como `GTAVXR-PTBR-InGame-vX.Y.Z.zip` em cada [versão](../../releases/latest), para quem prefere adicioná-lo na Suite por conta própria.
 
-<img src="docs/images/suite-pt-BR-language.png" alt="The Suite settings page in Portuguese, with the language buttons Português and English" width="820">
+<img src="docs/images/suite-pt-BR-language.png" alt="A página de configurações da Suite em português, com os botões de idioma Português e English" width="820">
 
-## ⚠️ Known limitations
+## ⚠️ Limitações conhecidas
 
-- **The in-game menus were tested outside the game.** The mod was checked against copies of the real GTAVXR 1.0.2 files (308 of 308 VR menu texts and 776 of 776 Trainer texts replaced, nothing else changed), and GTAVXR imported it and accepted it as a working mod. A session in the headset with it has not been recorded yet.
-- **Portuguese takes the place of Spanish inside the game.** Choose Spanish in the VR menu to see Portuguese; the name of the option may still say Spanish.
-- **New profiles start without the in-game mod.** The installer turns it on in the profiles you already have (test profiles are left as they are); for a profile created later or a test profile, turn **GTAVXR PT-BR menus do jogo** on in the Suite.
-- **After you update GTAVXR, run this installer again.** A new `GTAVXR.exe` comes in English and Spanish. If the new version has texts this translation does not know yet, the installer says so and changes nothing.
-- **The content mods are prepared again once.** The first time you press Play after translating, GTAVXR may rebuild the content mods you use (World of Variety and others), because their descriptions changed language. It happens once and takes a moment.
-- **Tested on Windows 11 with GTAVXR 1.0.2**, without a headset in the loop: the translated Suite was opened and every page checked, but a full VR session with this version was not recorded.
-- **Not signed digitally**, so Windows SmartScreen may warn before it runs.
-- **Use at your own risk.** GTAVXR PT-BR is not made by LVL-VR, and the GTAVXR authors do not support translated copies. If something looks wrong, uninstall it first to see whether the problem is still there.
+- **Os menus do jogo foram testados fora do jogo.** O mod foi conferido contra cópias dos arquivos reais do GTAVXR 1.0.2 (308 de 308 textos do menu de VR e 776 de 776 do Trainer trocados, nada mais alterado), e o GTAVXR importou e aceitou o mod como mod que funciona. Uma partida no headset com ele ainda não foi registrada.
+- **Dentro do jogo, o português ocupa o lugar do espanhol.** Escolha espanhol no menu de VR para ver português; o nome da opção ainda pode dizer espanhol.
+- **Perfis novos começam sem o mod dos menus do jogo.** O instalador liga o mod nos perfis que você já tem (perfis de teste ficam como estão); num perfil criado depois ou num perfil de teste, ligue **GTAVXR PT-BR menus do jogo** na Suite.
+- **Depois de atualizar o GTAVXR, rode este instalador de novo.** Um `GTAVXR.exe` novo vem em inglês e espanhol. Se a versão nova tiver textos que esta tradução ainda não conhece, o instalador avisa e não muda nada.
+- **Os mods de conteúdo são preparados de novo uma vez.** Na primeira vez que você clicar em Jogar depois de traduzir, o GTAVXR pode reconstruir os mods de conteúdo que você usa (World of Variety e outros), porque as descrições deles mudaram de idioma. Acontece uma vez e leva um instante.
+- **Testado no Windows 11 com o GTAVXR 1.0.2**, sem headset no circuito: a Suite traduzida foi aberta e cada página conferida, mas uma partida completa em VR com esta versão não foi registrada.
+- **Sem assinatura digital**, então o SmartScreen do Windows pode avisar antes de rodar.
+- **Use por sua conta e risco.** O GTAVXR PT-BR não é feito pela LVL-VR, e os autores do GTAVXR não dão suporte a cópias traduzidas. Se algo parecer errado, desinstale primeiro para ver se o problema continua.
 
-## 🩺 If something goes wrong
+## 🩺 Se algo der errado
 
-| What happens | What to do |
+| O que acontece | O que fazer |
 |---|---|
-| "Close GTAVXR (the Suite window)" | Close the GTAVXR window and click **OK** |
-| "This GTAVXR version has texts this translation does not know yet" | GTAVXR was updated. Check for a newer GTAVXR PT-BR in [releases](../../releases) |
-| "This file is not the GTAVXR Suite" | Choose the `GTAVXR.exe` you open to play |
-| The Suite is still in English | In the Suite, open **Settings** and press **Português** |
-| The menus inside the game are in English | In the VR menu, open **Settings** and switch **Language** until they are in Portuguese |
-| I want the original back | Uninstall **GTAVXR PT-BR** from the Windows list of installed apps |
+| "Feche o GTAVXR (a janela da Suite)" | Feche a janela do GTAVXR e clique em **OK** |
+| "Esta versão do GTAVXR tem textos que esta tradução ainda não conhece" | O GTAVXR foi atualizado. Veja se há um GTAVXR PT-BR mais novo nas [versões](../../releases) |
+| "Este arquivo não é a Suite do GTAVXR" | Escolha o `GTAVXR.exe` que você abre para jogar |
+| A Suite continua em inglês | Na Suite, abra **Ajustes** e clique em **Português** |
+| Os menus do jogo estão em inglês | No menu de VR, abra **Ajustes** e troque o **Idioma** até ficarem em português |
+| Quero a original de volta | Desinstale o **GTAVXR PT-BR** pela lista de aplicativos instalados do Windows |
 
-Every message has its explanation in [Troubleshooting](docs/troubleshooting.md). The installer writes what it did to `%LOCALAPPDATA%\GTAVXR-PTBR\last-run.log`; include that file when you [ask for help](../../issues).
+Cada mensagem tem a explicação em [Problemas comuns](docs/troubleshooting.md). O instalador registra o que fez em `%LOCALAPPDATA%\GTAVXR-PTBR\last-run.log`; mande esse arquivo junto quando [pedir ajuda](../../issues).
 
-## 📚 Guides
+## 📚 Guias
 
-| Guide | What it has |
+| Guia | O que tem |
 |---|---|
-| [Usage](docs/usage.md) | Every page of the installer, updating, uninstalling, the command line |
-| [Troubleshooting](docs/troubleshooting.md) | Every message, why it appears and what to do |
-| [Translation guide](docs/translation-guide.md) | The terms and rules used in the translation, to suggest a better word |
-| [Architecture](docs/architecture.md) | How the translation is applied, for developers |
-| [Third-party notices](THIRD-PARTY-NOTICES.md) | The library the installer carries, and GTAVXR's ownership |
+| [Uso](docs/usage.md) | Cada página do instalador, atualizar, desinstalar, a linha de comando |
+| [Problemas comuns](docs/troubleshooting.md) | Cada mensagem, por que aparece e o que fazer |
+| [Guia de tradução](docs/translation-guide.md) | Os termos e regras da tradução, para sugerir uma palavra melhor |
+| [Arquitetura](docs/architecture.md) | Como a tradução é aplicada, para quem desenvolve |
+| [Avisos de terceiros](THIRD-PARTY-NOTICES.md) | A biblioteca que o instalador leva e a quem pertence o GTAVXR |
 
-## 🛠️ For developers
+## 🛠️ Para quem desenvolve
 
-The installer carries one small command-line tool, `GtavxrPtbr.exe` (C#, .NET Framework 4.8, [Mono.Cecil](https://github.com/jbevain/cecil)), and the in-game mod, `GtavxrPtbr.asi` (C++). The tool replaces the Spanish column of the Suite's text table with the Portuguese one, keeps English as it is, and writes a backup and a state file so that it can undo the change; it also adds the in-game mod to the GTAVXR library through the Suite's own import command. The mod finds the VR menu and Trainer text tables in memory and points their Spanish column at Portuguese texts. How both work is in the [architecture guide](docs/architecture.md).
+O instalador leva uma ferramenta pequena de linha de comando, o `GtavxrPtbr.exe` (C#, .NET Framework 4.8, [Mono.Cecil](https://github.com/jbevain/cecil)), e o mod dos menus do jogo, o `GtavxrPtbr.asi` (C++). A ferramenta troca a coluna em espanhol da tabela de textos da Suite pela coluna em português, mantém o inglês como está e grava uma cópia de segurança e um arquivo de estado para conseguir desfazer a mudança; ela também adiciona o mod à biblioteca do GTAVXR pelo próprio comando de importação da Suite. O mod acha na memória as tabelas de textos do menu de VR e do Trainer e aponta a coluna em espanhol para textos em português. Como os dois funcionam está no [guia de arquitetura](docs/architecture.md).
 
 ```bash
 dotnet test -c Release
@@ -129,6 +129,6 @@ dotnet test -c Release
 pwsh scripts/build.ps1
 ```
 
-The second command builds the installer and the in-game mod package into `dist\` with their `SHA256SUMS.txt` (it needs [Inno Setup](https://jrsoftware.org/isinfo.php) 6.7 or newer, the Microsoft C++ x64 build tools and Python). Every pull request runs the tests, builds the installer and installs it in a clean Windows machine on GitHub; a new version is published from `main` when the version number goes up.
+O segundo comando gera o instalador e o pacote do mod dos menus do jogo em `dist\` com o `SHA256SUMS.txt` (precisa do [Inno Setup](https://jrsoftware.org/isinfo.php) 6.7 ou mais novo, das ferramentas de C++ x64 da Microsoft e do Python). Cada pull request roda os testes, gera o instalador e instala numa máquina Windows limpa do GitHub; uma versão nova é publicada a partir da `main` quando o número da versão sobe.
 
-GTAVXR PT-BR is free and open source, under the [MIT license](LICENSE). GTAVXR belongs to LVL-VR; GTA V belongs to Rockstar Games and Take-Two Interactive. This project is not connected to either.
+O GTAVXR PT-BR é gratuito e de código aberto, sob a [licença MIT](LICENSE). O GTAVXR pertence à LVL-VR; o GTA V pertence à Rockstar Games e à Take-Two Interactive. Este projeto não tem ligação com nenhuma delas.

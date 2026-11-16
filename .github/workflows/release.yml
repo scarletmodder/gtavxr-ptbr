@@ -82,7 +82,7 @@ jobs:
         run: |
           $tag = 'v${{ steps.version.outputs.version }}'
           $sums = (Get-Content -Raw dist/SHA256SUMS.txt).Trim()
-          $body = (Get-Content -Raw -Encoding utf8 "docs/releases/$tag.md").TrimEnd() + "`n`n## 🔒 Checksum (SHA-256)`n`n``````text`n$sums`n```````n"
+          $body = (Get-Content -Raw -Encoding utf8 "docs/releases/$tag.md").TrimEnd() + "`n`n## 🔒 Soma de verificação (SHA-256)`n`n``````text`n$sums`n```````n"
           [IO.File]::WriteAllText((Join-Path $PWD 'dist/notes.md'), $body)
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:

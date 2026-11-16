@@ -1,71 +1,71 @@
-**English** | [Português](troubleshooting.pt-BR.md)
+**Português** | [English](troubleshooting.en.md)
 
-# Troubleshooting
+# Problemas comuns
 
-Every message of the installer, why it appears and what to do. What the last run did is written to `%LOCALAPPDATA%\GTAVXR-PTBR\last-run.log`; include that file when you [ask for help](https://github.com/scarletmodder/gtavxr-ptbr/issues). It has no personal data other than the path of your `GTAVXR.exe`.
+Cada mensagem do instalador, por que aparece e o que fazer. O que a última execução fez fica em `%LOCALAPPDATA%\GTAVXR-PTBR\last-run.log`; mande esse arquivo junto quando [pedir ajuda](https://github.com/scarletmodder/gtavxr-ptbr/issues). Ele não tem dado pessoal além do caminho do seu `GTAVXR.exe`.
 
-## "Suite do GTAVXR (GTAVXR.exe): not found in the usual places"
+## "Suite do GTAVXR (GTAVXR.exe): não encontrada nos lugares de costume"
 
-The installer looked in your Downloads folder, your Desktop and the folder where the Suite installs itself. Your copy is somewhere else: choose it on the next page with **Browse**. If you do not have GTAVXR yet, **Open the GTAVXR page** opens its official download page.
+O instalador procurou na pasta Downloads, na Área de Trabalho e na pasta onde a Suite se instala. A sua cópia está em outro lugar: escolha ela na página seguinte com **Procurar**. Se você ainda não tem o GTAVXR, **Abrir a página do GTAVXR** abre a página oficial de download.
 
-## "This file is not the GTAVXR Suite"
+## "Este arquivo não é a Suite do GTAVXR"
 
-The chosen file is not the program with GTAVXR's Play button. Choose the `GTAVXR.exe` you open to play. A copy that is not the Suite (another mod, an installer, a shortcut) is rejected before anything changes.
+O arquivo escolhido não é o programa com o botão Jogar do GTAVXR. Escolha o `GTAVXR.exe` que você abre para jogar. Um arquivo que não é a Suite (outro mod, um instalador, um atalho) é recusado antes de qualquer mudança.
 
-## "This GTAVXR version has texts this translation does not know yet"
+## "Esta versão do GTAVXR tem textos que esta tradução ainda não conhece"
 
-GTAVXR was updated and less than 80% of its texts are known. Nothing was changed. Check the [releases](https://github.com/scarletmodder/gtavxr-ptbr/releases) for a newer GTAVXR PT-BR, or [open an issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) with the GTAVXR version.
+O GTAVXR foi atualizado e menos de 80% dos textos são conhecidos. Nada foi mudado. Veja nas [versões](https://github.com/scarletmodder/gtavxr-ptbr/releases) se há um GTAVXR PT-BR mais novo, ou [abra uma issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) com a versão do GTAVXR.
 
-## "This GTAVXR.exe is already translated"
+## "Este GTAVXR.exe já está traduzido"
 
-It was translated before. Continuing reinstalls the tool; if this GTAVXR PT-BR is newer than the one that translated it, the texts are updated from the kept original.
+Ele já foi traduzido antes. Continuar reinstala a ferramenta; se este GTAVXR PT-BR for mais novo que o que traduziu, os textos são atualizados a partir da original guardada.
 
-## "Another GTAVXR.exe is already translated on this computer"
+## "Outro GTAVXR.exe já está traduzido neste computador"
 
-Only one copy is translated at a time, so that uninstalling can always put it back. Uninstall GTAVXR PT-BR (the other copy gets its original back), then run the installer again for this copy.
+Só uma cópia fica traduzida por vez, para a desinstalação sempre conseguir devolver. Desinstale o GTAVXR PT-BR (a outra cópia recebe a original de volta) e rode o instalador de novo para esta cópia.
 
-## "Close GTAVXR (the Suite window) and click OK"
+## "Feche o GTAVXR (a janela da Suite) e clique em OK"
 
-The file cannot be changed while it is running. Close the GTAVXR window and click **OK**. **Cancel** leaves GTAVXR as it is: when installing, the tool is installed but nothing is translated (run the installer again later); when uninstalling, nothing is removed.
+O arquivo não pode ser mudado enquanto está aberto. Feche a janela do GTAVXR e clique em **OK**. **Cancelar** deixa o GTAVXR como está: na instalação, a ferramenta fica instalada mas nada é traduzido (rode o instalador de novo depois); na desinstalação, nada é removido.
 
-## "GTAVXR was not translated, and the original was left as it was"
+## "O GTAVXR não foi traduzido, e o original ficou como estava"
 
-Something failed while writing the translated copy: usually a file that is locked, or a folder without permission to write (for example a copy inside `C:\Program Files`). The original is unchanged. The log says which step failed. Moving `GTAVXR.exe` to a folder of your own, such as Downloads, solves the permission case.
+Algo falhou ao gravar a cópia traduzida: em geral um arquivo travado, ou uma pasta sem permissão de escrita (por exemplo uma cópia dentro de `C:\Program Files`). O original não mudou. O log diz qual passo falhou. Mover o `GTAVXR.exe` para uma pasta sua, como Downloads, resolve o caso de permissão.
 
-## "The original GTAVXR.exe could not be put back"
+## "Não deu para devolver o GTAVXR.exe original"
 
-Shown by the uninstaller. The original is still kept next to your copy as `GTAVXR.exe.pt-BR.original`: close GTAVXR, delete `GTAVXR.exe` and rename the kept file to `GTAVXR.exe`. Or download GTAVXR again from its official page.
+Aparece no desinstalador. O original continua guardado ao lado da sua cópia, como `GTAVXR.exe.pt-BR.original`: feche o GTAVXR, apague o `GTAVXR.exe` e renomeie o arquivo guardado para `GTAVXR.exe`. Ou baixe o GTAVXR de novo pela página oficial.
 
-## The Suite is still in English
+## A Suite continua em inglês
 
-The option to switch the language was unchecked, or the Suite was set to English later. In the Suite, open **Settings** and press **Português**.
+A opção de mudar o idioma estava desmarcada, ou a Suite foi posta em inglês depois. Na Suite, abra **Ajustes** e clique em **Português**.
 
-## Some texts are in Spanish
+## Alguns textos estão em espanhol
 
-They are texts this version of the translation does not know yet, usually because GTAVXR was updated. [Open an issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) with a screenshot.
+São textos que esta versão da tradução ainda não conhece, em geral porque o GTAVXR foi atualizado. [Abra uma issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) com um print.
 
-## The menus inside the game are in English or Spanish
+## Os menus de dentro do jogo estão em inglês ou espanhol
 
-Portuguese takes the place of Spanish inside the game. In the VR menu, open **Settings** and switch **Language** until the texts are in Portuguese (the option may still say Spanish). If they stay in English or Spanish:
+Dentro do jogo, o português ocupa o lugar do espanhol. No menu de VR, abra **Ajustes** e troque o **Idioma** até os textos ficarem em português (a opção ainda pode dizer espanhol). Se continuarem em inglês ou espanhol:
 
-- Check that **GTAVXR PT-BR menus do jogo** is on in the profile you play with, in the Suite. A profile created after the install starts without it.
-- Open `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log`. It is written by the mod while the game runs. If it does not exist, the mod was not loaded: turn it on in the profile. If it says a table was not found, your GTAVXR version is newer than this translation: check the [releases](https://github.com/scarletmodder/gtavxr-ptbr/releases) for a newer GTAVXR PT-BR, or [open an issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) with that file.
+- Confira na Suite se **GTAVXR PT-BR menus do jogo** está ligado no perfil com que você joga. Um perfil criado depois da instalação começa sem ele.
+- Abra `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log`. Ele é gravado pelo mod enquanto o jogo roda. Se não existir, o mod não foi carregado: ligue ele no perfil. Se disser que uma tabela não foi achada, a sua versão do GTAVXR é mais nova que esta tradução: veja nas [versões](https://github.com/scarletmodder/gtavxr-ptbr/releases) se há um GTAVXR PT-BR mais novo, ou [abra um chamado](https://github.com/scarletmodder/gtavxr-ptbr/issues) com esse arquivo.
 
-## "The Suite was translated, but the in-game translation could not be added to GTAVXR"
+## "A Suite foi traduzida, mas a tradução dos menus do jogo não pôde ser adicionada ao GTAVXR"
 
-The Suite is in Portuguese, but the mod for the in-game menus was not added. Usually GTAVXR or the game was open, or the Suite could not import the mod. Close GTAVXR and run the installer again, or add the file `in-game\GTAVXR PT-BR menus do jogo.zip` (in `%LOCALAPPDATA%\Programs\GTAVXR PT-BR`) as a mod in the Suite yourself and turn it on in your profile.
+A Suite está em português, mas o mod dos menus do jogo não foi adicionado. Em geral o GTAVXR ou o jogo estava aberto, ou a Suite não conseguiu importar o mod. Feche o GTAVXR e rode o instalador de novo, ou adicione por conta própria o arquivo `in-game\GTAVXR PT-BR menus do jogo.zip` (em `%LOCALAPPDATA%\Programs\GTAVXR PT-BR`) como mod na Suite e ligue no seu perfil.
 
-## "The in-game translation could not be taken out of GTAVXR"
+## "Não deu para tirar a tradução dos menus do jogo do GTAVXR"
 
-Shown by the uninstaller. In the Suite, open **Mods** and remove **GTAVXR PT-BR menus do jogo**. The rest of the uninstall goes on as usual.
+Aparece na desinstalação. Na Suite, abra **Mods** e remova **GTAVXR PT-BR menus do jogo**. O resto da desinstalação segue normalmente.
 
-## After translating, Play takes longer once
+## Depois de traduzir, o Jogar demora mais uma vez
 
-GTAVXR rebuilt the content mods you use (World of Variety and others), because their descriptions changed language. It happens once.
+O GTAVXR reconstruiu os mods de conteúdo que você usa (World of Variety e outros), porque as descrições deles mudaram de idioma. Acontece uma vez.
 
-## Windows says the installer may be unsafe
+## O Windows diz que o instalador pode ser inseguro
 
-The installer is not digitally signed. Choose **More info** and **Run anyway**. You can compare the file with the `SHA256SUMS.txt` of the release:
+O instalador não tem assinatura digital. Escolha **Mais informações** e **Executar assim mesmo**. Dá para comparar o arquivo com o `SHA256SUMS.txt` da versão:
 
 ```bash
 certutil -hashfile GTAVXR-PTBR-Setup-v1.1.0.exe SHA256
