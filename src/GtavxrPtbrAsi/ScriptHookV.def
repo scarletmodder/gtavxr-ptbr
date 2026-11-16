@@ -1,0 +1,7 @@
+; Import names of the script host API that GTAVXR loads .asi mods with. Only the three functions this plugin calls.
+; The Suite points the import at GTAVXRHost.dll when the mod is added.
+LIBRARY ScriptHookV.dll
+EXPORTS
+    ?scriptRegister@@YAXPEAUHINSTANCE__@@P6AXXZ@Z
+    ?scriptUnregister@@YAXPEAUHINSTANCE__@@@Z
+    ?scriptWait@@YAXK@Z

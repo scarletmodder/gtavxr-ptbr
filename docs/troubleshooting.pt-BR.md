@@ -46,7 +46,18 @@ São textos que esta versão da tradução ainda não conhece, em geral porque o
 
 ## Os menus de dentro do jogo estão em inglês ou espanhol
 
-Esperado por enquanto: o menu de VR e o Trainer do jogo não podem ser traduzidos por fora sem impedir o GTAVXR de abrir, então a tradução deles foi oferecida aos autores do GTAVXR ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)). Veja [Limitações conhecidas](../README.pt-BR.md#%EF%B8%8F-limitações-conhecidas).
+Dentro do jogo, o português ocupa o lugar do espanhol. No menu de VR, abra **Ajustes** e troque o **Idioma** até os textos ficarem em português (a opção ainda pode dizer espanhol). Se continuarem em inglês ou espanhol:
+
+- Confira na Suite se **GTAVXR PT-BR menus do jogo** está ligado no perfil com que você joga. Um perfil criado depois da instalação começa sem ele.
+- Abra `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log`. Ele é gravado pelo mod enquanto o jogo roda. Se não existir, o mod não foi carregado: ligue ele no perfil. Se disser que uma tabela não foi achada, a sua versão do GTAVXR é mais nova que esta tradução: veja nas [versões](https://github.com/scarletmodder/gtavxr-ptbr/releases) se há um GTAVXR PT-BR mais novo, ou [abra um chamado](https://github.com/scarletmodder/gtavxr-ptbr/issues) com esse arquivo.
+
+## "A Suite foi traduzida, mas a tradução dos menus do jogo não pôde ser adicionada ao GTAVXR"
+
+A Suite está em português, mas o mod dos menus do jogo não foi adicionado. Em geral o GTAVXR ou o jogo estava aberto, ou a Suite não conseguiu importar o mod. Feche o GTAVXR e rode o instalador de novo, ou adicione por conta própria o arquivo `in-game\GTAVXR PT-BR menus do jogo.zip` (em `%LOCALAPPDATA%\Programs\GTAVXR PT-BR`) como mod na Suite e ligue no seu perfil.
+
+## "Não deu para tirar a tradução dos menus do jogo do GTAVXR"
+
+Aparece na desinstalação. Na Suite, abra **Mods** e remova **GTAVXR PT-BR menus do jogo**. O resto da desinstalação segue normalmente.
 
 ## Depois de traduzir, o Jogar demora mais uma vez
 
@@ -57,5 +68,5 @@ O GTAVXR reconstruiu os mods de conteúdo que você usa (World of Variety e outr
 O instalador não tem assinatura digital. Escolha **Mais informações** e **Executar assim mesmo**. Dá para comparar o arquivo com o `SHA256SUMS.txt` da versão:
 
 ```bash
-certutil -hashfile GTAVXR-PTBR-Setup-v1.0.0.exe SHA256
+certutil -hashfile GTAVXR-PTBR-Setup-v1.1.0.exe SHA256
 ```

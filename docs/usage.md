@@ -21,7 +21,9 @@
 
    <img src="images/installer-en-pick.png" alt="Page to choose the GTAVXR.exe file" width="560">
 
-4. **Additional tasks.** **Switch the Suite language to Portuguese** is checked. Unchecked, the translation is applied but the Suite opens in the language it had; you can switch it later in **Settings**.
+4. **Additional tasks.** Two options, both checked:
+   - **Switch the Suite language to Portuguese.** Unchecked, the translation is applied but the Suite opens in the language it had; you can switch it later in **Settings**.
+   - **Also translate the menus inside the game.** Adds the mod **GTAVXR PT-BR menus do jogo** to your GTAVXR library and turns it on in the profiles you have, so the VR menu and the Trainer show Portuguese. Unchecked, only the Suite is translated.
 
    <img src="images/installer-en-tasks.png" alt="Page with the option to switch the Suite language to Portuguese" width="560">
 
@@ -29,9 +31,19 @@
 
    <img src="images/installer-en-ready.png" alt="Summary before installing" width="560">
 
-6. **Finish.** Says that GTAVXR is in Portuguese. **Open GTAVXR now** opens the translated Suite.
+6. **Finish.** Says that GTAVXR is in Portuguese, and whether the in-game menus mod was added. **Open GTAVXR now** opens the translated Suite.
 
    <img src="images/installer-en-finish.png" alt="Last page of the installer" width="560">
+
+The pictures above are from version 1.0; version 1.1 adds the second option on the **Additional tasks** page.
+
+## The menus inside the game
+
+With the in-game menus mod on, start GTAVXR as usual. In the game, open the VR menu, go to **Settings** and switch **Language** until the texts are in Portuguese: Portuguese takes the place of Spanish, so the option may still say Spanish. The Trainer follows the VR menu; it also has its own **Language** option, where Spanish now shows Portuguese.
+
+A profile created after the install starts without the mod, and test profiles are left as they are. To use it there, turn **GTAVXR PT-BR menus do jogo** on in that profile in the Suite.
+
+The mod is also published on its own, as `GTAVXR-PTBR-InGame-vX.Y.Z.zip` in each release: add that .zip as a mod in the Suite and turn it on in your profile.
 
 ## What changes on your computer
 
@@ -41,7 +53,12 @@
 | `GTAVXR.exe.pt-BR.original`, next to it | The original file, untouched |
 | The Suite `settings.json` (`%LOCALAPPDATA%\GTAVXR\Suite`, or the data folder chosen in the Suite) | `"language"` set to the Portuguese column, only with the option checked |
 | `%LOCALAPPDATA%\Programs\GTAVXR PT-BR` | The tool, its translations and the uninstaller |
-| `%LOCALAPPDATA%\GTAVXR-PTBR` | `state.json` (what to undo) and `last-run.log` (what the last run did) |
+| The GTAVXR library (the Suite data folder) | The mod **GTAVXR PT-BR menus do jogo** (`GtavxrPtbr.asi`), only with the in-game option checked |
+| Each profile's `profile.json` | The mod turned on, only with the in-game option checked |
+| `%LOCALAPPDATA%\GTAVXR-PTBR` | `state.json` (what to undo), `in-game.json` (which mod and profiles to undo) and `last-run.log` (what the last run did) |
+| `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log` | What the in-game mod did in the last session (how many texts it replaced) |
+
+No file of GTAVXR's game is changed: the in-game mod changes the texts in memory while the game runs, so GTAVXR's check of its game files still passes.
 
 ## When GTAVXR is updated
 
@@ -58,9 +75,10 @@ If the Suite updated itself in place, the backup of the old version no longer ma
 
 Windows Settings, **Apps**, **Installed apps**, **GTAVXR PT-BR**, **Uninstall**. The uninstaller:
 
-1. puts the original `GTAVXR.exe` back, if your copy is still the translated one;
-2. switches the Suite language back to what it was before, if it is still on the Portuguese column;
-3. removes the tool and its state file (the folder `%LOCALAPPDATA%\GTAVXR-PTBR` keeps only `last-run.log`).
+1. takes the in-game menus mod out of your profiles and the GTAVXR library (if you had added that mod yourself before installing, it stays in the library);
+2. puts the original `GTAVXR.exe` back, if your copy is still the translated one;
+3. switches the Suite language back to what it was before, if it is still on the Portuguese column;
+4. removes the tool and its state file (the folder `%LOCALAPPDATA%\GTAVXR-PTBR` keeps only `last-run.log`).
 
 If GTAVXR is open, it asks you to close it first; **Cancel** stops the uninstall and changes nothing. If your `GTAVXR.exe` was moved or deleted, the original stays where it was kept, `GTAVXR.exe.pt-BR.original`.
 
@@ -90,6 +108,16 @@ GtavxrPtbr status
 GtavxrPtbr restore
 ```
 
+```bash
+GtavxrPtbr ingame-add --exe "C:\path\to\GTAVXR.exe" --mod "GTAVXR PT-BR menus do jogo.zip"
+```
+
+```bash
+GtavxrPtbr ingame-remove
+```
+
+`ingame-add` imports the mod through the Suite's own import command and turns it on in every profile; `ingame-remove` undoes it. Both need GTAVXR closed.
+
 | Exit code | Meaning |
 |---|---|
 | 0 | Done |
@@ -98,12 +126,12 @@ GtavxrPtbr restore
 | 3 | This GTAVXR version is not covered yet (less than 80% of its texts are known) |
 | 4 | Already translated |
 | 5 | GTAVXR is running |
-| 6 | Nothing to restore |
+| 6 | Nothing to restore (or no in-game mod to remove) |
 | 7 | The file is not the GTAVXR Suite |
 | 8 | Another copy is already translated (uninstall first) |
 
 The installer also accepts `/SUITE="C:\path\to\GTAVXR.exe"` to choose the file, which makes a silent install possible:
 
 ```bash
-GTAVXR-PTBR-Setup-v1.0.0.exe /VERYSILENT /SUITE="C:\Games\GTAVXR\GTAVXR.exe"
+GTAVXR-PTBR-Setup-v1.1.0.exe /VERYSILENT /SUITE="C:\Games\GTAVXR\GTAVXR.exe"
 ```

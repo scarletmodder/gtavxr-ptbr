@@ -18,7 +18,9 @@ namespace GtavxrPtbr
     ///   apply   --exe PATH [--set-language]   translates that copy (keeps the original next to it)
     ///   restore                    puts the original GTAVXR.exe back and undoes the language change
     ///   status                     prints the current state
-    ///   busy                       exit 5 while the translated GTAVXR.exe is running (used before uninstalling)
+    ///   busy                       exit 5 while GTAVXR is running and something must be undone (used before uninstalling)
+    ///   ingame-add --exe PATH --mod ZIP   adds the in-game mod to the GTAVXR library and turns it on in the profiles
+    ///   ingame-remove              takes the in-game mod out of the profiles and the library
     /// Exit codes: 0 ok, 1 error, 2 usage, 3 coverage too low, 4 already translated, 5 Suite running,
     /// 6 nothing to restore, 7 not the GTAVXR Suite, 8 another copy is already translated.
     /// </summary>
@@ -70,6 +72,8 @@ namespace GtavxrPtbr
                     case "restore": return Restore();
                     case "status": return Status();
                     case "busy": return Busy();
+                    case "ingame-add": return InGameAdd(RequireExe(args), RequireArg(args, "--mod"));
+                    case "ingame-remove": return InGameRemove();
                     case "--version": Console.WriteLine(Version); return 0;
                     default: return Usage();
                 }
@@ -100,7 +104,7 @@ namespace GtavxrPtbr
 
         static int Usage()
         {
-            Console.Error.WriteLine("Usage: GtavxrPtbr find | check --exe PATH | apply --exe PATH [--set-language] | restore | status");
+            Console.Error.WriteLine("Usage: GtavxrPtbr find | check --exe PATH | apply --exe PATH [--set-language] | restore | status | ingame-add --exe PATH --mod ZIP | ingame-remove");
             return 2;
         }
 
@@ -111,6 +115,102 @@ namespace GtavxrPtbr
             string path = Path.GetFullPath(args[i + 1]);
             if (!File.Exists(path)) throw new PatchException("EXE_MISSING", "File not found: " + path);
             return path;
+        }
+
+        static string RequireArg(string[] args, string name)
+        {
+            int i = Array.IndexOf(args, name);
+            if (i < 0 || i + 1 >= args.Length) throw new PatchException("USAGE", "Missing " + name + " PATH.");
+            return Path.GetFullPath(args[i + 1]);
+        }
+
+        static string InGamePath => Path.Combine(StateDir, "in-game.json");
+
+        internal sealed class InGameState
+        {
+            public string card { get; set; }
+            public List<string> profiles { get; set; }
+            public string version { get; set; }
+            /// <summary>The card was in the library before the install: the uninstall leaves it there.</summary>
+            public bool kept { get; set; }
+        }
+
+        /// <summary>The in-game state, or null when there is none or it cannot be read (it is then treated as absent).</summary>
+        static InGameState ReadInGameState()
+        {
+            if (!File.Exists(InGamePath)) return null;
+            try { return new JavaScriptSerializer().Deserialize<InGameState>(File.ReadAllText(InGamePath, Utf8)); }
+            catch (Exception e) when (e is ArgumentException || e is InvalidOperationException || e is IOException)
+            {
+                Console.Error.WriteLine("WARNING INGAME_STATE: " + InGamePath + " could not be read (" + e.Message + ")");
+                return null;
+            }
+        }
+
+        static void WriteInGameState(InGameState state)
+        {
+            Directory.CreateDirectory(StateDir);
+            File.WriteAllText(InGamePath, new JavaScriptSerializer().Serialize(state), Utf8);
+        }
+
+        /// <summary>GTAVXR itself (any copy of the Suite) or the game: the library must not change under them.</summary>
+        static bool GtavxrRunning()
+        {
+            bool running = false;
+            foreach (string name in new[] { "GTAVXR", "GTA5", "GTAVXR_SourceBaseline", "PlayGTAV" })
+                foreach (var p in Process.GetProcessesByName(name)) { p.Dispose(); running = true; }
+            return running;
+        }
+
+        static int InGameAdd(string exe, string modZip)
+        {
+            if (GtavxrRunning())
+            {
+                Console.Error.WriteLine("ERROR SUITE_RUNNING: Close GTAVXR and the game before adding the in-game translation.");
+                return 5;
+            }
+            var earlier = ReadInGameState();
+            // the new package goes in first: if GTAVXR refuses it, the earlier one stays as it was
+            var imported = InGame.Import(exe, modZip);
+            bool sameCard = earlier != null && earlier.card == imported.Id;
+            var state = new InGameState
+            {
+                card = imported.Id,
+                profiles = new List<string>(),
+                version = Version,
+                kept = sameCard ? earlier.kept : imported.AlreadyThere,
+            };
+            WriteInGameState(state);
+            // an update keeps the profiles the earlier one was on in (a profile where the player switched it off stays off);
+            // a first install turns it on in every profile that is not a test profile
+            var only = earlier?.profiles;
+            var changed = InGame.Enable(imported.Id, only);
+            state.profiles = (sameCard && earlier.profiles != null ? earlier.profiles : new List<string>()).Union(changed).ToList();
+            WriteInGameState(state);
+            if (earlier != null && !sameCard)
+            {
+                InGame.Remove(earlier.card, earlier.kept ? earlier.profiles ?? new List<string>() : null, !earlier.kept);
+                Console.WriteLine("Earlier in-game translation replaced: " + earlier.card);
+            }
+            Console.WriteLine("In-game translation added to the GTAVXR library: " + imported.Id + (imported.AlreadyThere ? " (it was already there)" : ""));
+            Console.WriteLine("Turned on in " + changed.Count + " profile(s)");
+            return 0;
+        }
+
+        static int InGameRemove()
+        {
+            if (!File.Exists(InGamePath)) { Console.WriteLine("No in-game translation to remove."); return 6; }
+            if (GtavxrRunning())
+            {
+                Console.Error.WriteLine("ERROR SUITE_RUNNING: Close GTAVXR and the game before removing the in-game translation.");
+                return 5;
+            }
+            var state = ReadInGameState();
+            // a card the player had added before stays in the library, switched off only where the installer switched it on
+            if (state != null) InGame.Remove(state.card, state.kept ? state.profiles ?? new List<string>() : null, !state.kept);
+            File.Delete(InGamePath);
+            Console.WriteLine("In-game translation removed from the GTAVXR library.");
+            return 0;
         }
 
         /// <summary>Where the Suite usually lives: its own install folder, then the usual download places.</summary>
@@ -261,6 +361,12 @@ namespace GtavxrPtbr
                 Console.WriteLine("GTAVXR is running: " + state.exe);
                 return 5;
             }
+            // the in-game translation is taken out of the GTAVXR library, which must not change while it runs
+            if (File.Exists(InGamePath) && GtavxrRunning())
+            {
+                Console.WriteLine("GTAVXR or the game is running");
+                return 5;
+            }
             return 0;
         }
 
@@ -307,6 +413,11 @@ namespace GtavxrPtbr
         static int Status()
         {
             var state = ReadState();
+            var ig = ReadInGameState();
+            if (ig != null)
+            {
+                Console.WriteLine("in_game={0} card={1}", InGame.Present(ig.card) ? "added" : "removed_in_suite", ig.card);
+            }
             if (state == null) { Console.WriteLine("state=not_installed"); return 0; }
             bool patched = File.Exists(state.exe) && SuitePatcher.IsPatched(state.exe);
             Console.WriteLine("state={0}", patched ? "translated" : "original_or_updated");
@@ -374,7 +485,7 @@ namespace GtavxrPtbr
     {
         static readonly Regex LanguageValue = new Regex("(\"language\"\\s*:\\s*\")([a-z]{2})(\")", RegexOptions.CultureInvariant);
 
-        static string DataRoot()
+        internal static string DataRoot()
         {
             string fallback = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GTAVXR", "Suite");
             string pointer = Path.Combine(Path.GetDirectoryName(fallback), "suite-location.json");

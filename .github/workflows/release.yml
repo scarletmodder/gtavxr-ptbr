@@ -61,7 +61,7 @@ jobs:
           $target = Join-Path $env:LOCALAPPDATA 'Programs\GTAVXR PT-BR'
           $install = Start-Process $setup -ArgumentList '/VERYSILENT', '/SUPPRESSMSGBOXES', '/NORESTART', '/LANG=en' -Wait -PassThru
           if ($install.ExitCode -ne 0) { throw "The installer ended with code $($install.ExitCode)" }
-          foreach ($file in 'GtavxrPtbr.exe', 'Mono.Cecil.dll', 'translations\suite.pt-BR.json', 'translations\content-catalog.pt-BR.json', 'LICENSE.txt', 'THIRD-PARTY-NOTICES.md', 'unins000.exe') {
+          foreach ($file in 'GtavxrPtbr.exe', 'Mono.Cecil.dll', 'translations\suite.pt-BR.json', 'translations\content-catalog.pt-BR.json', 'in-game\GTAVXR PT-BR menus do jogo.zip', 'LICENSE.txt', 'THIRD-PARTY-NOTICES.md', 'unins000.exe') {
             if (-not (Test-Path -LiteralPath (Join-Path $target $file))) { throw "$file was not installed" }
           }
           $tool = Join-Path $target 'GtavxrPtbr.exe'
@@ -91,6 +91,7 @@ jobs:
           retention-days: 7
           path: |
             dist/GTAVXR-PTBR-Setup-*.exe
+            dist/GTAVXR-PTBR-InGame-*.zip
             dist/SHA256SUMS.txt
             dist/notes.md
 
@@ -114,8 +115,8 @@ jobs:
           set -euo pipefail
           cd package
           ls -l
-          test "$(ls | LC_ALL=C sort | tr '\n' ' ')" = "GTAVXR-PTBR-Setup-v$VERSION.exe SHA256SUMS.txt notes.md "
+          test "$(ls | LC_ALL=C sort | tr '\n' ' ')" = "GTAVXR-PTBR-InGame-v$VERSION.zip GTAVXR-PTBR-Setup-v$VERSION.exe SHA256SUMS.txt notes.md "
           sha256sum --check SHA256SUMS.txt
-          gh release create "v$VERSION" "GTAVXR-PTBR-Setup-v$VERSION.exe" SHA256SUMS.txt \
+          gh release create "v$VERSION" "GTAVXR-PTBR-Setup-v$VERSION.exe" "GTAVXR-PTBR-InGame-v$VERSION.zip" SHA256SUMS.txt \
             --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
             --title "GTAVXR PT-BR v$VERSION" --notes-file notes.md

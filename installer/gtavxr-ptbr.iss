@@ -1,6 +1,8 @@
 ; Inno Setup script of the Windows installer of GTAVXR PT-BR.
 ; It installs a small tool for the current user (no administrator prompt), in English or in Brazilian
 ; Portuguese, and uses it to translate the player's own copy of the GTAVXR Suite (GTAVXR.exe).
+; The in-game menus are translated by a script mod of our own (GtavxrPtbr.asi), added to the player's GTAVXR
+; library with the Suite's own import command: it changes the texts in memory while the game runs.
 ; No file of GTAVXR is shipped: one page says where to get the mod, another finds the copy to translate.
 ; The original GTAVXR.exe is kept next to it; uninstalling from Windows puts it back.
 ;
@@ -19,6 +21,9 @@
 #define ModURL "https://github.com/LVL-VR/GTAVXR/releases/latest"
 ; Where scripts\build.ps1 leaves the compiled tool.
 #define ToolDir "..\work\publish"
+; Where scripts\build.ps1 leaves the in-game mod package.
+#define InGameZip "GTAVXR PT-BR menus do jogo.zip"
+#define InGameDir "..\work\asi\package"
 
 #ifndef AppVersion
   #error AppVersion is missing: run scripts\build.ps1
@@ -91,6 +96,10 @@ en.ApplyFailed=GTAVXR was not translated, and the original was left as it was.%n
 en.Done=Done: GTAVXR is in Portuguese. In the Suite, Settings > Language shows Português and English.
 en.OtherCopy=Another GTAVXR.exe is already translated on this computer. Uninstall GTAVXR PT-BR first, which puts that one back, and then translate this one.
 en.OpenSuite=Open GTAVXR now
+en.InGame=Also translate the menus inside the game: VR menu and Trainer (recommended)
+en.InGameFailed=The Suite was translated, but the in-game translation could not be added to GTAVXR.%n%nDetails are in:%n%1
+en.InGameDone=%n%nThe menus inside the game: in the VR menu, open Settings and switch Language until the texts are in Portuguese (it takes the place of Spanish).
+en.InGameRemoveFailed=The in-game translation could not be taken out of GTAVXR. In the Suite, remove the mod "GTAVXR PT-BR menus do jogo".%n%nDetails are in:%n%1
 en.RestoreFailed=The original GTAVXR.exe could not be put back.%n%nDetails are in:%n%1%n%nThe original is kept next to it as GTAVXR.exe.pt-BR.original.
 pt.NeedsTitle=O que esta tradução precisa
 pt.NeedsSubtitle=O mod GTAVXR, feito por outras pessoas. Este instalador não instala o mod.
@@ -117,15 +126,21 @@ pt.ApplyFailed=O GTAVXR não foi traduzido, e o original ficou como estava.%n%nO
 pt.Done=Pronto: o GTAVXR está em português. Na Suite, Ajustes > Idioma mostra Português e English.
 pt.OtherCopy=Outro GTAVXR.exe já está traduzido neste computador. Desinstale o GTAVXR PT-BR primeiro, o que devolve aquele, e depois traduza este.
 pt.OpenSuite=Abrir o GTAVXR agora
+pt.InGame=Traduzir também os menus de dentro do jogo: menu de VR e Trainer (recomendado)
+pt.InGameFailed=A Suite foi traduzida, mas a tradução dos menus do jogo não pôde ser adicionada ao GTAVXR.%n%nOs detalhes estão em:%n%1
+pt.InGameDone=%n%nOs menus de dentro do jogo: no menu de VR, abra Ajustes e troque o Idioma até os textos ficarem em português (ele ocupa o lugar do espanhol).
+pt.InGameRemoveFailed=Não deu para tirar a tradução dos menus do jogo do GTAVXR. Na Suite, remova o mod "GTAVXR PT-BR menus do jogo".%n%nOs detalhes estão em:%n%1
 pt.RestoreFailed=Não deu para devolver o GTAVXR.exe original.%n%nOs detalhes estão em:%n%1%n%nO original continua guardado ao lado, como GTAVXR.exe.pt-BR.original.
 
 [Tasks]
 Name: "setlanguage"; Description: "{cm:SetLanguage}"
+Name: "ingame"; Description: "{cm:InGame}"
 
 [Files]
 Source: "{#ToolDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\THIRD-PARTY-NOTICES.md"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\LICENSE"; DestDir: "{app}"; DestName: "LICENSE.txt"; Flags: ignoreversion
+Source: "{#InGameDir}\{#InGameZip}"; DestDir: "{app}\in-game"; Flags: ignoreversion
 
 [Run]
 Filename: "{code:SuiteExe}"; Description: "{cm:OpenSuite}"; Flags: nowait postinstall skipifsilent; Check: Translated
@@ -145,6 +160,7 @@ var
   PickPage: TInputFileWizardPage;
   ModStatus: TNewStaticText;
   WasTranslated: Boolean;
+  InGameAdded: Boolean;
 
 function LogPath(): String;
 begin
@@ -253,7 +269,10 @@ begin
     RefreshNeeds()
   else if (CurPageID = wpFinished) and WasTranslated then
   begin
-    WizardForm.FinishedLabel.Caption := CustomMessage('Done');
+    if InGameAdded then
+      WizardForm.FinishedLabel.Caption := CustomMessage('Done') + CustomMessage('InGameDone')
+    else
+      WizardForm.FinishedLabel.Caption := CustomMessage('Done');
     WizardForm.FinishedLabel.AdjustHeight();
   end;
 end;
@@ -314,6 +333,24 @@ begin
     Result := CheckChoice();
 end;
 
+{ The in-game menus: the Suite imports our script mod and it is turned on in the profiles. }
+procedure AddInGame();
+var
+  Code: Integer;
+begin
+  repeat
+    Code := RunTool(ExpandConstant('{app}'), 'ingame-add --exe "' + PickPage.Values[0] + '" --mod "' +
+      ExpandConstant('{app}\in-game\{#InGameZip}') + '"');
+    if Code <> ExitRunning then
+      break;
+  until SuppressibleMsgBox(CustomMessage('Running'), mbInformation, MB_OKCANCEL, IDCANCEL) = IDCANCEL;
+  InGameAdded := Code = ExitOk;
+  if InGameAdded then
+    Log('In-game translation added')
+  else if Code <> ExitRunning then
+    SuppressibleMsgBox(FmtMessage(CustomMessage('InGameFailed'), [LogPath()]), mbError, MB_OK, IDOK);
+end;
+
 { After the tool is copied: translate, asking to close the Suite while it is open. }
 procedure CurStepChanged(CurStep: TSetupStep);
 var
@@ -343,6 +380,8 @@ begin
     SuppressibleMsgBox(CustomMessage('OtherCopy'), mbError, MB_OK, IDOK)
   else if Code <> ExitRunning then
     SuppressibleMsgBox(FmtMessage(CustomMessage('ApplyFailed'), [LogPath()]), mbError, MB_OK, IDOK);
+  if WasTranslated and WizardIsTaskSelected('ingame') then
+    AddInGame();
 end;
 
 function UpdateReadyMemo(Space, NewLine, MemoUserInfoInfo, MemoDirInfo, MemoTypeInfo, MemoComponentsInfo, MemoGroupInfo, MemoTasksInfo: String): String;
@@ -365,13 +404,22 @@ begin
     end;
 end;
 
-{ Uninstalling puts the original GTAVXR.exe back before the tool itself goes away. }
+{ Uninstalling takes the in-game translation out of GTAVXR and puts the original GTAVXR.exe back,
+  before the tool itself goes away. }
 procedure CurUninstallStepChanged(CurUninstallStep: TUninstallStep);
 var
   Code: Integer;
 begin
   if CurUninstallStep <> usUninstall then
     exit;
+  { GTAVXR may have been opened again since the uninstall started: ask once more to close it. }
+  repeat
+    Code := RunTool(ExpandConstant('{app}'), 'ingame-remove');
+    if Code <> ExitRunning then
+      break;
+  until SuppressibleMsgBox(CustomMessage('Running'), mbInformation, MB_OKCANCEL, IDCANCEL) = IDCANCEL;
+  if (Code <> ExitOk) and (Code <> ExitNothing) then
+    SuppressibleMsgBox(FmtMessage(CustomMessage('InGameRemoveFailed'), [LogPath()]), mbError, MB_OK, IDOK);
   Code := RunTool(ExpandConstant('{app}'), 'restore');
   if (Code <> ExitOk) and (Code <> ExitNothing) then
     SuppressibleMsgBox(FmtMessage(CustomMessage('RestoreFailed'), [LogPath()]), mbError, MB_OK, IDOK);

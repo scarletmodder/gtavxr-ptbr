@@ -2,7 +2,7 @@
 
 # Arquitetura
 
-Como o GTAVXR PT-BR muda a Suite do GTAVXR, e por que os menus de dentro do jogo ficam como estão.
+Como o GTAVXR PT-BR muda a Suite do GTAVXR, e como traduz os menus de dentro do jogo sem alterar nenhum arquivo de jogo do GTAVXR.
 
 ## As peças
 
@@ -14,11 +14,13 @@ flowchart LR
     tool -->|guarda| orig["GTAVXR.exe.pt-BR.original"]
     tool -->|"language: es"| settings["settings.json da Suite"]
     tool -->|dados para desfazer| state["%LOCALAPPDATA%\GTAVXR-PTBR\state.json"]
+    tool -->|ingame-add| lib["Biblioteca do GTAVXR<br/>GtavxrPtbr.asi"]
 ```
 
-- **`installer/gtavxr-ptbr.iss`**: o assistente do Inno Setup. Nunca leva arquivo do GTAVXR. Encontra a Suite, pergunta qual cópia traduzir, roda o `check` a partir da pasta temporária antes de copiar qualquer coisa, roda o `apply` depois de copiar a ferramenta e roda o `restore` na desinstalação.
+- **`installer/gtavxr-ptbr.iss`**: o assistente do Inno Setup. Nunca leva arquivo do GTAVXR. Encontra a Suite, pergunta qual cópia traduzir, roda o `check` a partir da pasta temporária antes de copiar qualquer coisa, roda o `apply` depois de copiar a ferramenta, depois o `ingame-add` quando essa opção está marcada, e o `ingame-remove` e o `restore` na desinstalação.
 - **`src/GtavxrPtbr`**: a ferramenta de linha de comando. `SuitePatcher` faz a reescrita com o [Mono.Cecil](https://github.com/jbevain/cecil); `Program` cuida dos arquivos, da cópia de segurança, do estado e dos ajustes da Suite.
-- **`translations/`**: quatro arquivos JSON de linhas `{id, en, pt}`. Dois são aplicados pelo instalador; dois são dos menus de dentro do jogo.
+- **`src/GtavxrPtbrAsi`**: o mod dos menus do jogo, `GtavxrPtbr.asi` (C++), com o teste dele (`test_patch.cpp`) e uma imitação para o CI (`fake_tables.cpp`).
+- **`translations/`**: quatro arquivos JSON de linhas `{id, en, pt}`. Dois vão para a Suite; dois vão para o mod dos menus do jogo.
 
 ## Como a Suite é por dentro
 
@@ -57,11 +59,35 @@ Só uma cópia traduzida é acompanhada: traduzir um segundo `GTAVXR.exe` enquan
 
 O `restore` só devolve o original se o arquivo ainda for a cópia traduzida e a cópia de segurança ainda tiver o hash registrado. Depois de uma atualização do GTAVXR no mesmo lugar, deixa o arquivo novo como está; se o arquivo foi movido ou apagado, mantém a original onde está e avisa. Ele só volta o idioma se ainda estiver em `"es"`, para manter uma mudança que a pessoa tenha feito depois.
 
-## Por que os menus do jogo não são alterados
+## Os menus do jogo: um mod nosso, não um patch
 
-O menu de VR (`vr_format_text.h`, 308 textos) e o Trainer (`localization.h`, 776 textos) são compilados dentro das DLLs nativas do runtime do GTAVXR. Antes de cada partida a Suite compara o SHA-256 de cada um desses arquivos com o manifesto dela (`versions/gtavxr-1-0-2.json`) e se recusa a abrir com `INSTALL_RUNTIME_CHANGED` quando algum difere. Alterá-los quebraria o Jogar.
+O menu de VR (`vr_format_text.h`, 308 textos) e o Trainer (`localization.h`, 776 textos) são compilados nos arquivos de jogo do GTAVXR: o menu de VR no executável do jogo que o GTAVXR prepara, o Trainer no `gtavxr_trainer.dll`. Antes de cada partida a Suite compara o SHA-256 de cada um desses arquivos com o manifesto dela (`versions/gtavxr-1-0-2.json`) e se recusa a abrir com `INSTALL_RUNTIME_CHANGED` quando algum é diferente. Por isso esses arquivos nunca são alterados.
 
-A tradução deles está em `translations/vr-menu.pt-BR.json` e `translations/trainer.pt-BR.json`, com os mesmos ids do código do GTAVXR, e foi oferecida ao projeto GTAVXR para vir embutida ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)), como um terceiro idioma ao lado do inglês e do espanhol.
+O que o GTAVXR permite são mods de script: arquivos `.asi` feitos para o ScriptHookV, que o host dele (`GTAVXRHost.dll`) carrega no jogo quando o perfil tem o mod ligado. O GTAVXR PT-BR leva um, o `GtavxrPtbr.asi` (`src/GtavxrPtbrAsi`, C++, todo código nosso), e o instalador adiciona ele à biblioteca do GTAVXR pelo próprio comando de importação da Suite (`GTAVXR.exe --import-mods`).
+
+```mermaid
+flowchart LR
+    tool["GtavxrPtbr.exe<br/>ingame-add"] -->|--import-mods| lib["Biblioteca do GTAVXR<br/>(cartão do mod)"]
+    tool -->|liga| prof["profiles/*/profile.json"]
+    host["GTAVXRHost.dll"] -->|carrega| asi["GtavxrPtbr.asi"]
+    asi -->|na memória: coluna em espanhol aponta para o português| vr["Tabela do menu de VR<br/>(exe do jogo)"]
+    asi -->|na memória| trainer["Tabela do Trainer<br/>(gtavxr_trainer.dll)"]
+```
+
+As duas tabelas são listas de ponteiros para textos em C: as linhas do menu de VR são `{source, english, spanish}` e as do Trainer `{english, spanish}`. Uma vez por segundo, o mod:
+
+1. acha cada tabela nos dados somente leitura do módulo carregado: procura um ponteiro para um texto que sempre está na tabela (`"SETTINGS / AJUSTES"` no menu de VR, `"Previous Trainer Options"` no Trainer), anda para trás e para frente pelas linhas em que toda coluna aponta para um texto válido e fica com a sequência mais longa; só aceita a tabela quando pelo menos 70% das chaves são textos conhecidos, então uma tabela montada de outro jeito (por exemplo com uma coluna em português do próprio GTAVXR) fica como está, em vez de ser escrita fora do lugar;
+2. em cada linha cuja chave (o texto de origem, ou o texto em inglês no Trainer) tem tradução, libera a escrita na página e aponta a coluna em espanhol para o texto em português, que mora no próprio mod;
+3. segura uma referência ao Trainer enquanto lê, e desiste (em vez de derrubar o jogo) se uma página não puder ser lida;
+4. grava quantas linhas achou e trocou em `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log`.
+
+O menu de VR é traduzido uma vez por processo do jogo. A DLL do Trainer pode ser recarregada pelo GTAVXR durante a partida, então o mod confere se a tabela que ele trocou ainda está lá e troca de novo quando ela é nova.
+
+Por que isso é seguro para a conferência do GTAVXR: os arquivos no disco ficam com os mesmos bytes, então os hashes continuam batendo com o manifesto; só a cópia em execução na memória muda, e só a coluna em espanhol. Por isso o português aparece quando o idioma do jogo é espanhol. Se um GTAVXR futuro mover ou renomear os textos, a âncora não é achada, o mod não muda nada e diz isso no log.
+
+Os textos vêm de `translations/vr-menu.pt-BR.json` e `translations/trainer.pt-BR.json`; o `scripts/gen_asi_texts.py` transforma eles em `src/GtavxrPtbrAsi/texts.g.h`, e o CI falha quando esse arquivo está desatualizado. A mesma tradução também foi oferecida ao projeto GTAVXR para vir embutida como terceiro idioma ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)); o mod não depende disso.
+
+O `ingame-add` grava `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.json` com o id do cartão e os perfis em que ligou o mod; o `ingame-remove` (rodado pelo desinstalador antes do `restore`) desliga nesses perfis, apaga o cartão e os arquivos que só ele usava.
 
 ## Efeito colateral: mods de conteúdo reconstruídos uma vez
 
@@ -71,6 +97,7 @@ O hash do recurso do catálogo faz parte da chave que a Suite usa para decidir s
 
 - `tests/GtavxrPtbr.Tests/PatcherTests.cs` monta com o Mono.Cecil uma Suite de mentira (mesmo padrão de IL, o literal `"Español"` e um recurso de catálogo) e confere a reescrita, a marca, as recusas e o escape do catálogo.
 - `tests/GtavxrPtbr.Tests/TranslationFileTests.cs` confere cada arquivo de tradução: mesmos marcadores do inglês, nenhuma linha vazia, nenhum travessão, ids únicos.
+- `src/GtavxrPtbrAsi/test_patch.cpp` carrega um arquivo de jogo do GTAVXR sem executar, aplica a troca dos menus do jogo e confere que toda linha conhecida virou português, toda linha desconhecida manteve o texto, as outras colunas não mudaram e uma segunda execução não muda nada. O CI roda esse teste contra o `fake_tables.dll`, uma imitação montada como as tabelas reais.
 - `.github/workflows/ci.yml` roda os testes a cada push. `.github/workflows/release.yml` gera o instalador, instala e desinstala numa máquina Windows limpa e publica uma versão a partir da `main` quando a versão do `GtavxrPtbr.csproj` ainda não tem tag.
 
-O `GTAVXR.exe` real não está no repositório (ele pertence à LVL-VR). Cada versão também é conferida à mão contra o GTAVXR 1.0.2 real: o `check` mostra 422/422 textos da Suite e 129/129 do catálogo, `apply` e `restore` voltam ao SHA-256 original, e a Suite traduzida é aberta e as páginas lidas.
+O `GTAVXR.exe` real não está no repositório (ele pertence à LVL-VR). Cada versão também é conferida à mão contra o GTAVXR 1.0.2 real: o `check` mostra 422/422 textos da Suite e 129/129 do catálogo, `apply` e `restore` voltam ao SHA-256 original, e a Suite traduzida é aberta e as páginas lidas. O mod dos menus do jogo é conferido com o `test_patch` contra cópias do exe real do jogo e do `gtavxr_trainer.dll` (308/308 e 776/776), e o `ingame-add` e o `ingame-remove` rodam contra uma cópia da pasta de dados da Suite.

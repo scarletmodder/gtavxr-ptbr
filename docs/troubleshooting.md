@@ -46,7 +46,18 @@ They are texts this version of the translation does not know yet, usually becaus
 
 ## The menus inside the game are in English or Spanish
 
-Expected for now: the in-game VR menu and the Trainer cannot be translated from outside without stopping GTAVXR from starting, so their translation was offered to the GTAVXR authors ([pull request](https://github.com/LVL-VR/GTAVXR/pull/33)). See [Known limitations](../README.md#%EF%B8%8F-known-limitations).
+Portuguese takes the place of Spanish inside the game. In the VR menu, open **Settings** and switch **Language** until the texts are in Portuguese (the option may still say Spanish). If they stay in English or Spanish:
+
+- Check that **GTAVXR PT-BR menus do jogo** is on in the profile you play with, in the Suite. A profile created after the install starts without it.
+- Open `%LOCALAPPDATA%\GTAVXR-PTBR\in-game.log`. It is written by the mod while the game runs. If it does not exist, the mod was not loaded: turn it on in the profile. If it says a table was not found, your GTAVXR version is newer than this translation: check the [releases](https://github.com/scarletmodder/gtavxr-ptbr/releases) for a newer GTAVXR PT-BR, or [open an issue](https://github.com/scarletmodder/gtavxr-ptbr/issues) with that file.
+
+## "The Suite was translated, but the in-game translation could not be added to GTAVXR"
+
+The Suite is in Portuguese, but the mod for the in-game menus was not added. Usually GTAVXR or the game was open, or the Suite could not import the mod. Close GTAVXR and run the installer again, or add the file `in-game\GTAVXR PT-BR menus do jogo.zip` (in `%LOCALAPPDATA%\Programs\GTAVXR PT-BR`) as a mod in the Suite yourself and turn it on in your profile.
+
+## "The in-game translation could not be taken out of GTAVXR"
+
+Shown by the uninstaller. In the Suite, open **Mods** and remove **GTAVXR PT-BR menus do jogo**. The rest of the uninstall goes on as usual.
 
 ## After translating, Play takes longer once
 
@@ -57,5 +68,5 @@ GTAVXR rebuilt the content mods you use (World of Variety and others), because t
 The installer is not digitally signed. Choose **More info** and **Run anyway**. You can compare the file with the `SHA256SUMS.txt` of the release:
 
 ```bash
-certutil -hashfile GTAVXR-PTBR-Setup-v1.0.0.exe SHA256
+certutil -hashfile GTAVXR-PTBR-Setup-v1.1.0.exe SHA256
 ```

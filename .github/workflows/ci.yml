@@ -23,3 +23,18 @@ jobs:
       # The patcher against a stand-in Suite, and every translation file.
       - name: Test
         run: dotnet test gtavxr-ptbr.sln -c Release --no-build --nologo
+      # The in-game plugin: the generated texts match translations/, it builds, and it patches the stand-in tables.
+      - name: In-game plugin
+        shell: pwsh
+        run: |
+          python scripts/gen_asi_texts.py
+          git diff --exit-code -- src/GtavxrPtbrAsi/texts.g.h
+          if ($LASTEXITCODE -ne 0) { throw 'texts.g.h is out of date: run python scripts/gen_asi_texts.py' }
+          $vswhere = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\Installer\vswhere.exe'
+          $vcvars = & $vswhere -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -find 'VC\Auxiliary\Build\vcvars64.bat' | Select-Object -First 1
+          cmd /c "scripts\build-asi.cmd `"$vcvars`" ci work\asi"
+          if ($LASTEXITCODE -ne 0) { throw 'The in-game plugin failed to build' }
+          ./work/asi/test_patch.exe work/asi/fake_tables.dll work/asi/fake_tables.dll 5 4
+          if ($LASTEXITCODE -ne 0) { throw 'The in-game plugin failed its test' }
+          ./work/asi/test_patch.exe --refuse work/asi/fake_wider.dll
+          if ($LASTEXITCODE -ne 0) { throw 'The in-game plugin accepted a table laid out differently' }
