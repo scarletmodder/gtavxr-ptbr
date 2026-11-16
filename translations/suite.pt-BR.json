@@ -1,0 +1,2112 @@
+[
+ {
+  "id": "set.data",
+  "en": "Suite data",
+  "pt": "Pasta de dados da Suite"
+ },
+ {
+  "id": "set.data.open",
+  "en": "Open folder",
+  "pt": "Abrir pasta"
+ },
+ {
+  "id": "set.data.pick",
+  "en": "Choose where to create the GTAVXR Suite folder",
+  "pt": "Escolha onde criar a pasta da GTAVXR Suite"
+ },
+ {
+  "id": "set.data.confirm",
+  "en": "Your profiles, saves, and library will be copied and verified in:\n{0}\n\nThe current folder will remain as a backup. Close GTA first.",
+  "pt": "Seus perfis, saves e biblioteca serão copiados e verificados em:\n{0}\n\nA pasta atual continuará como backup. Feche o GTA antes."
+ },
+ {
+  "id": "set.data.copy",
+  "en": "Copy and use",
+  "pt": "Copiar e usar"
+ },
+ {
+  "id": "set.data.progress",
+  "en": "Copying and verifying data",
+  "pt": "Copiando e verificando os dados"
+ },
+ {
+  "id": "set.data.done",
+  "en": "Your data was verified in:\n{0}\n\nReopen the Suite to use this folder. Your old folder is still available as a backup.",
+  "pt": "Seus dados foram verificados em:\n{0}\n\nReabra a Suite para usar esta pasta. Sua pasta antiga continua disponível como backup."
+ },
+ {
+  "id": "set.data.overlap",
+  "en": "Choose a folder outside the Suite, GTA, and the Rockstar saves.",
+  "pt": "Escolha uma pasta fora da Suite, do GTA e dos saves da Rockstar."
+ },
+ {
+  "id": "set.data.exists",
+  "en": "A GTAVXR Suite folder already exists there. Choose a different location.",
+  "pt": "Já existe uma pasta da GTAVXR Suite nesse local. Escolha outro local."
+ },
+ {
+  "id": "set.data.missing",
+  "en": "The selected data folder is unavailable. Reconnect its drive and reopen the Suite.",
+  "pt": "A pasta de dados selecionada não está disponível. Reconecte o disco dela e reabra a Suite."
+ },
+ {
+  "id": "nav.play",
+  "en": "Play",
+  "pt": "Jogar"
+ },
+ {
+  "id": "nav.mods",
+  "en": "Mods",
+  "pt": "Mods"
+ },
+ {
+  "id": "nav.settings",
+  "en": "Settings",
+  "pt": "Ajustes"
+ },
+ {
+  "id": "board.title",
+  "en": "DEPARTURES",
+  "pt": "PARTIDAS"
+ },
+ {
+  "id": "board.hint",
+  "en": "Your profiles · tap one to choose it",
+  "pt": "Seus perfis · toque em um para escolher"
+ },
+ {
+  "id": "col.profile",
+  "en": "Profile",
+  "pt": "Perfil"
+ },
+ {
+  "id": "col.version",
+  "en": "Version",
+  "pt": "Versão"
+ },
+ {
+  "id": "col.mods",
+  "en": "Mods",
+  "pt": "Mods"
+ },
+ {
+  "id": "col.save",
+  "en": "Save",
+  "pt": "Save"
+ },
+ {
+  "id": "col.state",
+  "en": "Status",
+  "pt": "Status"
+ },
+ {
+  "id": "state.ready",
+  "en": "READY",
+  "pt": "PRONTO"
+ },
+ {
+  "id": "state.test",
+  "en": "TEST",
+  "pt": "TESTE"
+ },
+ {
+  "id": "state.missing",
+  "en": "NO VERSION",
+  "pt": "SEM VERSÃO"
+ },
+ {
+  "id": "state.playing",
+  "en": "PLAYING",
+  "pt": "JOGANDO"
+ },
+ {
+  "id": "save.new",
+  "en": "NEW",
+  "pt": "NOVO"
+ },
+ {
+  "id": "save.none",
+  "en": "New story",
+  "pt": "Nova história"
+ },
+ {
+  "id": "chip.headset",
+  "en": "Headset",
+  "pt": "Óculos"
+ },
+ {
+  "id": "chip.game",
+  "en": "GTA V Legacy 3889",
+  "pt": "GTA V Legacy 3889"
+ },
+ {
+  "id": "chip.xr.off",
+  "en": "{0} not running",
+  "pt": "{0} não está rodando"
+ },
+ {
+  "id": "chip.xr.none",
+  "en": "No OpenXR runtime",
+  "pt": "Nenhum runtime OpenXR"
+ },
+ {
+  "id": "chip.game.missing",
+  "en": "GTA V not found",
+  "pt": "GTA V não encontrado"
+ },
+ {
+  "id": "pass.route",
+  "en": "LOS SANTOS · VR",
+  "pt": "LOS SANTOS · VR"
+ },
+ {
+  "id": "pass.new",
+  "en": "+ New profile",
+  "pt": "+ Novo perfil"
+ },
+ {
+  "id": "pass.edit",
+  "en": "Edit profile",
+  "pt": "Editar perfil"
+ },
+ {
+  "id": "pass.close",
+  "en": "Close editor",
+  "pt": "Fechar editor"
+ },
+ {
+  "id": "f.version",
+  "en": "Version",
+  "pt": "Versão"
+ },
+ {
+  "id": "f.mods",
+  "en": "Mods",
+  "pt": "Mods"
+ },
+ {
+  "id": "f.save",
+  "en": "Save",
+  "pt": "Save"
+ },
+ {
+  "id": "f.vr",
+  "en": "VR settings",
+  "pt": "Config. de VR"
+ },
+ {
+  "id": "f.stable",
+  "en": "Stable",
+  "pt": "Estável"
+ },
+ {
+  "id": "f.testv",
+  "en": "Test",
+  "pt": "Teste"
+ },
+ {
+  "id": "f.nomods",
+  "en": "None",
+  "pt": "Nenhum"
+ },
+ {
+  "id": "f.modsn",
+  "en": "{0} on",
+  "pt": "{0} ativos"
+ },
+ {
+  "id": "f.mods1",
+  "en": "1 on",
+  "pt": "1 ativo"
+ },
+ {
+  "id": "f.vr.own",
+  "en": "this profile's",
+  "pt": "deste perfil"
+ },
+ {
+  "id": "f.vr.default",
+  "en": "Defaults",
+  "pt": "Padrão"
+ },
+ {
+  "id": "f.vr.title",
+  "en": "Saved",
+  "pt": "Salvo"
+ },
+ {
+  "id": "stub.gate",
+  "en": "GATE",
+  "pt": "PORTÃO"
+ },
+ {
+  "id": "stub.play",
+  "en": "PLAY",
+  "pt": "JOGAR"
+ },
+ {
+  "id": "stub.ready",
+  "en": "Headset and game ready",
+  "pt": "Óculos e jogo prontos"
+ },
+ {
+  "id": "stub.xr.signal",
+  "en": "{0} process detected",
+  "pt": "Processo {0} detectado"
+ },
+ {
+  "id": "stub.xr.selected",
+  "en": "{0} selected",
+  "pt": "{0} selecionado"
+ },
+ {
+  "id": "stub.never",
+  "en": "Not played yet",
+  "pt": "Nunca jogado"
+ },
+ {
+  "id": "stub.played",
+  "en": "Played {0}",
+  "pt": "Jogado {0}"
+ },
+ {
+  "id": "tab.version",
+  "en": "Version",
+  "pt": "Versão"
+ },
+ {
+  "id": "tab.mods",
+  "en": "Mods",
+  "pt": "Mods"
+ },
+ {
+  "id": "tab.save",
+  "en": "Save",
+  "pt": "Save"
+ },
+ {
+  "id": "tab.vr",
+  "en": "VR settings",
+  "pt": "Config. de VR"
+ },
+ {
+  "id": "tab.profile",
+  "en": "Profile",
+  "pt": "Perfil"
+ },
+ {
+  "id": "ver.hint",
+  "en": "Switching version installs only the difference the next time you press Play.",
+  "pt": "Trocar de versão instala só a diferença na próxima vez que você apertar Jogar."
+ },
+ {
+  "id": "ver.hint.dev",
+  "en": "Test versions show because developer mode is on.",
+  "pt": "As versões de teste aparecem porque o modo desenvolvedor está ativo."
+ },
+ {
+  "id": "mods.hint",
+  "en": "Mods come from your library. Switching here changes only this profile.",
+  "pt": "Os mods vêm da sua biblioteca. Trocar aqui muda só este perfil."
+ },
+ {
+  "id": "mods.empty",
+  "en": "Your library is empty. Add mods in the Mods section.",
+  "pt": "Sua biblioteca está vazia. Adicione mods na seção Mods."
+ },
+ {
+  "id": "mods.no.version",
+  "en": "This version does not support this mod",
+  "pt": "Esta versão não é compatível com este mod"
+ },
+ {
+  "id": "mods.required",
+  "en": "This version always uses it",
+  "pt": "Esta versão sempre usa este mod"
+ },
+ {
+  "id": "save.hint",
+  "en": "Each profile has its own saves. Normal GTA is not touched.",
+  "pt": "Cada perfil tem seus próprios saves. O GTA normal não é tocado."
+ },
+ {
+  "id": "save.latest",
+  "en": "Latest save",
+  "pt": "Último save"
+ },
+ {
+  "id": "save.copy",
+  "en": "Copy saves from normal GTA",
+  "pt": "Copiar saves do GTA normal"
+ },
+ {
+  "id": "save.fresh",
+  "en": "Start a new story",
+  "pt": "Começar uma nova história"
+ },
+ {
+  "id": "save.choose",
+  "en": "Choose the save to open when you click Play.",
+  "pt": "Escolha o save que será aberto quando você clicar em Jogar."
+ },
+ {
+  "id": "rec.save.path",
+  "en": "Reconnect the original GTA saves folder, then select Fix now. The recovery copy has been kept.",
+  "pt": "Reconecte a pasta original de saves do GTA e selecione Corrigir agora. A cópia de recuperação foi mantida."
+ },
+ {
+  "id": "rec.game.path",
+  "en": "Reconnect the original GTA installation, then select Fix now.",
+  "pt": "Reconecte a instalação original do GTA e selecione Corrigir agora."
+ },
+ {
+  "id": "set.data.invalid",
+  "en": "The Suite location record is damaged. Select the library you were already using.",
+  "pt": "O registro do local da Suite está danificado. Selecione a biblioteca que você já usava."
+ },
+ {
+  "id": "save.select",
+  "en": "Select",
+  "pt": "Selecionar"
+ },
+ {
+  "id": "save.selected",
+  "en": "Selected",
+  "pt": "Selecionado"
+ },
+ {
+  "id": "save.auto",
+  "en": "GTA automatic selection",
+  "pt": "Seleção automática do GTA"
+ },
+ {
+  "id": "save.merge.q",
+  "en": "Add normal GTA saves to this profile? Existing VR saves will be kept.",
+  "pt": "Adicionar os saves do GTA normal a este perfil? Os saves de VR existentes serão mantidos."
+ },
+ {
+  "id": "save.merge.external",
+  "en": "Import from another library",
+  "pt": "Importar de outra biblioteca"
+ },
+ {
+  "id": "save.merge.external.hint",
+  "en": "Select a profile.json inside the profiles folder of another Suite library.",
+  "pt": "Selecione um profile.json dentro da pasta de perfis de outra biblioteca da Suite."
+ },
+ {
+  "id": "save.copy.q",
+  "en": "Replace this profile's saves with a copy of normal GTA's? The current ones stay in the profile history.",
+  "pt": "Substituir os saves deste perfil por uma cópia dos do GTA normal? Os atuais ficam no histórico do perfil."
+ },
+ {
+  "id": "save.fresh.q",
+  "en": "Start a new story in this profile? Current saves stay in the profile history.",
+  "pt": "Começar uma nova história neste perfil? Os saves atuais ficam no histórico do perfil."
+ },
+ {
+  "id": "vr.hint",
+  "en": "VR settings are changed in the game's VR menu and saved to the profile when you quit.",
+  "pt": "As configurações de VR são alteradas no menu de VR do jogo e salvas no perfil quando você sai."
+ },
+ {
+  "id": "vr.copyfrom",
+  "en": "Copy from another profile",
+  "pt": "Copiar de outro perfil"
+ },
+ {
+  "id": "vr.reset",
+  "en": "Back to defaults",
+  "pt": "Voltar ao padrão"
+ },
+ {
+  "id": "prof.name",
+  "en": "Name",
+  "pt": "Nome"
+ },
+ {
+  "id": "prof.color",
+  "en": "Color",
+  "pt": "Cor"
+ },
+ {
+  "id": "prof.image",
+  "en": "Profile picture",
+  "pt": "Foto do perfil"
+ },
+ {
+  "id": "img.original",
+  "en": "Original",
+  "pt": "Original"
+ },
+ {
+  "id": "img.midnight",
+  "en": "Midnight",
+  "pt": "Meia-noite"
+ },
+ {
+  "id": "img.amber",
+  "en": "Amber",
+  "pt": "Âmbar"
+ },
+ {
+  "id": "img.noir",
+  "en": "Noir",
+  "pt": "Noir"
+ },
+ {
+  "id": "img.arctic",
+  "en": "Arctic",
+  "pt": "Ártico"
+ },
+ {
+  "id": "prof.dup",
+  "en": "Duplicate profile",
+  "pt": "Duplicar perfil"
+ },
+ {
+  "id": "prof.delete",
+  "en": "Delete profile",
+  "pt": "Excluir perfil"
+ },
+ {
+  "id": "prof.delete.q",
+  "en": "Delete “{0}”? It moves to the Suite bin with its saves and can be recovered by hand.",
+  "pt": "Excluir “{0}”? Ele vai para a lixeira da Suite com seus saves e pode ser recuperado manualmente."
+ },
+ {
+  "id": "new.title",
+  "en": "New profile",
+  "pt": "Novo perfil"
+ },
+ {
+  "id": "new.name",
+  "en": "My profile",
+  "pt": "Meu perfil"
+ },
+ {
+  "id": "new.saves",
+  "en": "Saves",
+  "pt": "Saves"
+ },
+ {
+  "id": "new.saves.copy",
+  "en": "Copy from normal GTA",
+  "pt": "Copiar do GTA normal"
+ },
+ {
+  "id": "new.saves.fresh",
+  "en": "New story",
+  "pt": "Nova história"
+ },
+ {
+  "id": "new.saves.dup",
+  "en": "Copy of “{0}”",
+  "pt": "Cópia de “{0}”"
+ },
+ {
+  "id": "new.create",
+  "en": "Create profile",
+  "pt": "Criar perfil"
+ },
+ {
+  "id": "cancel",
+  "en": "Cancel",
+  "pt": "Cancelar"
+ },
+ {
+  "id": "ok",
+  "en": "OK",
+  "pt": "OK"
+ },
+ {
+  "id": "yes",
+  "en": "Yes",
+  "pt": "Sim"
+ },
+ {
+  "id": "close",
+  "en": "Close",
+  "pt": "Fechar"
+ },
+ {
+  "id": "run.game",
+  "en": "Preparing GTAVXR in the game",
+  "pt": "Preparando a GTAVXR no jogo"
+ },
+ {
+  "id": "run.saves",
+  "en": "Putting your save and VR settings in place",
+  "pt": "Colocando seu save e suas configurações de VR no lugar"
+ },
+ {
+  "id": "run.launch",
+  "en": "Opening GTA",
+  "pt": "Abrindo o GTA"
+ },
+ {
+  "id": "run.playing",
+  "en": "PLAYING",
+  "pt": "JOGANDO"
+ },
+ {
+  "id": "run.playing.hint",
+  "en": "Put on the headset. When you close GTA, your progress returns to this profile.",
+  "pt": "Coloque os óculos. Quando você fechar o GTA, seu progresso volta para este perfil."
+ },
+ {
+  "id": "run.capture",
+  "en": "Saving your progress to the profile",
+  "pt": "Salvando seu progresso no perfil"
+ },
+ {
+  "id": "run.done",
+  "en": "Progress saved",
+  "pt": "Progresso salvo"
+ },
+ {
+  "id": "run.done.none",
+  "en": "Session finished. Everything is back in place.",
+  "pt": "Sessão encerrada. Tudo voltou ao lugar."
+ },
+ {
+  "id": "err.title",
+  "en": "Could not play",
+  "pt": "Não foi possível jogar"
+ },
+ {
+  "id": "err.space",
+  "en": "There is not enough disk space for this. Free some space and try again.",
+  "pt": "Não há espaço em disco suficiente para isso. Libere espaço e tente de novo."
+ },
+ {
+  "id": "err.running",
+  "en": "GTA is already open. Close it and press Play again.",
+  "pt": "O GTA já está aberto. Feche-o e aperte Jogar de novo."
+ },
+ {
+  "id": "err.conflict",
+  "en": "There is a file in the GTA folder that is not GTAVXR's and will not be touched:",
+  "pt": "Há um arquivo na pasta do GTA que não é da GTAVXR e não será tocado:"
+ },
+ {
+  "id": "err.version",
+  "en": "This profile's version is no longer in the library. Choose another in Edit profile.",
+  "pt": "A versão deste perfil não está mais na biblioteca. Escolha outra em Editar perfil."
+ },
+ {
+  "id": "err.mvga",
+  "en": "This version needs MVGA and it is not in the library.",
+  "pt": "Esta versão precisa do MVGA, que não está na biblioteca."
+ },
+ {
+  "id": "err.content2",
+  "en": "This profile has two content mod packs on; keep only one in Mods.",
+  "pt": "Este perfil tem dois pacotes de conteúdo ativos; deixe só um em Mods."
+ },
+ {
+  "id": "err.nocontent",
+  "en": "There are no content or script mods there (.oiv, .zip, .rar, .7z, .asi, dlc.rpf packs or a scripts folder).",
+  "pt": "Não há mods de conteúdo nem de scripts ali (.oiv, .zip, .rar, .7z, .asi, pacotes dlc.rpf ou uma pasta scripts)."
+ },
+ {
+  "id": "err.retail",
+  "en": "Your GTA V is not the Legacy 3889 build GTAVXR is made for (GTA5.exe 1.0.3889 and its update files). If Steam or Rockstar updated the game, this GTAVXR version does not work with that update. GTAVXR was not installed.",
+  "pt": "Seu GTA V não é a versão Legacy 3889 para a qual a GTAVXR foi feita (GTA5.exe 1.0.3889 e seus arquivos de atualização). Se a Steam ou a Rockstar atualizou o jogo, esta versão da GTAVXR não funciona com essa atualização. A GTAVXR não foi instalada."
+ },
+ {
+  "id": "err.legacyrepo",
+  "en": "This version only works on the development PC. Choose a newer version in Edit profile.",
+  "pt": "Esta versão só funciona no PC de desenvolvimento. Escolha uma versão mais nova em Editar perfil."
+ },
+ {
+  "id": "err.ansi",
+  "en": "The Suite data folder has characters GTA cannot read. Move the Suite to a folder whose name has no accents or symbols.",
+  "pt": "A pasta de dados da Suite tem caracteres que o GTA não consegue ler. Mova a Suite para uma pasta cujo nome não tenha acentos nem símbolos."
+ },
+ {
+  "id": "err.xr.none",
+  "en": "Windows has no active OpenXR runtime. Install Virtual Desktop, SteamVR or Meta Quest Link, or choose a runtime in Settings.",
+  "pt": "O Windows não tem nenhum runtime OpenXR ativo. Instale o Virtual Desktop, o SteamVR ou o Meta Quest Link, ou escolha um runtime em Ajustes."
+ },
+ {
+  "id": "err.xr.missing",
+  "en": "The chosen OpenXR runtime is no longer on this PC. Choose another in Settings or go back to Automatic.",
+  "pt": "O runtime OpenXR escolhido não está mais neste PC. Escolha outro em Ajustes ou volte para Automático."
+ },
+ {
+  "id": "err.xr.elevated",
+  "en": "When running as administrator, OpenXR uses the active Windows runtime. To play with your selected runtime, reopen GTAVXR normally or make that runtime active in its own app, then try again.",
+  "pt": "Ao rodar como administrador, o OpenXR usa o runtime ativo do Windows. Para jogar com o runtime selecionado, reabra a GTAVXR normalmente ou ative esse runtime no próprio app dele, e tente de novo."
+ },
+ {
+  "id": "err.xr.bad",
+  "en": "The OpenXR runtime file is not valid or its library is missing. Reinstall the runtime or choose another in Settings.",
+  "pt": "O arquivo do runtime OpenXR não é válido ou falta a biblioteca dele. Reinstale o runtime ou escolha outro em Ajustes."
+ },
+ {
+  "id": "err.password",
+  "en": "This mod archive has a password. Open it with 7-Zip or WinRAR, extract it and drag the folder in.",
+  "pt": "Este arquivo de mod tem senha. Abra-o com o 7-Zip ou o WinRAR, extraia e arraste a pasta para cá."
+ },
+ {
+  "id": "err.generic",
+  "en": "This could not be finished. Technical detail:",
+  "pt": "Não foi possível concluir. Detalhe técnico:"
+ },
+ {
+  "id": "err.space.volume",
+  "en": "Drive {0} is low on available space.",
+  "pt": "O disco {0} está com pouco espaço livre."
+ },
+ {
+  "id": "err.space.free",
+  "en": "Available: {0:0.00} GiB",
+  "pt": "Disponível: {0:0.00} GiB"
+ },
+ {
+  "id": "err.space.required",
+  "en": "Free space required for this operation: {0:0.00} GiB",
+  "pt": "Espaço livre necessário para esta operação: {0:0.00} GiB"
+ },
+ {
+  "id": "rec.recovered.profile",
+  "en": "GTA was restored. The previous profile was unavailable, so the session progress was saved here:\n\n{0}",
+  "pt": "O GTA foi restaurado. O perfil anterior não estava disponível, então o progresso da sessão foi salvo aqui:\n\n{0}"
+ },
+ {
+  "id": "err.identity",
+  "en": "A file is not the one expected: it is damaged or changed. Use \"Check files\" to repair it.",
+  "pt": "Um arquivo não é o esperado: está danificado ou foi alterado. Use \"Verificar arquivos\" para repará-lo."
+ },
+ {
+  "id": "run.aside",
+  "en": "{0} normal-GTA mods (ASI, ScriptHookV...) waited aside during the VR session and are back in place",
+  "pt": "{0} mods do GTA normal (ASI, ScriptHookV...) ficaram de lado durante a sessão de VR e já voltaram ao lugar"
+ },
+ {
+  "id": "run.kept",
+  "en": "These normal-GTA mods could not go back because another file with their name is now in the game folder. They are here:",
+  "pt": "Estes mods do GTA normal não puderam voltar porque agora há outro arquivo com o nome deles na pasta do jogo. Eles estão aqui:"
+ },
+ {
+  "id": "rec.title",
+  "en": "Your last session did not finish saving",
+  "pt": "Sua última sessão não terminou de salvar"
+ },
+ {
+  "id": "rec.body",
+  "en": "GTAVXR closed early. Fixing it saves your progress to the profile and puts normal GTA back.",
+  "pt": "A GTAVXR fechou antes da hora. Corrigir salva seu progresso no perfil e coloca o GTA normal de volta."
+ },
+ {
+  "id": "rec.fix",
+  "en": "Fix now",
+  "pt": "Corrigir agora"
+ },
+ {
+  "id": "rec.wait",
+  "en": "GTA is still open. Close it to finish.",
+  "pt": "O GTA ainda está aberto. Feche-o para concluir."
+ },
+ {
+  "id": "rec.ok",
+  "en": "Done: everything is back in place.",
+  "pt": "Pronto: tudo voltou ao lugar."
+ },
+ {
+  "id": "modsv.title",
+  "en": "Mod library",
+  "pt": "Biblioteca de mods"
+ },
+ {
+  "id": "modsv.hint",
+  "en": "Each mod is stored once and each profile decides whether to use it.",
+  "pt": "Cada mod é guardado uma vez e cada perfil decide se vai usá-lo."
+ },
+ {
+  "id": "modsv.add",
+  "en": "Add mod",
+  "pt": "Adicionar mod"
+ },
+ {
+  "id": "modsv.drop",
+  "en": "or drop a ZIP, OIV, RAR or .asi here. It is checked without running anything.",
+  "pt": "ou solte aqui um ZIP, OIV, RAR ou .asi. Ele é verificado sem executar nada."
+ },
+ {
+  "id": "modsv.inuse",
+  "en": "On in {0}",
+  "pt": "Ativo em {0}"
+ },
+ {
+  "id": "modsv.unused",
+  "en": "No profile uses it",
+  "pt": "Nenhum perfil usa"
+ },
+ {
+  "id": "modsv.ok",
+  "en": "Available for {0}",
+  "pt": "Disponível para {0}"
+ },
+ {
+  "id": "modsv.pending",
+  "en": "Checked · cannot be loaded yet",
+  "pt": "Verificado · ainda não pode ser carregado"
+ },
+ {
+  "id": "modsv.open",
+  "en": "Open Mod Library",
+  "pt": "Abrir biblioteca de mods"
+ },
+ {
+  "id": "save.account",
+  "en": "Choose the GTA Legacy account whose saves you want to load.",
+  "pt": "Escolha a conta do GTA Legacy cujos saves você quer carregar."
+ },
+ {
+  "id": "modsv.pending.why",
+  "en": "The game cannot load this kind of mod yet. It stays stored for when it can.",
+  "pt": "O jogo ainda não consegue carregar este tipo de mod. Ele fica guardado para quando puder."
+ },
+ {
+  "id": "modsv.delete",
+  "en": "Delete",
+  "pt": "Excluir"
+ },
+ {
+  "id": "modsv.delete.q",
+  "en": "Delete “{0}” from the library?{1}",
+  "pt": "Excluir “{0}” da biblioteca?{1}"
+ },
+ {
+  "id": "modsv.delete.from",
+  "en": " It will be removed from: {0}.",
+  "pt": " Ele será removido de: {0}."
+ },
+ {
+  "id": "modsv.added",
+  "en": "Added to the library",
+  "pt": "Adicionado à biblioteca"
+ },
+ {
+  "id": "modsv.addto",
+  "en": "Turn it on in “{0}”?",
+  "pt": "Ativar em “{0}”?"
+ },
+ {
+  "id": "cat.graphics",
+  "en": "Graphics",
+  "pt": "Gráficos"
+ },
+ {
+  "id": "cat.driving",
+  "en": "Driving",
+  "pt": "Direção"
+ },
+ {
+  "id": "cat.map",
+  "en": "Map",
+  "pt": "Mapa"
+ },
+ {
+  "id": "cat.other",
+  "en": "Other",
+  "pt": "Outros"
+ },
+ {
+  "id": "set.title",
+  "en": "Settings",
+  "pt": "Configurações"
+ },
+ {
+  "id": "set.lang",
+  "en": "Language",
+  "pt": "Idioma"
+ },
+ {
+  "id": "set.game",
+  "en": "Game",
+  "pt": "Jogo"
+ },
+ {
+  "id": "set.change",
+  "en": "Change",
+  "pt": "Alterar"
+ },
+ {
+  "id": "set.headset",
+  "en": "Headset",
+  "pt": "Óculos"
+ },
+ {
+  "id": "set.installed",
+  "en": "GTAVXR in the game",
+  "pt": "GTAVXR no jogo"
+ },
+ {
+  "id": "set.installed.none",
+  "en": "Not installed. It installs when you press Play.",
+  "pt": "Não instalada. Ela é instalada quando você aperta Jogar."
+ },
+ {
+  "id": "set.installed.v",
+  "en": "{0} installed",
+  "pt": "{0} instalada"
+ },
+ {
+  "id": "set.uninstall",
+  "en": "Uninstall",
+  "pt": "Desinstalar"
+ },
+ {
+  "id": "set.repair",
+  "en": "Check files",
+  "pt": "Verificar arquivos"
+ },
+ {
+  "id": "dist.install",
+  "en": "Install GTAVXR",
+  "pt": "Instalar GTAVXR"
+ },
+ {
+  "id": "dist.upgrade",
+  "en": "Update GTAVXR",
+  "pt": "Atualizar GTAVXR"
+ },
+ {
+  "id": "set.update.check",
+  "en": "Check for updates",
+  "pt": "Procurar atualizações"
+ },
+ {
+  "id": "set.update.failed",
+  "en": "Could not check for updates.",
+  "pt": "Não foi possível procurar atualizações."
+ },
+ {
+  "id": "set.update.open",
+  "en": "Open release",
+  "pt": "Abrir versão"
+ },
+ {
+  "id": "set.update.portable",
+  "en": "Replace 1.0.0 launcher",
+  "pt": "Substituir launcher 1.0.0"
+ },
+ {
+  "id": "set.update.verify",
+  "en": "Verify download",
+  "pt": "Verificar download"
+ },
+ {
+  "id": "set.update.verify.hint",
+  "en": "When the download finishes, select the EXE to check its size and SHA-256 before opening it.",
+  "pt": "Quando o download terminar, selecione o EXE para conferir o tamanho e o SHA-256 antes de abri-lo."
+ },
+ {
+  "id": "set.update.verified",
+  "en": "Download verified. Close the Suite and open the downloaded EXE.",
+  "pt": "Download verificado. Feche a Suite e abra o EXE baixado."
+ },
+ {
+  "id": "set.update.portable.hint",
+  "en": "Select a portable 1.0.0 EXE to update it or remove that copy.",
+  "pt": "Selecione um EXE portátil 1.0.0 para atualizá-lo ou remover essa cópia."
+ },
+ {
+  "id": "set.update.legacy",
+  "en": "Portable 1.0.0 copy",
+  "pt": "Cópia portátil 1.0.0"
+ },
+ {
+  "id": "set.update.legacy.replace",
+  "en": "Replace",
+  "pt": "Substituir"
+ },
+ {
+  "id": "set.update.legacy.remove",
+  "en": "Remove copy",
+  "pt": "Remover cópia"
+ },
+ {
+  "id": "set.update.legacy.removed",
+  "en": "Previous copy removed.",
+  "pt": "Cópia anterior removida."
+ },
+ {
+  "id": "set.update.legacy.installed",
+  "en": "Use Update GTAVXR to replace the launcher used by your shortcuts.",
+  "pt": "Use Atualizar GTAVXR para substituir o launcher usado pelos seus atalhos."
+ },
+ {
+  "id": "set.remove.all",
+  "en": "Remove GTAVXR completely",
+  "pt": "Remover a GTAVXR completamente"
+ },
+ {
+  "id": "set.remove.hint",
+  "en": "Removes the Suite and this user's VR data.",
+  "pt": "Remove a Suite e os dados de VR deste usuário."
+ },
+ {
+  "id": "set.steam.menu",
+  "en": "SteamVR menu key",
+  "pt": "Tecla do menu do SteamVR"
+ },
+ {
+  "id": "set.steam.menu.off",
+  "en": "Off",
+  "pt": "Desativada"
+ },
+ {
+  "id": "set.remove.warn",
+  "en": "The launcher, its shortcuts, VR profiles and saves, imported mods, and settings will be deleted. Regular GTA saves are kept.",
+  "pt": "O launcher, os atalhos, os perfis e saves de VR, os mods importados e as configurações serão excluídos. Os saves do GTA normal são mantidos."
+ },
+ {
+  "id": "compat.title",
+  "en": "Optional components",
+  "pt": "Componentes opcionais"
+ },
+ {
+  "id": "compat.once",
+  "en": "You can continue this session without the affected components. Your saved selection is preserved.",
+  "pt": "Você pode continuar esta sessão sem os componentes afetados. Sua seleção salva é preservada."
+ },
+ {
+  "id": "compat.continue",
+  "en": "Continue this time",
+  "pt": "Continuar desta vez"
+ },
+ {
+  "id": "compat.native",
+  "en": "Mode for this attempt: VR without DLSS or Neural.",
+  "pt": "Modo desta tentativa: VR sem DLSS nem Neural."
+ },
+ {
+  "id": "compat.sr",
+  "en": "Mode for this attempt: DLSS Super Resolution without Neural.",
+  "pt": "Modo desta tentativa: DLSS Super Resolution sem Neural."
+ },
+ {
+  "id": "compat.local_path",
+  "en": "Choose a short, available local path for the Suite library.",
+  "pt": "Escolha um caminho local curto e disponível para a biblioteca da Suite."
+ },
+ {
+  "id": "dist.ready",
+  "en": "Installation ready",
+  "pt": "Instalação pronta"
+ },
+ {
+  "id": "dist.required",
+  "en": "Install this version of GTAVXR before playing.",
+  "pt": "Instale esta versão da GTAVXR antes de jogar."
+ },
+ {
+  "id": "dist.runtime",
+  "en": "A GTAVXR component changed. Select Install GTAVXR to repair it.",
+  "pt": "Um componente da GTAVXR mudou. Selecione Instalar GTAVXR para repará-lo."
+ },
+ {
+  "id": "dist.base",
+  "en": "The GTA Legacy files changed or do not match the patch base.",
+  "pt": "Os arquivos do GTA Legacy mudaram ou não correspondem à base do patch."
+ },
+ {
+  "id": "gfx.dlss.check",
+  "en": "Checking DLSS models…",
+  "pt": "Verificando modelos DLSS…"
+ },
+ {
+  "id": "set.repair.ok",
+  "en": "All GTAVXR files are fine.",
+  "pt": "Todos os arquivos da GTAVXR estão em ordem."
+ },
+ {
+  "id": "set.repair.bad",
+  "en": "{0} GTAVXR files were damaged and are now repaired.",
+  "pt": "{0} arquivos da GTAVXR estavam danificados e agora foram reparados."
+ },
+ {
+  "id": "set.uninstall.q",
+  "en": "Remove GTAVXR from the game folder? Your profiles, saves and mod library stay in the Suite.",
+  "pt": "Remover a GTAVXR da pasta do jogo? Seus perfis, saves e a biblioteca de mods continuam na Suite."
+ },
+ {
+  "id": "set.uninstalled",
+  "en": "GTAVXR removed from the game. GTA is as it was.",
+  "pt": "GTAVXR removida do jogo. O GTA está como era antes."
+ },
+ {
+  "id": "set.dev",
+  "en": "Developer mode",
+  "pt": "Modo desenvolvedor"
+ },
+ {
+  "id": "set.dev.hint",
+  "en": "Test versions and which agent is using the game",
+  "pt": "Versões de teste e qual agente está usando o jogo"
+ },
+ {
+  "id": "set.app",
+  "en": "This app",
+  "pt": "Este app"
+ },
+ {
+  "id": "set.app.install",
+  "en": "Install on this PC",
+  "pt": "Instalar neste PC"
+ },
+ {
+  "id": "set.app.install.hint",
+  "en": "Shortcuts in Start and on the Desktop",
+  "pt": "Atalhos no Iniciar e na Área de Trabalho"
+ },
+ {
+  "id": "set.app.installed",
+  "en": "Installed on this PC",
+  "pt": "Instalado neste PC"
+ },
+ {
+  "id": "set.app.done",
+  "en": "GTAVXR installed: find it in Start or on the Desktop.",
+  "pt": "GTAVXR instalada: ache-a no Iniciar ou na Área de Trabalho."
+ },
+ {
+  "id": "set.update",
+  "en": "Update",
+  "pt": "Atualização"
+ },
+ {
+  "id": "set.update.none",
+  "en": "You have the latest version",
+  "pt": "Você está com a versão mais recente"
+ },
+ {
+  "id": "set.update.avail",
+  "en": "A new version is available: {0}",
+  "pt": "Há uma nova versão disponível: {0}"
+ },
+ {
+  "id": "set.update.go",
+  "en": "Update and restart",
+  "pt": "Atualizar e reiniciar"
+ },
+ {
+  "id": "dev.newversion",
+  "en": "New test version: {0}. Choose it in a profile.",
+  "pt": "Nova versão de teste: {0}. Escolha-a em um perfil."
+ },
+ {
+  "id": "dev.refreshed",
+  "en": "Version completed with its package data (graphics, mode and files): {0}.",
+  "pt": "Versão completada com os dados do pacote (gráficos, modo e arquivos): {0}."
+ },
+ {
+  "id": "set.about",
+  "en": "About",
+  "pt": "Sobre"
+ },
+ {
+  "id": "dev.title",
+  "en": "Developer mode",
+  "pt": "Modo desenvolvedor"
+ },
+ {
+  "id": "dev.free",
+  "en": "The game is free",
+  "pt": "O jogo está livre"
+ },
+ {
+  "id": "dev.busy",
+  "en": "{0} is using the game: {1}",
+  "pt": "{0} está usando o jogo: {1}"
+ },
+ {
+  "id": "dev.import",
+  "en": "Project versions",
+  "pt": "Versões do projeto"
+ },
+ {
+  "id": "dev.import.hint",
+  "en": "New project versions show here. Add them to choose them in a profile.",
+  "pt": "As novas versões do projeto aparecem aqui. Adicione-as para escolhê-las em um perfil."
+ },
+ {
+  "id": "dev.add",
+  "en": "Add",
+  "pt": "Adicionar"
+ },
+ {
+  "id": "dev.none",
+  "en": "No new versions.",
+  "pt": "Nenhuma versão nova."
+ },
+ {
+  "id": "dev.added",
+  "en": "Version added: {0}",
+  "pt": "Versão adicionada: {0}"
+ },
+ {
+  "id": "fr.title",
+  "en": "Welcome to the terminal",
+  "pt": "Bem-vindo ao terminal"
+ },
+ {
+  "id": "fr.body",
+  "en": "GTAVXR finds what it needs on its own and only asks for what it cannot find.",
+  "pt": "A GTAVXR encontra sozinha o que precisa e só pergunta pelo que não consegue achar."
+ },
+ {
+  "id": "fr.game",
+  "en": "Game",
+  "pt": "Jogo"
+ },
+ {
+  "id": "fr.headset",
+  "en": "Headset",
+  "pt": "Óculos"
+ },
+ {
+  "id": "fr.space",
+  "en": "Free space",
+  "pt": "Espaço livre"
+ },
+ {
+  "id": "fr.profiles",
+  "en": "Your profiles",
+  "pt": "Seus perfis"
+ },
+ {
+  "id": "fr.game.ok",
+  "en": "Grand Theft Auto V Legacy 3889 · {0}",
+  "pt": "Grand Theft Auto V Legacy 3889 · {0}"
+ },
+ {
+  "id": "fr.game.no",
+  "en": "Not found. Choose the GTA V folder.",
+  "pt": "Não encontrado. Escolha a pasta do GTA V."
+ },
+ {
+  "id": "fr.headset.ok",
+  "en": "{0} with OpenXR",
+  "pt": "{0} com OpenXR"
+ },
+ {
+  "id": "fr.headset.no",
+  "en": "No OpenXR runtime found. Install Virtual Desktop, SteamVR or Meta Quest Link.",
+  "pt": "Nenhum runtime OpenXR encontrado. Instale o Virtual Desktop, o SteamVR ou o Meta Quest Link."
+ },
+ {
+  "id": "fr.space.ok",
+  "en": "{0:0.00} GiB free on {1}",
+  "pt": "{0:0.00} GiB livres em {1}"
+ },
+ {
+  "id": "fr.space.unknown",
+  "en": "Could not read the space on {0}",
+  "pt": "Não foi possível ler o espaço em {0}"
+ },
+ {
+  "id": "fr.profiles.dev",
+  "en": "I bring your current VR profile and the 155 test save (as a test profile).",
+  "pt": "Eu trago seu perfil de VR atual e o save de teste 155 (como um perfil de teste)."
+ },
+ {
+  "id": "fr.profiles.plain",
+  "en": "I will create your first profile with a copy of your normal GTA saves.",
+  "pt": "Vou criar seu primeiro perfil com uma cópia dos seus saves do GTA normal."
+ },
+ {
+  "id": "fr.go",
+  "en": "Continue",
+  "pt": "Continuar"
+ },
+ {
+  "id": "fr.choose",
+  "en": "Choose folder",
+  "pt": "Escolher pasta"
+ },
+ {
+  "id": "fr.working",
+  "en": "Preparing the terminal…",
+  "pt": "Preparando o terminal…"
+ },
+ {
+  "id": "fr.done",
+  "en": "All set",
+  "pt": "Tudo pronto"
+ },
+ {
+  "id": "empty.title",
+  "en": "No profiles yet",
+  "pt": "Nenhum perfil ainda"
+ },
+ {
+  "id": "empty.body",
+  "en": "Create one to choose version, mods and save.",
+  "pt": "Crie um para escolher versão, mods e save."
+ },
+ {
+  "id": "tape.flight",
+  "en": "TEST FLIGHT",
+  "pt": "VOO DE TESTE"
+ },
+ {
+  "id": "new.name.test",
+  "en": "Test",
+  "pt": "Teste"
+ },
+ {
+  "id": "new.test",
+  "en": "Test profile",
+  "pt": "Perfil de teste"
+ },
+ {
+  "id": "new.test.hint",
+  "en": "Every time you play, everything goes back to how it was when the game closes, even if it crashes or does not load. Its saves are a copy.",
+  "pt": "Toda vez que você joga, tudo volta ao que era quando o jogo fecha, mesmo se ele travar ou não abrir. Os saves dele são uma cópia."
+ },
+ {
+  "id": "stub.test",
+  "en": "TEST",
+  "pt": "TESTE"
+ },
+ {
+  "id": "stub.flight",
+  "en": "Test flight: when it closes, the game goes back to how it was",
+  "pt": "Voo de teste: quando fechar, o jogo volta ao que era"
+ },
+ {
+  "id": "run.revert",
+  "en": "Putting the game back as it was before the test",
+  "pt": "Colocando o jogo de volta como estava antes do teste"
+ },
+ {
+  "id": "run.playing.test",
+  "en": "Put on the headset. When GTA closes, even if it crashes, everything goes back.",
+  "pt": "Coloque os óculos. Quando o GTA fechar, mesmo se travar, tudo volta ao normal."
+ },
+ {
+  "id": "abort.test",
+  "en": "Abort and restore",
+  "pt": "Abortar e restaurar"
+ },
+ {
+  "id": "abort.normal",
+  "en": "Force GTA to close",
+  "pt": "Forçar o GTA a fechar"
+ },
+ {
+  "id": "abort.q.test",
+  "en": "GTA closes (anything unsaved is lost) and everything goes back.",
+  "pt": "O GTA fecha (o que não foi salvo se perde) e tudo volta ao normal."
+ },
+ {
+  "id": "abort.q",
+  "en": "GTA closes (anything unsaved is lost). Your progress returns to the profile.",
+  "pt": "O GTA fecha (o que não foi salvo se perde). Seu progresso volta para o perfil."
+ },
+ {
+  "id": "close.game",
+  "en": "Close GTA",
+  "pt": "Fechar o GTA"
+ },
+ {
+  "id": "close.doing",
+  "en": "Closing GTA and saving…",
+  "pt": "Fechando o GTA e salvando…"
+ },
+ {
+  "id": "close.failed",
+  "en": "GTA did not accept closing. If it stays stuck, use the red button.",
+  "pt": "O GTA não aceitou fechar. Se ele continuar travado, use o botão vermelho."
+ },
+ {
+  "id": "abort.yes",
+  "en": "Close GTA",
+  "pt": "Fechar o GTA"
+ },
+ {
+  "id": "abort.doing",
+  "en": "Closing GTA…",
+  "pt": "Fechando o GTA…"
+ },
+ {
+  "id": "mods.untested",
+  "en": "Not passed from a test profile",
+  "pt": "Não passou de um perfil de teste"
+ },
+ {
+  "id": "mods.try",
+  "en": "Try it",
+  "pt": "Testar"
+ },
+ {
+  "id": "mods.hint.test",
+  "en": "Test profile: turn on whatever you want to try. When the game closes everything goes back.",
+  "pt": "Perfil de teste: ative o que quiser experimentar. Quando o jogo fechar, tudo volta ao normal."
+ },
+ {
+  "id": "ver.hint.test",
+  "en": "Test profile: when it closes, the game goes back to the version it had.",
+  "pt": "Perfil de teste: quando fechar, o jogo volta à versão que tinha."
+ },
+ {
+  "id": "mods.personalize",
+  "en": "Customize",
+  "pt": "Personalizar"
+ },
+ {
+  "id": "mods.back",
+  "en": "Back to Mods",
+  "pt": "Voltar para Mods"
+ },
+ {
+  "id": "mods.changed1",
+  "en": "1 change",
+  "pt": "1 alteração"
+ },
+ {
+  "id": "mods.changedn",
+  "en": "{0} changes",
+  "pt": "{0} alterações"
+ },
+ {
+  "id": "mods.requires",
+  "en": "Needs {0}",
+  "pt": "Precisa de {0}"
+ },
+ {
+  "id": "mods.notused",
+  "en": "Not used: needs {0}",
+  "pt": "Não usado: precisa de {0}"
+ },
+ {
+  "id": "mods.why.ASI_VERSION",
+  "en": "This .asi mod requires a GTAVXR release with ScriptHookV plugin support.",
+  "pt": "Este mod .asi exige uma versão da GTAVXR com suporte a plugins do ScriptHookV."
+ },
+ {
+  "id": "mods.why.ASI_WITHOUT_SCRIPTHOOKV",
+  "en": "It is an .asi plugin for the store GTA that does not use ScriptHookV: GTAVXR's EXE cannot run it.",
+  "pt": "É um plugin .asi para o GTA da loja que não usa o ScriptHookV: o EXE da GTAVXR não consegue executá-lo."
+ },
+ {
+  "id": "mods.shv.byname",
+  "en": "This mod names ScriptHookV inside a longer text (a message or a path) that the Suite does not change: if it uses it to look ScriptHookV.dll up, some feature may not work.",
+  "pt": "Este mod cita o ScriptHookV dentro de um texto mais longo (uma mensagem ou um caminho) que a Suite não altera: se ele usa isso para procurar o ScriptHookV.dll, algum recurso pode não funcionar."
+ },
+ {
+  "id": "conf.title",
+  "en": "MODS THAT TOUCH THE SAME FILES",
+  "pt": "MODS QUE MEXEM NOS MESMOS ARQUIVOS"
+ },
+ {
+  "id": "conf.title.blocks",
+  "en": "CONFLICTS: THIS PROFILE CANNOT PLAY LIKE THIS",
+  "pt": "CONFLITOS: ESTE PERFIL NÃO PODE JOGAR ASSIM"
+ },
+ {
+  "id": "conf.and",
+  "en": " and ",
+  "pt": " e "
+ },
+ {
+  "id": "conf.blocks1",
+  "en": "{0} bring the same file ({1}): turn one of them off.",
+  "pt": "{0} trazem o mesmo arquivo ({1}): desative um deles."
+ },
+ {
+  "id": "conf.blocksn",
+  "en": "{0} bring {1} identical file names: turn one of them off.",
+  "pt": "{0} trazem {1} nomes de arquivo idênticos: desative um deles."
+ },
+ {
+  "id": "conf.asi.gtavxr",
+  "en": "{0} brings a file that belongs to GTAVXR ({1}): it cannot be used with this version.",
+  "pt": "{0} traz um arquivo que pertence à GTAVXR ({1}): não pode ser usado com esta versão."
+ },
+ {
+  "id": "conf.wins1",
+  "en": "{0} each replace {1} as a whole: the game uses the one from {2}.",
+  "pt": "{0} substituem {1} por inteiro: o jogo usa o de {2}."
+ },
+ {
+  "id": "conf.winsn",
+  "en": "{0} each replace {1} whole files: the game uses the ones from {2}.",
+  "pt": "{0} substituem {1} arquivos inteiros: o jogo usa os de {2}."
+ },
+ {
+  "id": "conf.merged1",
+  "en": "{0} change {1}: the Suite merges everyone's changes.",
+  "pt": "{0} alteram {1}: a Suite combina as alterações de todos."
+ },
+ {
+  "id": "conf.mergedn",
+  "en": "{0} change {1} data files: the Suite merges everyone's changes.",
+  "pt": "{0} alteram {1} arquivos de dados: a Suite combina as alterações de todos."
+ },
+ {
+  "id": "conf.error",
+  "en": "Could not check which mods touch the same files: {0}",
+  "pt": "Não foi possível verificar quais mods mexem nos mesmos arquivos: {0}"
+ },
+ {
+  "id": "conf.files",
+  "en": "Show the files",
+  "pt": "Mostrar os arquivos"
+ },
+ {
+  "id": "conf.more",
+  "en": "and {0} more",
+  "pt": "e mais {0}"
+ },
+ {
+  "id": "mods.why.SHVDN_V3_VERSION",
+  "en": "This mod requires a GTAVXR release with ScriptHookVDotNet 3 support.",
+  "pt": "Este mod exige uma versão da GTAVXR com suporte ao ScriptHookVDotNet 3."
+ },
+ {
+  "id": "mods.why.SHVDN_V3_PENDING",
+  "en": "It uses ScriptHookVDotNet 3: GTAVXR's script host only loads ScriptHookVDotNet 2 mods for now.",
+  "pt": "Usa o ScriptHookVDotNet 3: o host de scripts da GTAVXR por enquanto só carrega mods do ScriptHookVDotNet 2."
+ },
+ {
+  "id": "mods.why.SHVDN_V1_PENDING",
+  "en": "It uses the first ScriptHookVDotNet: GTAVXR's script host does not load it yet.",
+  "pt": "Usa o primeiro ScriptHookVDotNet: o host de scripts da GTAVXR ainda não o carrega."
+ },
+ {
+  "id": "mods.why.SHVDN_SOURCE_PENDING",
+  "en": "It ships source scripts (.cs / .vb): GTAVXR's script host does not compile them yet.",
+  "pt": "Traz scripts-fonte (.cs / .vb): o host de scripts da GTAVXR ainda não os compila."
+ },
+ {
+  "id": "mods.why.NO_SHVDN_SCRIPT",
+  "en": "Its scripts folder has no ScriptHookVDotNet mod.",
+  "pt": "A pasta de scripts dele não tem nenhum mod do ScriptHookVDotNet."
+ },
+ {
+  "id": "mods.why.LEGACY_FILES_MISSING",
+  "en": "Its game files are for GTA V Enhanced only.",
+  "pt": "Os arquivos de jogo dele são só para o GTA V Enhanced."
+ },
+ {
+  "id": "mods.vrcost",
+  "en": "Costs FPS in VR",
+  "pt": "Custa FPS em VR"
+ },
+ {
+  "id": "mods.reset",
+  "en": "Back to the mod's defaults",
+  "pt": "Voltar ao padrão do mod"
+ },
+ {
+  "id": "mods.personalize.hint",
+  "en": "Changes apply the next time you press Play: the Suite prepares the mods on top of your GTA and does not touch your original files.",
+  "pt": "As alterações valem na próxima vez que você apertar Jogar: a Suite prepara os mods sobre o seu GTA e não toca nos arquivos originais."
+ },
+ {
+  "id": "world.title",
+  "en": "World: how this profile starts",
+  "pt": "Mundo: como este perfil começa"
+ },
+ {
+  "id": "world.hint",
+  "en": "Fewer peds or traffic gain FPS. In the game you change it in the VR menu > Mods and it is saved in the profile.",
+  "pt": "Menos pedestres ou trânsito dão mais FPS. No jogo você muda isso no menu de VR > Mods, e fica salvo no perfil."
+ },
+ {
+  "id": "world.peds",
+  "en": "Pedestrians",
+  "pt": "Pedestres"
+ },
+ {
+  "id": "world.traffic",
+  "en": "Traffic and parked cars",
+  "pt": "Trânsito e carros estacionados"
+ },
+ {
+  "id": "world.mpmaps",
+  "en": "Online maps in Story",
+  "pt": "Mapas do Online no modo história"
+ },
+ {
+  "id": "world.mpmaps.hint",
+  "en": "Aircraft carrier, submarine and Online buildings World of Variety uses. Off: normal map.",
+  "pt": "Porta-aviões, submarino e prédios do Online que o World of Variety usa. Desligado: mapa normal."
+ },
+ {
+  "id": "world.mpmaps.needed",
+  "en": "{0} needs it: it turns on when you play.",
+  "pt": "{0} precisa disso: é ligado quando você joga."
+ },
+ {
+  "id": "run.content",
+  "en": "Preparing the mods on top of your GTA",
+  "pt": "Preparando os mods sobre o seu GTA"
+ },
+ {
+  "id": "modsv.options",
+  "en": "Official option of {0}",
+  "pt": "Opção oficial de {0}"
+ },
+ {
+  "id": "modsv.tested",
+  "en": "Passed from a test profile",
+  "pt": "Passou de um perfil de teste"
+ },
+ {
+  "id": "modsv.untested",
+  "en": "Not passed from a test profile",
+  "pt": "Não passou de um perfil de teste"
+ },
+ {
+  "id": "try.name",
+  "en": "Test {0}",
+  "pt": "Testar {0}"
+ },
+ {
+  "id": "try.title",
+  "en": "Try “{0}”",
+  "pt": "Testar “{0}”"
+ },
+ {
+  "id": "try.ready",
+  "en": "Ready: press TEST on “{0}” for the test flight.",
+  "pt": "Pronto: aperte TESTE em “{0}” para o voo de teste."
+ },
+ {
+  "id": "try.none",
+  "en": "No version in your library can load this mod yet.",
+  "pt": "Nenhuma versão da sua biblioteca consegue carregar este mod ainda."
+ },
+ {
+  "id": "try.notest",
+  "en": "You have no test profiles yet.",
+  "pt": "Você ainda não tem perfis de teste."
+ },
+ {
+  "id": "try.new",
+  "en": "New test profile",
+  "pt": "Novo perfil de teste"
+ },
+ {
+  "id": "try.body",
+  "en": "It is turned on only in a test profile. When the game closes, even if it crashes or does not load, everything goes back. Your normal profiles do not change.",
+  "pt": "Ele é ativado só em um perfil de teste. Quando o jogo fechar, mesmo se travar ou não abrir, tudo volta ao normal. Seus perfis normais não mudam."
+ },
+ {
+  "id": "try.pick",
+  "en": "Your test profiles",
+  "pt": "Seus perfis de teste"
+ },
+ {
+  "id": "pr.title",
+  "en": "Pass to my profile",
+  "pt": "Passar para o meu perfil"
+ },
+ {
+  "id": "pr.none",
+  "en": "You have no normal profiles. Create one first.",
+  "pt": "Você não tem perfis normais. Crie um primeiro."
+ },
+ {
+  "id": "pr.body",
+  "en": "Choose which profile will use {0}. Its saves do not change.",
+  "pt": "Escolha qual perfil vai usar {0}. Os saves dele não mudam."
+ },
+ {
+  "id": "pr.q",
+  "en": "“{0}” will use {1}. Its saves and VR settings do not change.",
+  "pt": "“{0}” vai usar {1}. Os saves e as configurações de VR dele não mudam."
+ },
+ {
+  "id": "pr.go",
+  "en": "Pass",
+  "pt": "Passar"
+ },
+ {
+  "id": "pr.done",
+  "en": "“{0}” updated.",
+  "pt": "“{0}” atualizado."
+ },
+ {
+  "id": "fl.nothing",
+  "en": "GTA without GTAVXR",
+  "pt": "GTA sem GTAVXR"
+ },
+ {
+  "id": "fl.game",
+  "en": "The game is back to {0}",
+  "pt": "O jogo voltou para {0}"
+ },
+ {
+  "id": "fl.normal",
+  "en": "Your normal GTA is as it was",
+  "pt": "Seu GTA normal está como era"
+ },
+ {
+  "id": "fl.save",
+  "en": "Test progress saved in “{0}”: {1}",
+  "pt": "Progresso do teste salvo em “{0}”: {1}"
+ },
+ {
+  "id": "fl.save.none",
+  "en": "“{0}” still has no saves",
+  "pt": "“{0}” ainda não tem saves"
+ },
+ {
+  "id": "fl.quar",
+  "en": "{0} new or changed files in the game folder were moved aside (quarantine). They can be recovered.",
+  "pt": "{0} arquivos novos ou alterados na pasta do jogo foram postos de lado (quarentena). Eles podem ser recuperados."
+ },
+ {
+  "id": "fl.changed",
+  "en": "{0} game files that are not GTAVXR's changed. If your normal GTA fails, verify the files in Steam.",
+  "pt": "{0} arquivos do jogo que não são da GTAVXR mudaram. Se o seu GTA normal falhar, verifique os arquivos na Steam."
+ },
+ {
+  "id": "fl.missing",
+  "en": "{0} game files that are not GTAVXR's are missing (the Suite keeps no copy of the game). Verify the files in Steam before playing again.",
+  "pt": "{0} arquivos do jogo que não são da GTAVXR estão faltando (a Suite não guarda cópia do jogo). Verifique os arquivos na Steam antes de jogar de novo."
+ },
+ {
+  "id": "fl.exithang",
+  "en": "GTA got stuck while closing (saves were already done). The Suite closed it and kept where it was stuck.",
+  "pt": "O GTA travou ao fechar (os saves já estavam feitos). A Suite o fechou e guardou onde ele travou."
+ },
+ {
+  "id": "fl.retail",
+  "en": "GTA's base files changed. Verify the game files in Steam before playing again.",
+  "pt": "Os arquivos base do GTA mudaram. Verifique os arquivos do jogo na Steam antes de jogar de novo."
+ },
+ {
+  "id": "fl.done",
+  "en": "TEST FLIGHT LANDED",
+  "pt": "VOO DE TESTE POUSOU"
+ },
+ {
+  "id": "fl.aborted",
+  "en": "TEST FLIGHT ABORTED",
+  "pt": "VOO DE TESTE ABORTADO"
+ },
+ {
+  "id": "fl.cancelled",
+  "en": "THE TEST DID NOT TAKE OFF",
+  "pt": "O TESTE NÃO DECOLOU"
+ },
+ {
+  "id": "fl.undo",
+  "en": "Undo this test's progress",
+  "pt": "Desfazer o progresso deste teste"
+ },
+ {
+  "id": "fl.undo.q",
+  "en": "“{0}” goes back to the saves and VR settings from before this test. The current ones stay in its history.",
+  "pt": "“{0}” volta aos saves e às configurações de VR de antes deste teste. Os atuais ficam no histórico dele."
+ },
+ {
+  "id": "fl.undone",
+  "en": "Progress from before the test is back.",
+  "pt": "O progresso de antes do teste voltou."
+ },
+ {
+  "id": "fl.promote",
+  "en": "Pass to my profile…",
+  "pt": "Passar para o meu perfil…"
+ },
+ {
+  "id": "fl.ok",
+  "en": "Done",
+  "pt": "Pronto"
+ },
+ {
+  "id": "fl.back",
+  "en": "The game is back as it was before the test.",
+  "pt": "O jogo voltou como estava antes do teste."
+ },
+ {
+  "id": "start.none",
+  "en": "No starting point.",
+  "pt": "Sem ponto de partida."
+ },
+ {
+  "id": "start.when",
+  "en": "Starting point saved {0}.",
+  "pt": "Ponto de partida salvo {0}."
+ },
+ {
+  "id": "start.back",
+  "en": "Back to the starting point",
+  "pt": "Voltar ao ponto de partida"
+ },
+ {
+  "id": "start.back.q",
+  "en": "“{0}” goes back to the saves and VR settings of its starting point. The current ones stay in its history.",
+  "pt": "“{0}” volta aos saves e às configurações de VR do ponto de partida dele. Os atuais ficam no histórico dele."
+ },
+ {
+  "id": "start.back.done",
+  "en": "Back at the starting point.",
+  "pt": "De volta ao ponto de partida."
+ },
+ {
+  "id": "start.set",
+  "en": "Set the starting point here",
+  "pt": "Definir o ponto de partida aqui"
+ },
+ {
+  "id": "start.set.q",
+  "en": "The starting point becomes the current saves and VR settings.",
+  "pt": "O ponto de partida passa a ser os saves e as configurações de VR atuais."
+ },
+ {
+  "id": "set.xr.title",
+  "en": "OpenXR runtime",
+  "pt": "Runtime OpenXR"
+ },
+ {
+  "id": "set.xr.hint",
+  "en": "Automatic uses the Windows active runtime every time you press Play. You can also pin one of the installed ones or choose its .json file.",
+  "pt": "Automático usa o runtime ativo do Windows toda vez que você aperta Jogar. Você também pode fixar um dos instalados ou escolher o arquivo .json dele."
+ },
+ {
+  "id": "set.xr.auto",
+  "en": "Automatic: {0}",
+  "pt": "Automático: {0}"
+ },
+ {
+  "id": "set.xr.auto.none",
+  "en": "Automatic: Windows has no active runtime",
+  "pt": "Automático: o Windows não tem runtime ativo"
+ },
+ {
+  "id": "set.xr.chosen",
+  "en": "Pinned: {0}",
+  "pt": "Fixado: {0}"
+ },
+ {
+  "id": "set.xr.chosen.bad",
+  "en": "The pinned runtime no longer works: {0}",
+  "pt": "O runtime fixado não funciona mais: {0}"
+ },
+ {
+  "id": "set.xr.broken",
+  "en": "not valid",
+  "pt": "inválido"
+ },
+ {
+  "id": "set.xr.file",
+  "en": "Choose file…",
+  "pt": "Escolher arquivo…"
+ },
+ {
+  "id": "set.auto",
+  "en": "Automatic",
+  "pt": "Automático"
+ },
+ {
+  "id": "set.choose.folder",
+  "en": "Choose folder",
+  "pt": "Escolher pasta"
+ },
+ {
+  "id": "set.choose.file",
+  "en": "Choose file",
+  "pt": "Escolher arquivo"
+ },
+ {
+  "id": "set.dlss",
+  "en": "DLSS (your NVIDIA files)",
+  "pt": "DLSS (seus arquivos NVIDIA)"
+ },
+ {
+  "id": "set.dlss.none",
+  "en": "Not found. Put nvngx_dlss.dll (and nvngx_dlssnr.dll for neural mode) in the Suite dlss folder or choose its folder.",
+  "pt": "Não encontrado. Coloque nvngx_dlss.dll (e nvngx_dlssnr.dll para o modo neural) na pasta dlss da Suite ou escolha a pasta deles."
+ },
+ {
+  "id": "set.dlss.bad",
+  "en": "The folder has an nvngx_dlss.dll that is not DLSS: {0}",
+  "pt": "A pasta tem um nvngx_dlss.dll que não é DLSS: {0}"
+ },
+ {
+  "id": "set.dlss.chosen",
+  "en": "Your folder: {0}",
+  "pt": "Sua pasta: {0}"
+ },
+ {
+  "id": "set.dlss.suite",
+  "en": "Suite dlss folder: {0}",
+  "pt": "Pasta dlss da Suite: {0}"
+ },
+ {
+  "id": "set.dlss.found",
+  "en": "Found in: {0}",
+  "pt": "Encontrado em: {0}"
+ },
+ {
+  "id": "set.dlss.models.sr",
+  "en": "Super Resolution {0} · no neural model",
+  "pt": "Super Resolution {0} · sem modelo neural"
+ },
+ {
+  "id": "set.dlss.models.nr",
+  "en": "Super Resolution {0} · neural {1}",
+  "pt": "Super Resolution {0} · neural {1}"
+ },
+ {
+  "id": "set.dlss.invalid",
+  "en": "That folder has no NVIDIA nvngx_dlss.dll GTAVXR can use.",
+  "pt": "Essa pasta não tem um nvngx_dlss.dll da NVIDIA que a GTAVXR possa usar."
+ },
+ {
+  "id": "set.dlss.open",
+  "en": "Open dlss folder",
+  "pt": "Abrir pasta dlss"
+ },
+ {
+  "id": "set.ofxr",
+  "en": "OFXR (optional)",
+  "pt": "OFXR (opcional)"
+ },
+ {
+  "id": "set.ofxr.none",
+  "en": "Not installed. GTAVXR works without OFXR.",
+  "pt": "Não instalado. A GTAVXR funciona sem o OFXR."
+ },
+ {
+  "id": "set.ofxr.tray",
+  "en": "Tray: {0}",
+  "pt": "Bandeja: {0}"
+ },
+ {
+  "id": "set.ofxr.notray",
+  "en": "Installed. Choose OFXRBridgeTray.exe to open it from the Suite.",
+  "pt": "Instalado. Escolha o OFXRBridgeTray.exe para abri-lo pela Suite."
+ },
+ {
+  "id": "gfx.title",
+  "en": "Graphics",
+  "pt": "Gráficos"
+ },
+ {
+  "id": "gfx.hint",
+  "en": "Applied when GTA opens. In the game, the VR menu > Graphics changes neural and its intensity live and saves it to the profile.",
+  "pt": "Aplicado quando o GTA abre. No jogo, o menu de VR > Gráficos muda o neural e a intensidade dele ao vivo e salva no perfil."
+ },
+ {
+  "id": "gfx.preset.native",
+  "en": "Native",
+  "pt": "Nativo"
+ },
+ {
+  "id": "gfx.preset.performance",
+  "en": "Performance (SR)",
+  "pt": "Desempenho (SR)"
+ },
+ {
+  "id": "gfx.preset.neural",
+  "en": "Neural (SR+NR)",
+  "pt": "Neural (SR+NR)"
+ },
+ {
+  "id": "gfx.preset.custom",
+  "en": "Custom",
+  "pt": "Personalizado"
+ },
+ {
+  "id": "gfx.preset.native.hint",
+  "en": "No DLSS: each eye is drawn at full resolution, as before.",
+  "pt": "Sem DLSS: cada olho é desenhado em resolução total, como antes."
+ },
+ {
+  "id": "gfx.preset.performance.hint",
+  "en": "DLSS Super Resolution: each eye is drawn at a lower resolution and DLSS rebuilds it. More FPS.",
+  "pt": "DLSS Super Resolution: cada olho é desenhado em resolução menor e o DLSS a reconstrói. Mais FPS."
+ },
+ {
+  "id": "gfx.preset.neural.hint",
+  "en": "Super Resolution plus DLSS neural rendering (needs nvngx_dlssnr.dll).",
+  "pt": "Super Resolution mais renderização neural do DLSS (precisa do nvngx_dlssnr.dll)."
+ },
+ {
+  "id": "gfx.preset.custom.hint",
+  "en": "Each part on its own.",
+  "pt": "Cada parte por conta própria."
+ },
+ {
+  "id": "gfx.level",
+  "en": "Super Resolution level",
+  "pt": "Nível do Super Resolution"
+ },
+ {
+  "id": "gfx.level.off",
+  "en": "Off",
+  "pt": "Desligado"
+ },
+ {
+  "id": "gfx.level.quality",
+  "en": "Quality",
+  "pt": "Qualidade"
+ },
+ {
+  "id": "gfx.level.balanced",
+  "en": "Balanced",
+  "pt": "Equilibrado"
+ },
+ {
+  "id": "gfx.level.performance",
+  "en": "Performance",
+  "pt": "Desempenho"
+ },
+ {
+  "id": "gfx.level.ultra",
+  "en": "Ultra performance",
+  "pt": "Desempenho máximo"
+ },
+ {
+  "id": "gfx.neural",
+  "en": "Neural rendering (NR)",
+  "pt": "Renderização neural (NR)"
+ },
+ {
+  "id": "gfx.neural.hint",
+  "en": "DLSS neural pass on each eye before Super Resolution.",
+  "pt": "Passagem neural do DLSS em cada olho antes do Super Resolution."
+ },
+ {
+  "id": "gfx.intensity",
+  "en": "Neural intensity",
+  "pt": "Intensidade neural"
+ },
+ {
+  "id": "gfx.dlss.none",
+  "en": "No DLSS files: it will play Native. Choose their folder in Settings.",
+  "pt": "Sem arquivos DLSS: vai jogar em Nativo. Escolha a pasta deles em Ajustes."
+ },
+ {
+  "id": "gfx.dlss.bad",
+  "en": "The DLSS in {0} is not usable: it will play Native.",
+  "pt": "O DLSS em {0} não é utilizável: vai jogar em Nativo."
+ },
+ {
+  "id": "gfx.dlss.nonr",
+  "en": "nvngx_dlssnr.dll is missing: neural stays off and Super Resolution works.",
+  "pt": "Falta o nvngx_dlssnr.dll: o neural fica desligado e o Super Resolution funciona."
+ },
+ {
+  "id": "gfx.ofxr",
+  "en": "OFXR",
+  "pt": "OFXR"
+ },
+ {
+  "id": "gfx.ofxr.none",
+  "en": "OFXR is not installed (optional).",
+  "pt": "O OFXR não está instalado (opcional)."
+ },
+ {
+  "id": "gfx.ofxr.status",
+  "en": "Status: {0}",
+  "pt": "Status: {0}"
+ },
+ {
+  "id": "ofxr.generating",
+  "en": "generating frames",
+  "pt": "gerando quadros"
+ },
+ {
+  "id": "ofxr.armed",
+  "en": "armed",
+  "pt": "armado"
+ },
+ {
+  "id": "ofxr.paused",
+  "en": "paused",
+  "pt": "pausado"
+ },
+ {
+  "id": "ofxr.loaded",
+  "en": "loaded in GTAVXR",
+  "pt": "carregado na GTAVXR"
+ },
+ {
+  "id": "ofxr.no-data",
+  "en": "installed; no GTAVXR data right now",
+  "pt": "instalado; sem dados da GTAVXR agora"
+ },
+ {
+  "id": "gfx.ofxr.open",
+  "en": "Open OFXR",
+  "pt": "Abrir OFXR"
+ },
+ {
+  "id": "gfx.ofxr.recommend",
+  "en": "Create recommended profile",
+  "pt": "Criar perfil recomendado"
+ },
+ {
+  "id": "gfx.ofxr.done",
+  "en": "OFXR profile adjusted (copy kept beside it).",
+  "pt": "Perfil do OFXR ajustado (cópia mantida ao lado)."
+ },
+ {
+  "id": "gfx.ofxr.notray",
+  "en": "To open OFXR from here, open it once or choose OFXRBridgeTray.exe in Settings.",
+  "pt": "Para abrir o OFXR daqui, abra-o uma vez ou escolha o OFXRBridgeTray.exe em Ajustes."
+ },
+ {
+  "id": "gfx.ofxr.noprofile",
+  "en": "OFXR has no GTAVXR profile yet: it is created the first time you play with OFXR on.",
+  "pt": "O OFXR ainda não tem perfil da GTAVXR: ele é criado na primeira vez que você joga com o OFXR ligado."
+ },
+ {
+  "id": "gfx.ofxr.ssw",
+  "en": "If you use OFXR frame generation, turn off SSW in Virtual Desktop: the two must not run at once.",
+  "pt": "Se você usa a geração de quadros do OFXR, desligue o SSW no Virtual Desktop: os dois não podem rodar ao mesmo tempo."
+ },
+ {
+  "id": "ofxr.err.OFXR_NO_PROFILE",
+  "en": "OFXR has no GTAVXR profile yet. Play once with OFXR on and try again.",
+  "pt": "O OFXR ainda não tem perfil da GTAVXR. Jogue uma vez com o OFXR ligado e tente de novo."
+ },
+ {
+  "id": "ofxr.err.OFXR_NO_KEY",
+  "en": "The OFXR profile has no nr_enabled setting; nothing was changed.",
+  "pt": "O perfil do OFXR não tem a configuração nr_enabled; nada foi alterado."
+ },
+ {
+  "id": "ofxr.err.OFXR_UNKNOWN_FORMAT",
+  "en": "The OFXR profile has a format the Suite does not know; nothing was changed.",
+  "pt": "O perfil do OFXR tem um formato que a Suite não conhece; nada foi alterado."
+ },
+ {
+  "id": "time.now",
+  "en": "just now",
+  "pt": "agora mesmo"
+ },
+ {
+  "id": "time.min",
+  "en": "{0} min ago",
+  "pt": "há {0} min"
+ },
+ {
+  "id": "time.h",
+  "en": "{0} h ago",
+  "pt": "há {0} h"
+ },
+ {
+  "id": "time.d",
+  "en": "{0} days ago",
+  "pt": "há {0} dias"
+ },
+ {
+  "id": "time.d1",
+  "en": "yesterday",
+  "pt": "ontem"
+ }
+]

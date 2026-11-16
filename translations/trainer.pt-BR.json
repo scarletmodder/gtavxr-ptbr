@@ -1,0 +1,3882 @@
+[
+ {
+  "id": "Previous Trainer Options",
+  "en": "Previous Trainer Options",
+  "pt": "Opções do Trainer anterior"
+ },
+ {
+  "id": "Temporary access to the original VR Trainer while its replacements are completed.",
+  "en": "Temporary access to the original VR Trainer while its replacements are completed.",
+  "pt": "Acesso temporário ao Trainer VR original enquanto seus substitutos são concluídos."
+ },
+ {
+  "id": "Trainer",
+  "en": "Trainer",
+  "pt": "Trainer"
+ },
+ {
+  "id": "Game Menu",
+  "en": "Game Menu",
+  "pt": "Menu do jogo"
+ },
+ {
+  "id": "Character Menu",
+  "en": "Character Menu",
+  "pt": "Menu do personagem"
+ },
+ {
+  "id": "Return to Game",
+  "en": "Return to Game",
+  "pt": "Voltar ao jogo"
+ },
+ {
+  "id": "Recenter",
+  "en": "Recenter",
+  "pt": "Recentralizar"
+ },
+ {
+  "id": "Settings",
+  "en": "Settings",
+  "pt": "Ajustes"
+ },
+ {
+  "id": "Calibration",
+  "en": "Calibration",
+  "pt": "Calibração"
+ },
+ {
+  "id": "Hands",
+  "en": "Hands",
+  "pt": "Mãos"
+ },
+ {
+  "id": "Weapons",
+  "en": "Weapons",
+  "pt": "Armas"
+ },
+ {
+  "id": "Vehicles",
+  "en": "Vehicles",
+  "pt": "Veículos"
+ },
+ {
+  "id": "Height",
+  "en": "Height",
+  "pt": "Altura"
+ },
+ {
+  "id": "HUD",
+  "en": "HUD",
+  "pt": "HUD"
+ },
+ {
+  "id": "Physics",
+  "en": "Physics",
+  "pt": "Física"
+ },
+ {
+  "id": "Haptics",
+  "en": "Haptics",
+  "pt": "Vibração"
+ },
+ {
+  "id": "Player Options",
+  "en": "Player Options",
+  "pt": "Opções do jogador"
+ },
+ {
+  "id": "Vehicle Options",
+  "en": "Vehicle Options",
+  "pt": "Opções de veículo"
+ },
+ {
+  "id": "Teleport Options",
+  "en": "Teleport Options",
+  "pt": "Opções de teletransporte"
+ },
+ {
+  "id": "Weapon Options",
+  "en": "Weapon Options",
+  "pt": "Opções de armas"
+ },
+ {
+  "id": "Weather Options",
+  "en": "Weather Options",
+  "pt": "Opções de clima"
+ },
+ {
+  "id": "Time Options",
+  "en": "Time Options",
+  "pt": "Opções de horário"
+ },
+ {
+  "id": "Bodyguard Options",
+  "en": "Bodyguard Options",
+  "pt": "Opções de guarda-costas"
+ },
+ {
+  "id": "Bodyguards",
+  "en": "Bodyguards",
+  "pt": "Guarda-costas"
+ },
+ {
+  "id": "Basic Stats",
+  "en": "Basic Stats",
+  "pt": "Estatísticas básicas"
+ },
+ {
+  "id": "Total Cash",
+  "en": "Total Cash",
+  "pt": "Dinheiro total"
+ },
+ {
+  "id": "Max All Stats (SP)",
+  "en": "Max All Stats (SP)",
+  "pt": "Estatísticas no máximo (SP)"
+ },
+ {
+  "id": "Model Changer",
+  "en": "Model Changer",
+  "pt": "Trocar modelo"
+ },
+ {
+  "id": "Wardrobe",
+  "en": "Wardrobe",
+  "pt": "Guarda-roupa"
+ },
+ {
+  "id": "Cloning Options",
+  "en": "Cloning Options",
+  "pt": "Opções de clonagem"
+ },
+ {
+  "id": "Language",
+  "en": "Language",
+  "pt": "Idioma"
+ },
+ {
+  "id": "Theme",
+  "en": "Theme",
+  "pt": "Tema"
+ },
+ {
+  "id": "Themes",
+  "en": "Themes",
+  "pt": "Temas"
+ },
+ {
+  "id": "Colour Selector",
+  "en": "Colour Selector",
+  "pt": "Seletor de cor"
+ },
+ {
+  "id": "Colours",
+  "en": "Colours",
+  "pt": "Cores"
+ },
+ {
+  "id": "Menu Appearance",
+  "en": "Menu Appearance",
+  "pt": "Aparência do menu"
+ },
+ {
+  "id": "Reset Appearance",
+  "en": "Reset Appearance",
+  "pt": "Redefinir aparência"
+ },
+ {
+  "id": "Reset Colour",
+  "en": "Reset Colour",
+  "pt": "Redefinir cor"
+ },
+ {
+  "id": "Reset Toggles",
+  "en": "Reset Toggles",
+  "pt": "Redefinir opções"
+ },
+ {
+  "id": "Reset All Cheats",
+  "en": "Reset All Cheats",
+  "pt": "Redefinir todas as trapaças"
+ },
+ {
+  "id": "Disables ongoing toggle effects. Does not undo cash, stats, spawns or progress.",
+  "en": "Disables ongoing toggle effects. Does not undo cash, stats, spawns or progress.",
+  "pt": "Desativa os efeitos contínuos das opções. Não desfaz dinheiro, estatísticas, itens gerados nem progresso."
+ },
+ {
+  "id": "Also restores reversible values owned by this trainer. Other owners' changes are preserved.",
+  "en": "Also restores reversible values owned by this trainer. Other owners' changes are preserved.",
+  "pt": "Também restaura valores reversíveis que pertencem a este Trainer. Alterações feitas por outros são preservadas."
+ },
+ {
+  "id": "Black & Green",
+  "en": "Black & Green",
+  "pt": "Preto e verde"
+ },
+ {
+  "id": "Black & Teal",
+  "en": "Black & Teal",
+  "pt": "Preto e turquesa"
+ },
+ {
+  "id": "Black & Red",
+  "en": "Black & Red",
+  "pt": "Preto e vermelho"
+ },
+ {
+  "id": "Black & White",
+  "en": "Black & White",
+  "pt": "Preto e branco"
+ },
+ {
+  "id": "Black & Yellow",
+  "en": "Black & Yellow",
+  "pt": "Preto e amarelo"
+ },
+ {
+  "id": "White & Green",
+  "en": "White & Green",
+  "pt": "Branco e verde"
+ },
+ {
+  "id": "White & Teal",
+  "en": "White & Teal",
+  "pt": "Branco e turquesa"
+ },
+ {
+  "id": "White & Red",
+  "en": "White & Red",
+  "pt": "Branco e vermelho"
+ },
+ {
+  "id": "White & Black",
+  "en": "White & Black",
+  "pt": "Branco e preto"
+ },
+ {
+  "id": "White & Yellow",
+  "en": "White & Yellow",
+  "pt": "Branco e amarelo"
+ },
+ {
+  "id": "Halloween",
+  "en": "Halloween",
+  "pt": "Halloween"
+ },
+ {
+  "id": "Elegant Purple",
+  "en": "Elegant Purple",
+  "pt": "Roxo elegante"
+ },
+ {
+  "id": "Header",
+  "en": "Header",
+  "pt": "Cabeçalho"
+ },
+ {
+  "id": "Background",
+  "en": "Background",
+  "pt": "Fundo"
+ },
+ {
+  "id": "Title Text",
+  "en": "Title Text",
+  "pt": "Texto do título"
+ },
+ {
+  "id": "Option Text",
+  "en": "Option Text",
+  "pt": "Texto da opção"
+ },
+ {
+  "id": "Selected Text",
+  "en": "Selected Text",
+  "pt": "Texto selecionado"
+ },
+ {
+  "id": "Selection",
+  "en": "Selection",
+  "pt": "Seleção"
+ },
+ {
+  "id": "Help Text",
+  "en": "Help Text",
+  "pt": "Texto de ajuda"
+ },
+ {
+  "id": "Separator Text",
+  "en": "Separator Text",
+  "pt": "Texto do separador"
+ },
+ {
+  "id": "Option Counter",
+  "en": "Option Counter",
+  "pt": "Contador de opções"
+ },
+ {
+  "id": "Red",
+  "en": "Red",
+  "pt": "Vermelho"
+ },
+ {
+  "id": "Green",
+  "en": "Green",
+  "pt": "Verde"
+ },
+ {
+  "id": "Blue",
+  "en": "Blue",
+  "pt": "Azul"
+ },
+ {
+  "id": "Alpha",
+  "en": "Alpha",
+  "pt": "Alfa"
+ },
+ {
+  "id": "Enabled",
+  "en": "Enabled",
+  "pt": "Ativado"
+ },
+ {
+  "id": "Disabled",
+  "en": "Disabled",
+  "pt": "Desativado"
+ },
+ {
+  "id": "Back",
+  "en": "Back",
+  "pt": "Voltar"
+ },
+ {
+  "id": "Reset",
+  "en": "Reset",
+  "pt": "Redefinir"
+ },
+ {
+  "id": "ON",
+  "en": "ON",
+  "pt": "ON"
+ },
+ {
+  "id": "OFF",
+  "en": "OFF",
+  "pt": "OFF"
+ },
+ {
+  "id": "Default",
+  "en": "Default",
+  "pt": "Padrão"
+ },
+ {
+  "id": "Custom",
+  "en": "Custom",
+  "pt": "Personalizado"
+ },
+ {
+  "id": "Left",
+  "en": "Left",
+  "pt": "Esquerda"
+ },
+ {
+  "id": "Right",
+  "en": "Right",
+  "pt": "Direita"
+ },
+ {
+  "id": "Position",
+  "en": "Position",
+  "pt": "Posição"
+ },
+ {
+  "id": "Rotation",
+  "en": "Rotation",
+  "pt": "Rotação"
+ },
+ {
+  "id": "Size",
+  "en": "Size",
+  "pt": "Tamanho"
+ },
+ {
+  "id": "Pitch",
+  "en": "Pitch",
+  "pt": "Inclinação"
+ },
+ {
+  "id": "Yaw",
+  "en": "Yaw",
+  "pt": "Guinada"
+ },
+ {
+  "id": "Roll",
+  "en": "Roll",
+  "pt": "Rolagem"
+ },
+ {
+  "id": "Right Weapon",
+  "en": "Right Weapon",
+  "pt": "Arma direita"
+ },
+ {
+  "id": "Left Weapon",
+  "en": "Left Weapon",
+  "pt": "Arma esquerda"
+ },
+ {
+  "id": "Right Weapon Support",
+  "en": "Right Weapon Support",
+  "pt": "Apoio da arma direita"
+ },
+ {
+  "id": "Left Weapon Support",
+  "en": "Left Weapon Support",
+  "pt": "Apoio da arma esquerda"
+ },
+ {
+  "id": "Follow Right",
+  "en": "Follow Right",
+  "pt": "Seguir a direita"
+ },
+ {
+  "id": "Independent Override",
+  "en": "Independent Override",
+  "pt": "Controle independente"
+ },
+ {
+  "id": "Current Weapon",
+  "en": "Current Weapon",
+  "pt": "Arma atual"
+ },
+ {
+  "id": "Weapon Class",
+  "en": "Weapon Class",
+  "pt": "Classe da arma"
+ },
+ {
+  "id": "Current Vehicle",
+  "en": "Current Vehicle",
+  "pt": "Veículo atual"
+ },
+ {
+  "id": "Reset Current Vehicle",
+  "en": "Reset Current Vehicle",
+  "pt": "Redefinir veículo atual"
+ },
+ {
+  "id": "Wrist HUD",
+  "en": "Wrist HUD",
+  "pt": "HUD no pulso"
+ },
+ {
+  "id": "Left Wrist",
+  "en": "Left Wrist",
+  "pt": "Pulso esquerdo"
+ },
+ {
+  "id": "Right Wrist",
+  "en": "Right Wrist",
+  "pt": "Pulso direito"
+ },
+ {
+  "id": "Interfaces",
+  "en": "Interfaces",
+  "pt": "Interfaces"
+ },
+ {
+  "id": "Native Menu Size",
+  "en": "Native Menu Size",
+  "pt": "Tamanho do menu do jogo"
+ },
+ {
+  "id": "Pause Screen Size",
+  "en": "Pause Screen Size",
+  "pt": "Tamanho da tela de pausa"
+ },
+ {
+  "id": "Contextual Hand Indicators",
+  "en": "Contextual Hand Indicators",
+  "pt": "Indicadores contextuais nas mãos"
+ },
+ {
+  "id": "Individual HUD Visibility",
+  "en": "Individual HUD Visibility",
+  "pt": "Visibilidade individual do HUD"
+ },
+ {
+  "id": "Money",
+  "en": "Money",
+  "pt": "Dinheiro"
+ },
+ {
+  "id": "Notifications",
+  "en": "Notifications",
+  "pt": "Notificações"
+ },
+ {
+  "id": "Phone Messages",
+  "en": "Phone Messages",
+  "pt": "Mensagens do celular"
+ },
+ {
+  "id": "Help / Activities",
+  "en": "Help / Activities",
+  "pt": "Ajuda / Atividades"
+ },
+ {
+  "id": "Subtitles",
+  "en": "Subtitles",
+  "pt": "Legendas"
+ },
+ {
+  "id": "Location",
+  "en": "Location",
+  "pt": "Local"
+ },
+ {
+  "id": "Status",
+  "en": "Status",
+  "pt": "Status"
+ },
+ {
+  "id": "Other HUD",
+  "en": "Other HUD",
+  "pt": "Outros itens do HUD"
+ },
+ {
+  "id": "Wanted Stars",
+  "en": "Wanted Stars",
+  "pt": "Estrelas de procurado"
+ },
+ {
+  "id": "Map",
+  "en": "Map",
+  "pt": "Mapa"
+ },
+ {
+  "id": "Large Notices",
+  "en": "Large Notices",
+  "pt": "Avisos grandes"
+ },
+ {
+  "id": "Grab / Hold",
+  "en": "Grab / Hold",
+  "pt": "Agarrar / Segurar"
+ },
+ {
+  "id": "Contact Push",
+  "en": "Contact Push",
+  "pt": "Empurrão por contato"
+ },
+ {
+  "id": "Body Effort Budget",
+  "en": "Body Effort Budget",
+  "pt": "Limite de esforço do corpo"
+ },
+ {
+  "id": "Smooth Turning",
+  "en": "Smooth Turning",
+  "pt": "Giro suave"
+ },
+ {
+  "id": "Snap Turning",
+  "en": "Snap Turning",
+  "pt": "Giro por passos"
+ },
+ {
+  "id": "Tracked Steering",
+  "en": "Tracked Steering",
+  "pt": "Direção rastreada"
+ },
+ {
+  "id": "Native Haptics",
+  "en": "Native Haptics",
+  "pt": "Vibração nativa"
+ },
+ {
+  "id": "Engine Haptics",
+  "en": "Engine Haptics",
+  "pt": "Vibração do motor"
+ },
+ {
+  "id": "Health",
+  "en": "Health",
+  "pt": "Vida"
+ },
+ {
+  "id": "Armour",
+  "en": "Armour",
+  "pt": "Colete"
+ },
+ {
+  "id": "Invincibility",
+  "en": "Invincibility",
+  "pt": "Invencibilidade"
+ },
+ {
+  "id": "God Mode",
+  "en": "God Mode",
+  "pt": "Modo deus"
+ },
+ {
+  "id": "Never Wanted",
+  "en": "Never Wanted",
+  "pt": "Nunca procurado"
+ },
+ {
+  "id": "Wanted Level",
+  "en": "Wanted Level",
+  "pt": "Nível de procurado"
+ },
+ {
+  "id": "Clear Wanted Level",
+  "en": "Clear Wanted Level",
+  "pt": "Limpar nível de procurado"
+ },
+ {
+  "id": "Unlimited Stamina",
+  "en": "Unlimited Stamina",
+  "pt": "Resistência ilimitada"
+ },
+ {
+  "id": "Restore Story Character",
+  "en": "Restore Story Character",
+  "pt": "Restaurar personagem da história"
+ },
+ {
+  "id": "Switch Protagonist",
+  "en": "Switch Protagonist",
+  "pt": "Trocar de protagonista"
+ },
+ {
+  "id": "Individual Weapons & Customisation",
+  "en": "Individual Weapons & Customisation",
+  "pt": "Armas individuais e personalização"
+ },
+ {
+  "id": "Loadouts",
+  "en": "Loadouts",
+  "pt": "Equipamentos"
+ },
+ {
+  "id": "Give All Weapons",
+  "en": "Give All Weapons",
+  "pt": "Dar todas as armas"
+ },
+ {
+  "id": "Give Max Ammo",
+  "en": "Give Max Ammo",
+  "pt": "Dar munição máxima"
+ },
+ {
+  "id": "Remove All Weapons",
+  "en": "Remove All Weapons",
+  "pt": "Remover todas as armas"
+ },
+ {
+  "id": "Infinite Parachutes",
+  "en": "Infinite Parachutes",
+  "pt": "Paraquedas infinitos"
+ },
+ {
+  "id": "Infinite Ammo In Clip",
+  "en": "Infinite Ammo In Clip",
+  "pt": "Munição infinita no pente"
+ },
+ {
+  "id": "Never need to reload.",
+  "en": "Never need to reload.",
+  "pt": "Nunca precisa recarregar."
+ },
+ {
+  "id": "Explosive Melee",
+  "en": "Explosive Melee",
+  "pt": "Soco explosivo"
+ },
+ {
+  "id": "Explosive Ammo",
+  "en": "Explosive Ammo",
+  "pt": "Munição explosiva"
+ },
+ {
+  "id": "Tenfold Bullets",
+  "en": "Tenfold Bullets",
+  "pt": "Balas x10"
+ },
+ {
+  "id": "Flaming Bullets",
+  "en": "Flaming Bullets",
+  "pt": "Balas flamejantes"
+ },
+ {
+  "id": "Weapon Damage",
+  "en": "Weapon Damage",
+  "pt": "Dano das armas"
+ },
+ {
+  "id": "Bullet Time",
+  "en": "Bullet Time",
+  "pt": "Tempo de bala"
+ },
+ {
+  "id": "Triggerbot",
+  "en": "Triggerbot",
+  "pt": "Tiro automático (Triggerbot)"
+ },
+ {
+  "id": "Rapid Fire",
+  "en": "Rapid Fire",
+  "pt": "Tiro rápido"
+ },
+ {
+  "id": "Soul-Switch Gun (SP)",
+  "en": "Soul-Switch Gun (SP)",
+  "pt": "Arma de troca de alma (SP)"
+ },
+ {
+  "id": "Teleport Gun",
+  "en": "Teleport Gun",
+  "pt": "Arma de teletransporte"
+ },
+ {
+  "id": "Ped Revival Gun",
+  "en": "Ped Revival Gun",
+  "pt": "Arma de reviver pedestres"
+ },
+ {
+  "id": "Entity Removal Gun",
+  "en": "Entity Removal Gun",
+  "pt": "Arma de remoção de entidades"
+ },
+ {
+  "id": "Laser Sight",
+  "en": "Laser Sight",
+  "pt": "Mira a laser"
+ },
+ {
+  "id": "Gives you a new parachute whenever you don't have one.",
+  "en": "Gives you a new parachute whenever you don't have one.",
+  "pt": "Dá um paraquedas novo sempre que você não tiver um."
+ },
+ {
+  "id": "Punches and melee hits cause explosions.",
+  "en": "Punches and melee hits cause explosions.",
+  "pt": "Socos e golpes corpo a corpo causam explosões."
+ },
+ {
+  "id": "Each shot fires a spread of extra bullets.",
+  "en": "Each shot fires a spread of extra bullets.",
+  "pt": "Cada tiro dispara uma rajada de balas extras."
+ },
+ {
+  "id": "Multiplies your weapon and melee damage. 1.0 is normal.",
+  "en": "Multiplies your weapon and melee damage. 1.0 is normal.",
+  "pt": "Multiplica o dano das suas armas e do corpo a corpo. 1.0 é o normal."
+ },
+ {
+  "id": "Slows time briefly whenever you shoot.",
+  "en": "Slows time briefly whenever you shoot.",
+  "pt": "Desacelera o tempo por um instante sempre que você atira."
+ },
+ {
+  "id": "Shoots automatically when aiming at a living ped.",
+  "en": "Shoots automatically when aiming at a living ped.",
+  "pt": "Atira automaticamente ao mirar em um pedestre vivo."
+ },
+ {
+  "id": "Fires as fast as possible while holding the trigger.",
+  "en": "Fires as fast as possible while holding the trigger.",
+  "pt": "Atira o mais rápido possível enquanto você segura o gatilho."
+ },
+ {
+  "id": "Weather",
+  "en": "Weather",
+  "pt": "Clima"
+ },
+ {
+  "id": "Reset Weather",
+  "en": "Reset Weather",
+  "pt": "Redefinir clima"
+ },
+ {
+  "id": "Snow On Terrain",
+  "en": "Snow On Terrain",
+  "pt": "Neve no terreno"
+ },
+ {
+  "id": "Wind Speed",
+  "en": "Wind Speed",
+  "pt": "Velocidade do vento"
+ },
+ {
+  "id": "Ocean Wave Strength",
+  "en": "Ocean Wave Strength",
+  "pt": "Força das ondas do mar"
+ },
+ {
+  "id": "Rain Puddles Multiplier",
+  "en": "Rain Puddles Multiplier",
+  "pt": "Multiplicador de poças de chuva"
+ },
+ {
+  "id": "Gravity",
+  "en": "Gravity",
+  "pt": "Gravidade"
+ },
+ {
+  "id": "Clouds",
+  "en": "Clouds",
+  "pt": "Nuvens"
+ },
+ {
+  "id": "Water Hack (For Waves At Beaches)",
+  "en": "Water Hack (For Waves At Beaches)",
+  "pt": "Hack de água (ondas nas praias)"
+ },
+ {
+  "id": "Returns to the game's natural weather cycle.",
+  "en": "Returns to the game's natural weather cycle.",
+  "pt": "Volta ao ciclo natural de clima do jogo."
+ },
+ {
+  "id": "Covers the ground in snow.",
+  "en": "Covers the ground in snow.",
+  "pt": "Cobre o chão de neve."
+ },
+ {
+  "id": "How much water collects on the ground.",
+  "en": "How much water collects on the ground.",
+  "pt": "Quanta água se acumula no chão."
+ },
+ {
+  "id": "World gravity for all entities.",
+  "en": "World gravity for all entities.",
+  "pt": "Gravidade do mundo para todas as entidades."
+ },
+ {
+  "id": "Raises the water level locally to create waves.",
+  "en": "Raises the water level locally to create waves.",
+  "pt": "Eleva o nível da água localmente para criar ondas."
+ },
+ {
+  "id": "Time",
+  "en": "Time",
+  "pt": "Horário"
+ },
+ {
+  "id": "Clock",
+  "en": "Clock",
+  "pt": "Relógio"
+ },
+ {
+  "id": "Hour",
+  "en": "Hour",
+  "pt": "Hora"
+ },
+ {
+  "id": "Minute",
+  "en": "Minute",
+  "pt": "Minuto"
+ },
+ {
+  "id": "Second",
+  "en": "Second",
+  "pt": "Segundo"
+ },
+ {
+  "id": "Month",
+  "en": "Month",
+  "pt": "Mês"
+ },
+ {
+  "id": "Day",
+  "en": "Day",
+  "pt": "Dia"
+ },
+ {
+  "id": "Year",
+  "en": "Year",
+  "pt": "Ano"
+ },
+ {
+  "id": "Time Scale",
+  "en": "Time Scale",
+  "pt": "Escala de tempo"
+ },
+ {
+  "id": "Pause Clock",
+  "en": "Pause Clock",
+  "pt": "Pausar relógio"
+ },
+ {
+  "id": "Freeze Time",
+  "en": "Freeze Time",
+  "pt": "Congelar tempo"
+ },
+ {
+  "id": "Vehicle Spawner",
+  "en": "Vehicle Spawner",
+  "pt": "Gerador de veículos"
+ },
+ {
+  "id": "Repair Vehicle",
+  "en": "Repair Vehicle",
+  "pt": "Reparar veículo"
+ },
+ {
+  "id": "Clean Vehicle",
+  "en": "Clean Vehicle",
+  "pt": "Limpar veículo"
+ },
+ {
+  "id": "Los Santos Customs",
+  "en": "Los Santos Customs",
+  "pt": "Los Santos Customs"
+ },
+ {
+  "id": "Vehicle Weapons",
+  "en": "Vehicle Weapons",
+  "pt": "Armas do veículo"
+ },
+ {
+  "id": "Engine",
+  "en": "Engine",
+  "pt": "Motor"
+ },
+ {
+  "id": "Doors",
+  "en": "Doors",
+  "pt": "Portas"
+ },
+ {
+  "id": "Windows",
+  "en": "Windows",
+  "pt": "Janelas"
+ },
+ {
+  "id": "Wheels",
+  "en": "Wheels",
+  "pt": "Rodas"
+ },
+ {
+  "id": "Paint",
+  "en": "Paint",
+  "pt": "Pintura"
+ },
+ {
+  "id": "Lights",
+  "en": "Lights",
+  "pt": "Luzes"
+ },
+ {
+  "id": "Neon Lights",
+  "en": "Neon Lights",
+  "pt": "Luzes de neon"
+ },
+ {
+  "id": "Spawn Bodyguard",
+  "en": "Spawn Bodyguard",
+  "pt": "Gerar guarda-costas"
+ },
+ {
+  "id": "Dismiss",
+  "en": "Dismiss",
+  "pt": "Dispensar"
+ },
+ {
+  "id": "Recruit",
+  "en": "Recruit",
+  "pt": "Recrutar"
+ },
+ {
+  "id": "Health restored",
+  "en": "Health restored",
+  "pt": "Vida restaurada"
+ },
+ {
+  "id": "Armour restored",
+  "en": "Armour restored",
+  "pt": "Colete restaurado"
+ },
+ {
+  "id": "Enter a vehicle first",
+  "en": "Enter a vehicle first",
+  "pt": "Entre em um veículo primeiro"
+ },
+ {
+  "id": "Settings saved",
+  "en": "Settings saved",
+  "pt": "Ajustes salvos"
+ },
+ {
+  "id": "Could not save settings",
+  "en": "Could not save settings",
+  "pt": "Não foi possível salvar os ajustes"
+ },
+ {
+  "id": "Ped Trackers",
+  "en": "Ped Trackers",
+  "pt": "Rastreadores de pedestres"
+ },
+ {
+  "id": "Step Amount",
+  "en": "Step Amount",
+  "pt": "Valor do passo"
+ },
+ {
+  "id": "Unavailable",
+  "en": "Unavailable",
+  "pt": "Indisponível"
+ },
+ {
+  "id": "Changes this protagonist's cash. Resets do not undo it.",
+  "en": "Changes this protagonist's cash. Resets do not undo it.",
+  "pt": "Altera o dinheiro deste protagonista. Redefinir não desfaz isso."
+ },
+ {
+  "id": "Cash change failed; the previous value was preserved.",
+  "en": "Cash change failed; the previous value was preserved.",
+  "pt": "Falha ao alterar o dinheiro; o valor anterior foi preservado."
+ },
+ {
+  "id": "Pause Clock Time",
+  "en": "Pause Clock Time",
+  "pt": "Horário da pausa do relógio"
+ },
+ {
+  "id": "Freezes the in-game time.",
+  "en": "Freezes the in-game time.",
+  "pt": "Congela a hora do jogo."
+ },
+ {
+  "id": "World Speed",
+  "en": "World Speed",
+  "pt": "Velocidade do mundo"
+ },
+ {
+  "id": "Game speed. Below 1.0 is slow motion.",
+  "en": "Game speed. Below 1.0 is slow motion.",
+  "pt": "Velocidade do jogo. Abaixo de 1.0 é câmera lenta."
+ },
+ {
+  "id": "---Presets---",
+  "en": "---Presets---",
+  "pt": "---Predefinições---"
+ },
+ {
+  "id": "Sunrise (06:00)",
+  "en": "Sunrise (06:00)",
+  "pt": "Alvorecer (06:00)"
+ },
+ {
+  "id": "Noon (12:00)",
+  "en": "Noon (12:00)",
+  "pt": "Meio-dia (12:00)"
+ },
+ {
+  "id": "Sunset (19:00)",
+  "en": "Sunset (19:00)",
+  "pt": "Pôr do sol (19:00)"
+ },
+ {
+  "id": "Night (23:00)",
+  "en": "Night (23:00)",
+  "pt": "Noite (23:00)"
+ },
+ {
+  "id": "Reset pending: owned state unavailable.",
+  "en": "Reset pending: owned state unavailable.",
+  "pt": "Redefinição pendente: estado próprio indisponível."
+ },
+ {
+  "id": "Reset preserved values changed by another owner.",
+  "en": "Reset preserved values changed by another owner.",
+  "pt": "A redefinição preservou valores alterados por outra fonte."
+ },
+ {
+  "id": "Settings save pending.",
+  "en": "Settings save pending.",
+  "pt": "Salvamento dos ajustes pendente."
+ },
+ {
+  "id": "Unavailable in this build.",
+  "en": "Unavailable in this build.",
+  "pt": "Indisponível nesta versão."
+ },
+ {
+  "id": "Weather change rejected; current state was preserved.",
+  "en": "Weather change rejected; current state was preserved.",
+  "pt": "Mudança de clima rejeitada; o estado atual foi preservado."
+ },
+ {
+  "id": "Cloud change rejected; current state was preserved.",
+  "en": "Cloud change rejected; current state was preserved.",
+  "pt": "Mudança de nuvens rejeitada; o estado atual foi preservado."
+ },
+ {
+  "id": "Native character request submitted.",
+  "en": "Native character request submitted.",
+  "pt": "Pedido de personagem nativo enviado."
+ },
+ {
+  "id": "Character change unavailable in the current native state.",
+  "en": "Character change unavailable in the current native state.",
+  "pt": "Troca de personagem indisponível no estado nativo atual."
+ },
+ {
+  "id": "Refresh Installed Models",
+  "en": "Refresh Installed Models",
+  "pt": "Atualizar modelos instalados"
+ },
+ {
+  "id": "---Categories---",
+  "en": "---Categories---",
+  "pt": "---Categorias---"
+ },
+ {
+  "id": "Accessories",
+  "en": "Accessories",
+  "pt": "Acessórios"
+ },
+ {
+  "id": "---Components---",
+  "en": "---Components---",
+  "pt": "---Componentes---"
+ },
+ {
+  "id": "---Utilities---",
+  "en": "---Utilities---",
+  "pt": "---Utilidades---"
+ },
+ {
+  "id": "Set Variation",
+  "en": "Set Variation",
+  "pt": "Definir variação"
+ },
+ {
+  "id": "Type",
+  "en": "Type",
+  "pt": "Tipo"
+ },
+ {
+  "id": "Texture",
+  "en": "Texture",
+  "pt": "Textura"
+ },
+ {
+  "id": "Head [head]",
+  "en": "Head [head]",
+  "pt": "Cabeça [head]"
+ },
+ {
+  "id": "Beard/Mask [berd]",
+  "en": "Beard/Mask [berd]",
+  "pt": "Barba/Máscara [berd]"
+ },
+ {
+  "id": "Hair [hair]",
+  "en": "Hair [hair]",
+  "pt": "Cabelo [hair]"
+ },
+ {
+  "id": "Torso [uppr]",
+  "en": "Torso [uppr]",
+  "pt": "Torso [uppr]"
+ },
+ {
+  "id": "Legs [lowr]",
+  "en": "Legs [lowr]",
+  "pt": "Pernas [lowr]"
+ },
+ {
+  "id": "Hands/Back [hand]",
+  "en": "Hands/Back [hand]",
+  "pt": "Mãos/Costas [hand]"
+ },
+ {
+  "id": "Shoes [feet]",
+  "en": "Shoes [feet]",
+  "pt": "Sapatos [feet]"
+ },
+ {
+  "id": "Teeth/Scarf/Necklace/Bracelets [teef]",
+  "en": "Teeth/Scarf/Necklace/Bracelets [teef]",
+  "pt": "Dentes/Cachecol/Colar/Pulseiras [teef]"
+ },
+ {
+  "id": "Accessory/Tops [accs]",
+  "en": "Accessory/Tops [accs]",
+  "pt": "Acessório/Blusas [accs]"
+ },
+ {
+  "id": "Task/Armour [task]",
+  "en": "Task/Armour [task]",
+  "pt": "Tarefa/Colete [task]"
+ },
+ {
+  "id": "Emblem [decl]",
+  "en": "Emblem [decl]",
+  "pt": "Emblema [decl]"
+ },
+ {
+  "id": "Tops2 (Outer) [jbib]",
+  "en": "Tops2 (Outer) [jbib]",
+  "pt": "Blusas 2 (externas) [jbib]"
+ },
+ {
+  "id": "Hats [p_head]",
+  "en": "Hats [p_head]",
+  "pt": "Chapéus [p_head]"
+ },
+ {
+  "id": "Glasses [p_eyes]",
+  "en": "Glasses [p_eyes]",
+  "pt": "Óculos [p_eyes]"
+ },
+ {
+  "id": "Ear Pieces [p_ears]",
+  "en": "Ear Pieces [p_ears]",
+  "pt": "Fones de ouvido [p_ears]"
+ },
+ {
+  "id": "Watches [p_lwrist]",
+  "en": "Watches [p_lwrist]",
+  "pt": "Relógios [p_lwrist]"
+ },
+ {
+  "id": "Bangles [p_rwrist]",
+  "en": "Bangles [p_rwrist]",
+  "pt": "Pulseiras [p_rwrist]"
+ },
+ {
+  "id": "Unknown 3",
+  "en": "Unknown 3",
+  "pt": "Desconhecido 3"
+ },
+ {
+  "id": "Unknown 4",
+  "en": "Unknown 4",
+  "pt": "Desconhecido 4"
+ },
+ {
+  "id": "Unknown 5",
+  "en": "Unknown 5",
+  "pt": "Desconhecido 5"
+ },
+ {
+  "id": "Unknown 8",
+  "en": "Unknown 8",
+  "pt": "Desconhecido 8"
+ },
+ {
+  "id": "Unknown 9",
+  "en": "Unknown 9",
+  "pt": "Desconhecido 9"
+ },
+ {
+  "id": "Random Components",
+  "en": "Random Components",
+  "pt": "Componentes aleatórios"
+ },
+ {
+  "id": "Default Components",
+  "en": "Default Components",
+  "pt": "Componentes padrão"
+ },
+ {
+  "id": "Default Components and Accessories",
+  "en": "Default Components and Accessories",
+  "pt": "Componentes e acessórios padrão"
+ },
+ {
+  "id": "Random Accessories",
+  "en": "Random Accessories",
+  "pt": "Acessórios aleatórios"
+ },
+ {
+  "id": "Default Accessories",
+  "en": "Default Accessories",
+  "pt": "Acessórios padrão"
+ },
+ {
+  "id": "Press again to confirm.",
+  "en": "Press again to confirm.",
+  "pt": "Pressione de novo para confirmar."
+ },
+ {
+  "id": "Use Back to return.",
+  "en": "Use Back to return.",
+  "pt": "Use Voltar para retornar."
+ },
+ {
+  "id": "Appearance change rejected; native state was preserved where possible.",
+  "en": "Appearance change rejected; native state was preserved where possible.",
+  "pt": "Mudança de aparência rejeitada; o estado nativo foi preservado quando possível."
+ },
+ {
+  "id": "Favourites",
+  "en": "Favourites",
+  "pt": "Favoritos"
+ },
+ {
+  "id": "Y: add or remove this model from favourites.",
+  "en": "Y: add or remove this model from favourites.",
+  "pt": "Y: adicionar ou remover este modelo dos favoritos."
+ },
+ {
+  "id": "Favourites saved.",
+  "en": "Favourites saved.",
+  "pt": "Favoritos salvos."
+ },
+ {
+  "id": "Could not save favourites; existing data was preserved.",
+  "en": "Could not save favourites; existing data was preserved.",
+  "pt": "Não foi possível salvar os favoritos; os dados existentes foram preservados."
+ },
+ {
+  "id": "Could not load favourites; existing data was preserved.",
+  "en": "Could not load favourites; existing data was preserved.",
+  "pt": "Não foi possível carregar os favoritos; os dados existentes foram preservados."
+ },
+ {
+  "id": "No installed favourites",
+  "en": "No installed favourites",
+  "pt": "Nenhum favorito instalado"
+ },
+ {
+  "id": "Select a model and press Y to add it to favourites.",
+  "en": "Select a model and press Y to add it to favourites.",
+  "pt": "Selecione um modelo e pressione Y para adicioná-lo aos favoritos."
+ },
+ {
+  "id": "Missing model",
+  "en": "Missing model",
+  "pt": "Modelo ausente"
+ },
+ {
+  "id": "Randomize Ped Variation",
+  "en": "Randomize Ped Variation",
+  "pt": "Variação aleatória de pedestre"
+ },
+ {
+  "id": "Invisibility",
+  "en": "Invisibility",
+  "pt": "Invisibilidade"
+ },
+ {
+  "id": "No Ragdoll",
+  "en": "No Ragdoll",
+  "pt": "Sem ragdoll"
+ },
+ {
+  "id": "Ignores damage, drowning and the native damage proofs.",
+  "en": "Ignores damage, drowning and the native damage proofs.",
+  "pt": "Ignora dano, afogamento e as proteções de dano nativas."
+ },
+ {
+  "id": "Makes your native character invisible.",
+  "en": "Makes your native character invisible.",
+  "pt": "Deixa seu personagem nativo invisível."
+ },
+ {
+  "id": "Disables native ragdoll and ped-impact activation.",
+  "en": "Disables native ragdoll and ped-impact activation.",
+  "pt": "Desativa o ragdoll nativo e a ativação por impacto de pedestres."
+ },
+ {
+  "id": "Player change rejected; native state was preserved.",
+  "en": "Player change rejected; native state was preserved.",
+  "pt": "Mudança do jogador rejeitada; o estado nativo foi preservado."
+ },
+ {
+  "id": "Clone As Neutral",
+  "en": "Clone As Neutral",
+  "pt": "Clonar como neutro"
+ },
+ {
+  "id": "Clone As Companion (7 Max)",
+  "en": "Clone As Companion (7 Max)",
+  "pt": "Clonar como companheiro (máx. 7)"
+ },
+ {
+  "id": "Clone As Enemy",
+  "en": "Clone As Enemy",
+  "pt": "Clonar como inimigo"
+ },
+ {
+  "id": "Clone ignores you.",
+  "en": "Clone ignores you.",
+  "pt": "O clone ignora você."
+ },
+ {
+  "id": "Clone follows and fights for you (max 7).",
+  "en": "Clone follows and fights for you (max 7).",
+  "pt": "O clone segue e luta por você (máx. 7)."
+ },
+ {
+  "id": "Clone attacks you.",
+  "en": "Clone attacks you.",
+  "pt": "O clone ataca você."
+ },
+ {
+  "id": "Clone created, but some setup could not complete.",
+  "en": "Clone created, but some setup could not complete.",
+  "pt": "Clone criado, mas parte da configuração não pôde ser concluída."
+ },
+ {
+  "id": "Clone unavailable in this native state.",
+  "en": "Clone unavailable in this native state.",
+  "pt": "Clone indisponível neste estado nativo."
+ },
+ {
+  "id": "Native clone created.",
+  "en": "Native clone created.",
+  "pt": "Clone nativo criado."
+ },
+ {
+  "id": "Randomizes clothing and features for the current model.",
+  "en": "Randomizes clothing and features for the current model.",
+  "pt": "Aleatoriza roupas e traços do modelo atual."
+ },
+ {
+  "id": "Player",
+  "en": "Player",
+  "pt": "Jogador"
+ },
+ {
+  "id": "Story Models",
+  "en": "Story Models",
+  "pt": "Modelos da história"
+ },
+ {
+  "id": "Cutscene Models",
+  "en": "Cutscene Models",
+  "pt": "Modelos de cenas"
+ },
+ {
+  "id": "Multiplayer Models",
+  "en": "Multiplayer Models",
+  "pt": "Modelos do multiplayer"
+ },
+ {
+  "id": "Animals",
+  "en": "Animals",
+  "pt": "Animais"
+ },
+ {
+  "id": "Ambient Females",
+  "en": "Ambient Females",
+  "pt": "Mulheres (ambiente)"
+ },
+ {
+  "id": "Ambient Males",
+  "en": "Ambient Males",
+  "pt": "Homens (ambiente)"
+ },
+ {
+  "id": "Gang Female",
+  "en": "Gang Female",
+  "pt": "Mulheres de gangue"
+ },
+ {
+  "id": "Gang Males",
+  "en": "Gang Males",
+  "pt": "Homens de gangue"
+ },
+ {
+  "id": "Scenario Females",
+  "en": "Scenario Females",
+  "pt": "Mulheres de cenário"
+ },
+ {
+  "id": "Scenario Males",
+  "en": "Scenario Males",
+  "pt": "Homens de cenário"
+ },
+ {
+  "id": "Story Scenario Females",
+  "en": "Story Scenario Females",
+  "pt": "Mulheres de cenário (história)"
+ },
+ {
+  "id": "Story Scenario Males",
+  "en": "Story Scenario Males",
+  "pt": "Homens de cenário (história)"
+ },
+ {
+  "id": "Others",
+  "en": "Others",
+  "pt": "Outros"
+ },
+ {
+  "id": "Gravity Level",
+  "en": "Gravity Level",
+  "pt": "Nível de gravidade"
+ },
+ {
+  "id": "ExtraSunny",
+  "en": "ExtraSunny",
+  "pt": "Muito ensolarado"
+ },
+ {
+  "id": "Clear",
+  "en": "Clear",
+  "pt": "Limpo"
+ },
+ {
+  "id": "Smog",
+  "en": "Smog",
+  "pt": "Poluição"
+ },
+ {
+  "id": "Foggy",
+  "en": "Foggy",
+  "pt": "Neblina"
+ },
+ {
+  "id": "Overcast",
+  "en": "Overcast",
+  "pt": "Encoberto"
+ },
+ {
+  "id": "Rain",
+  "en": "Rain",
+  "pt": "Chuva"
+ },
+ {
+  "id": "Thunder",
+  "en": "Thunder",
+  "pt": "Trovoada"
+ },
+ {
+  "id": "Clearing",
+  "en": "Clearing",
+  "pt": "Clareando"
+ },
+ {
+  "id": "Neutral",
+  "en": "Neutral",
+  "pt": "Neutro"
+ },
+ {
+  "id": "Snow",
+  "en": "Snow",
+  "pt": "Neve"
+ },
+ {
+  "id": "Blizzard",
+  "en": "Blizzard",
+  "pt": "Nevasca"
+ },
+ {
+  "id": "SnowLight",
+  "en": "SnowLight",
+  "pt": "Neve leve"
+ },
+ {
+  "id": "Halloween Snow",
+  "en": "Halloween Snow",
+  "pt": "Neve de Halloween"
+ },
+ {
+  "id": "Halloween Rain",
+  "en": "Halloween Rain",
+  "pt": "Chuva de Halloween"
+ },
+ {
+  "id": "Altostratus",
+  "en": "Altostratus",
+  "pt": "Altoestrato"
+ },
+ {
+  "id": "Cirrocumulus",
+  "en": "Cirrocumulus",
+  "pt": "Cirrocúmulo"
+ },
+ {
+  "id": "Cirrus",
+  "en": "Cirrus",
+  "pt": "Cirro"
+ },
+ {
+  "id": "Clear 01",
+  "en": "Clear 01",
+  "pt": "Limpo 01"
+ },
+ {
+  "id": "Cloudy 01",
+  "en": "Cloudy 01",
+  "pt": "Nublado 01"
+ },
+ {
+  "id": "Contrails",
+  "en": "Contrails",
+  "pt": "Rastros de avião"
+ },
+ {
+  "id": "Horizonband1",
+  "en": "Horizonband1",
+  "pt": "Faixa de horizonte 1"
+ },
+ {
+  "id": "Horizonband2",
+  "en": "Horizonband2",
+  "pt": "Faixa de horizonte 2"
+ },
+ {
+  "id": "Horizonband3",
+  "en": "Horizonband3",
+  "pt": "Faixa de horizonte 3"
+ },
+ {
+  "id": "Horsey",
+  "en": "Horsey",
+  "pt": "Cavalinho"
+ },
+ {
+  "id": "Nimbus",
+  "en": "Nimbus",
+  "pt": "Nimbo"
+ },
+ {
+  "id": "NoClouds",
+  "en": "NoClouds",
+  "pt": "Sem nuvens"
+ },
+ {
+  "id": "Puffs",
+  "en": "Puffs",
+  "pt": "Flocos"
+ },
+ {
+  "id": "Shower",
+  "en": "Shower",
+  "pt": "Pancada de chuva"
+ },
+ {
+  "id": "Snowy 01",
+  "en": "Snowy 01",
+  "pt": "Nevoso 01"
+ },
+ {
+  "id": "Stormy 01",
+  "en": "Stormy 01",
+  "pt": "Tempestuoso 01"
+ },
+ {
+  "id": "Stratoscumulus",
+  "en": "Stratoscumulus",
+  "pt": "Estratocúmulo"
+ },
+ {
+  "id": "Stripey",
+  "en": "Stripey",
+  "pt": "Listrado"
+ },
+ {
+  "id": "Wispy",
+  "en": "Wispy",
+  "pt": "Fiapos"
+ },
+ {
+  "id": "Zero 0.0",
+  "en": "Zero 0.0",
+  "pt": "Zero 0.0"
+ },
+ {
+  "id": "Pluto 0.6",
+  "en": "Pluto 0.6",
+  "pt": "Plutão 0.6"
+ },
+ {
+  "id": "Earth's Moon 1.6",
+  "en": "Earth's Moon 1.6",
+  "pt": "Lua 1.6"
+ },
+ {
+  "id": "Mercury/Mars 3.7",
+  "en": "Mercury/Mars 3.7",
+  "pt": "Mercúrio/Marte 3.7"
+ },
+ {
+  "id": "Venus/Uranus 8.9",
+  "en": "Venus/Uranus 8.9",
+  "pt": "Vênus/Urano 8.9"
+ },
+ {
+  "id": "Earth 9.8",
+  "en": "Earth 9.8",
+  "pt": "Terra 9.8"
+ },
+ {
+  "id": "Saturn 10.4",
+  "en": "Saturn 10.4",
+  "pt": "Saturno 10.4"
+ },
+ {
+  "id": "Neptune 11.2",
+  "en": "Neptune 11.2",
+  "pt": "Netuno 11.2"
+ },
+ {
+  "id": "Jupiter 24.9",
+  "en": "Jupiter 24.9",
+  "pt": "Júpiter 24.9"
+ },
+ {
+  "id": "Sun 274.0",
+  "en": "Sun 274.0",
+  "pt": "Sol 274.0"
+ },
+ {
+  "id": "Replenish Player",
+  "en": "Replenish Player",
+  "pt": "Reabastecer jogador"
+ },
+ {
+  "id": "Seatbelt",
+  "en": "Seatbelt",
+  "pt": "Cinto de segurança"
+ },
+ {
+  "id": "Unlimited Special Ability (SP)",
+  "en": "Unlimited Special Ability (SP)",
+  "pt": "Habilidade especial ilimitada (SP)"
+ },
+ {
+  "id": "Freeze Wanted Level",
+  "en": "Freeze Wanted Level",
+  "pt": "Congelar nível de procurado"
+ },
+ {
+  "id": "Keeps the selected native wanted level. Reset stops this effect; it does not undo wanted-level edits.",
+  "en": "Keeps the selected native wanted level. Reset stops this effect; it does not undo wanted-level edits.",
+  "pt": "Mantém o nível de procurado nativo selecionado. Redefinir interrompe este efeito; não desfaz edições do nível de procurado."
+ },
+ {
+  "id": "Infinite Ammo",
+  "en": "Infinite Ammo",
+  "pt": "Munição infinita"
+ },
+ {
+  "id": "Vehicle action unavailable; current state preserved.",
+  "en": "Vehicle action unavailable; current state preserved.",
+  "pt": "Ação de veículo indisponível; estado atual preservado."
+ },
+ {
+  "id": "Weapon action unavailable in the current native state.",
+  "en": "Weapon action unavailable in the current native state.",
+  "pt": "Ação de arma indisponível no estado nativo atual."
+ },
+ {
+  "id": "Refresh Installed Vehicles",
+  "en": "Refresh Installed Vehicles",
+  "pt": "Atualizar veículos instalados"
+ },
+ {
+  "id": "Compacts",
+  "en": "Compacts",
+  "pt": "Compactos"
+ },
+ {
+  "id": "Sedans",
+  "en": "Sedans",
+  "pt": "Sedãs"
+ },
+ {
+  "id": "SUVs",
+  "en": "SUVs",
+  "pt": "SUVs"
+ },
+ {
+  "id": "Coupes",
+  "en": "Coupes",
+  "pt": "Cupês"
+ },
+ {
+  "id": "Muscle",
+  "en": "Muscle",
+  "pt": "Muscle"
+ },
+ {
+  "id": "Sports Classics",
+  "en": "Sports Classics",
+  "pt": "Clássicos esportivos"
+ },
+ {
+  "id": "Sports",
+  "en": "Sports",
+  "pt": "Esportivos"
+ },
+ {
+  "id": "Super",
+  "en": "Super",
+  "pt": "Super"
+ },
+ {
+  "id": "Motorcycles",
+  "en": "Motorcycles",
+  "pt": "Motos"
+ },
+ {
+  "id": "Off-Road",
+  "en": "Off-Road",
+  "pt": "Off-road"
+ },
+ {
+  "id": "Industrial",
+  "en": "Industrial",
+  "pt": "Industriais"
+ },
+ {
+  "id": "Utility",
+  "en": "Utility",
+  "pt": "Utilitários"
+ },
+ {
+  "id": "Vans",
+  "en": "Vans",
+  "pt": "Vans"
+ },
+ {
+  "id": "Cycles",
+  "en": "Cycles",
+  "pt": "Bicicletas"
+ },
+ {
+  "id": "Boats",
+  "en": "Boats",
+  "pt": "Barcos"
+ },
+ {
+  "id": "Helicopters",
+  "en": "Helicopters",
+  "pt": "Helicópteros"
+ },
+ {
+  "id": "Planes",
+  "en": "Planes",
+  "pt": "Aviões"
+ },
+ {
+  "id": "Service",
+  "en": "Service",
+  "pt": "Serviço"
+ },
+ {
+  "id": "Emergency",
+  "en": "Emergency",
+  "pt": "Emergência"
+ },
+ {
+  "id": "Military",
+  "en": "Military",
+  "pt": "Militares"
+ },
+ {
+  "id": "Commercial",
+  "en": "Commercial",
+  "pt": "Comerciais"
+ },
+ {
+  "id": "Trains",
+  "en": "Trains",
+  "pt": "Trens"
+ },
+ {
+  "id": "Open Wheel",
+  "en": "Open Wheel",
+  "pt": "Rodas abertas"
+ },
+ {
+  "id": "Native vehicle catalogue unavailable.",
+  "en": "Native vehicle catalogue unavailable.",
+  "pt": "Catálogo nativo de veículos indisponível."
+ },
+ {
+  "id": "Native vehicle spawn requested.",
+  "en": "Native vehicle spawn requested.",
+  "pt": "Geração de veículo nativo solicitada."
+ },
+ {
+  "id": "This vehicle requires a separate native creation path.",
+  "en": "This vehicle requires a separate native creation path.",
+  "pt": "Este veículo exige um caminho de criação nativo separado."
+ },
+ {
+  "id": "Vehicle spawn unavailable; current state preserved.",
+  "en": "Vehicle spawn unavailable; current state preserved.",
+  "pt": "Geração de veículo indisponível; estado atual preservado."
+ },
+ {
+  "id": "Trains require the native track and convoy creation path.",
+  "en": "Trains require the native track and convoy creation path.",
+  "pt": "Trens exigem o caminho nativo de criação de trilhos e comboio."
+ },
+ {
+  "id": "Uses the accepted native asynchronous spawn, material guards and offline vehicle exemption.",
+  "en": "Uses the accepted native asynchronous spawn, material guards and offline vehicle exemption.",
+  "pt": "Usa a geração assíncrona nativa aceita, as proteções de material e a isenção de veículos off-line."
+ },
+ {
+  "id": "Prevents native vehicle ejection. Reset restores the captured knock-off and windscreen settings.",
+  "en": "Prevents native vehicle ejection. Reset restores the captured knock-off and windscreen settings.",
+  "pt": "Impede a ejeção nativa do veículo. Redefinir restaura as configurações de derrubada e para-brisa capturadas."
+ },
+ {
+  "id": "Refill Health When In Cover",
+  "en": "Refill Health When In Cover",
+  "pt": "Recuperar vida ao se abrigar"
+ },
+ {
+  "id": "Auto-Clean",
+  "en": "Auto-Clean",
+  "pt": "Limpeza automática"
+ },
+ {
+  "id": "Super Jump",
+  "en": "Super Jump",
+  "pt": "Super pulo"
+ },
+ {
+  "id": "Super Run",
+  "en": "Super Run",
+  "pt": "Super corrida"
+ },
+ {
+  "id": "Walk underwater",
+  "en": "Walk underwater",
+  "pt": "Andar debaixo d'água"
+ },
+ {
+  "id": "Forcefield",
+  "en": "Forcefield",
+  "pt": "Campo de força"
+ },
+ {
+  "id": "Off",
+  "en": "Off",
+  "pt": "Desligado"
+ },
+ {
+  "id": "Push Out",
+  "en": "Push Out",
+  "pt": "Empurrar"
+ },
+ {
+  "id": "Destroy",
+  "en": "Destroy",
+  "pt": "Destruir"
+ },
+ {
+  "id": "Smash Ability",
+  "en": "Smash Ability",
+  "pt": "Habilidade de esmagar"
+ },
+ {
+  "id": "Fly Auto",
+  "en": "Fly Auto",
+  "pt": "Voo automático"
+ },
+ {
+  "id": "Ignored By Everyone",
+  "en": "Ignored By Everyone",
+  "pt": "Ignorado por todos"
+ },
+ {
+  "id": "Decal Overlays",
+  "en": "Decal Overlays",
+  "pt": "Decalques"
+ },
+ {
+  "id": "Damage Overlays",
+  "en": "Damage Overlays",
+  "pt": "Danos visuais"
+ },
+ {
+  "id": "Damage Packs",
+  "en": "Damage Packs",
+  "pt": "Pacotes de danos"
+ },
+ {
+  "id": "Clear Blood Damage",
+  "en": "Clear Blood Damage",
+  "pt": "Limpar sangue"
+ },
+ {
+  "id": "Clear All Visible Damage",
+  "en": "Clear All Visible Damage",
+  "pt": "Limpar todos os danos visíveis"
+ },
+ {
+  "id": "CLEAR ALL",
+  "en": "CLEAR ALL",
+  "pt": "LIMPAR TUDO"
+ },
+ {
+  "id": "---Wash Up---",
+  "en": "---Wash Up---",
+  "pt": "---Lavar---"
+ },
+ {
+  "id": "Tattoo",
+  "en": "Tattoo",
+  "pt": "Tatuagem"
+ },
+ {
+  "id": "Hair",
+  "en": "Hair",
+  "pt": "Cabelo"
+ },
+ {
+  "id": "Badge",
+  "en": "Badge",
+  "pt": "Distintivo"
+ },
+ {
+  "id": "Torso",
+  "en": "Torso",
+  "pt": "Torso"
+ },
+ {
+  "id": "Neck",
+  "en": "Neck",
+  "pt": "Pescoço"
+ },
+ {
+  "id": "Right Arm",
+  "en": "Right Arm",
+  "pt": "Braço direito"
+ },
+ {
+  "id": "Left Arm",
+  "en": "Left Arm",
+  "pt": "Braço esquerdo"
+ },
+ {
+  "id": "Upper Back",
+  "en": "Upper Back",
+  "pt": "Parte superior das costas"
+ },
+ {
+  "id": "Right Leg",
+  "en": "Right Leg",
+  "pt": "Perna direita"
+ },
+ {
+  "id": "Left Leg",
+  "en": "Left Leg",
+  "pt": "Perna esquerda"
+ },
+ {
+  "id": "Head",
+  "en": "Head",
+  "pt": "Cabeça"
+ },
+ {
+  "id": "No decal overlays available for this ped model.",
+  "en": "No decal overlays available for this ped model.",
+  "pt": "Nenhum decalque disponível para este modelo de pessoa."
+ },
+ {
+  "id": "Hold Sprint to run much faster.",
+  "en": "Hold Sprint to run much faster.",
+  "pt": "Segure Correr para correr bem mais rápido."
+ },
+ {
+  "id": "Walk on the bottom instead of swimming. Turning it off restores the native swim flags.",
+  "en": "Walk on the bottom instead of swimming. Turning it off restores the native swim flags.",
+  "pt": "Ande no fundo em vez de nadar. Desligar restaura as opções nativas de natação."
+ },
+ {
+  "id": "Push Out shoves nearby people, vehicles and objects away. Destroy surrounds you with explosions while you stay explosion-proof.",
+  "en": "Push Out shoves nearby people, vehicles and objects away. Destroy surrounds you with explosions while you stay explosion-proof.",
+  "pt": "Empurrar afasta pessoas, veículos e objetos próximos. Destruir cerca você de explosões enquanto você fica à prova de explosões."
+ },
+ {
+  "id": "Hold Jump to lift everything nearby, release Jump to slam it down. Jump is used by the ability while it is on.",
+  "en": "Hold Jump to lift everything nearby, release Jump to slam it down. Jump is used by the ability while it is on.",
+  "pt": "Segure Pular para erguer tudo por perto e solte Pular para jogar tudo no chão. Pular é usado pela habilidade enquanto ela estiver ligada."
+ },
+ {
+  "id": "Launches you with a parachute and flies you forward. Hold A to brake.",
+  "en": "Launches you with a parachute and flies you forward. Hold A to brake.",
+  "pt": "Lança você com um paraquedas e voa para a frente. Segure A para frear."
+ },
+ {
+  "id": "Police and other people ignore you; nearby people who are not part of a mission stay calm.",
+  "en": "Police and other people ignore you; nearby people who are not part of a mission stay calm.",
+  "pt": "A polícia e as outras pessoas ignoram você; quem está por perto e não faz parte de uma missão fica calmo."
+ },
+ {
+  "id": "Gradually restores health while in cover and not aiming. Reset stops healing; it cannot undo restored health.",
+  "en": "Gradually restores health while in cover and not aiming. Reset stops healing; it cannot undo restored health.",
+  "pt": "Restaura a saúde aos poucos enquanto você está em cobertura e sem mirar. Redefinir para a cura; não desfaz a saúde já restaurada."
+ },
+ {
+  "id": "Clears native blood and visible damage. Reset stops cleaning; it cannot restore past damage.",
+  "en": "Clears native blood and visible damage. Reset stops cleaning; it cannot restore past damage.",
+  "pt": "Limpa o sangue nativo e os danos visíveis. Redefinir para a limpeza; não restaura danos passados."
+ },
+ {
+  "id": "Uses GTA's native super jump. Does not replace your VR movement or tracking controls.",
+  "en": "Uses GTA's native super jump. Does not replace your VR movement or tracking controls.",
+  "pt": "Usa o super pulo nativo do GTA. Não substitui seus controles de movimento e rastreamento em VR."
+ },
+ {
+  "id": "Player effect paused: native operation unavailable.",
+  "en": "Player effect paused: native operation unavailable.",
+  "pt": "Efeito do jogador pausado: operação nativa indisponível."
+ },
+ {
+  "id": "Replenishment incomplete; applied changes are not automatically undone.",
+  "en": "Replenishment incomplete; applied changes are not automatically undone.",
+  "pt": "Reposição incompleta; as mudanças aplicadas não são desfeitas automaticamente."
+ },
+ {
+  "id": "Restores native maximum health and armour and clears visual damage. Resets do not undo this action.",
+  "en": "Restores native maximum health and armour and clears visual damage. Resets do not undo this action.",
+  "pt": "Restaura a saúde e o colete máximos nativos e limpa os danos visuais. Redefinir não desfaz esta ação."
+ },
+ {
+  "id": "Locations",
+  "en": "Locations",
+  "pt": "Locais"
+ },
+ {
+  "id": "Forward",
+  "en": "Forward",
+  "pt": "Para a frente"
+ },
+ {
+  "id": "Custom Coordinates",
+  "en": "Custom Coordinates",
+  "pt": "Coordenadas personalizadas"
+ },
+ {
+  "id": "Update to Current",
+  "en": "Update to Current",
+  "pt": "Atualizar para a atual"
+ },
+ {
+  "id": "Apply",
+  "en": "Apply",
+  "pt": "Aplicar"
+ },
+ {
+  "id": "---Ready To Go---",
+  "en": "---Ready To Go---",
+  "pt": "---Prontos para ir---"
+ },
+ {
+  "id": "Shops",
+  "en": "Shops",
+  "pt": "Lojas"
+ },
+ {
+  "id": "Safehouses",
+  "en": "Safehouses",
+  "pt": "Esconderijos"
+ },
+ {
+  "id": "Landmarks",
+  "en": "Landmarks",
+  "pt": "Pontos turísticos"
+ },
+ {
+  "id": "High Altitude",
+  "en": "High Altitude",
+  "pt": "Grande altitude"
+ },
+ {
+  "id": "Underwater",
+  "en": "Underwater",
+  "pt": "Debaixo d'água"
+ },
+ {
+  "id": "Online Related",
+  "en": "Online Related",
+  "pt": "Relacionados ao Online"
+ },
+ {
+  "id": "Interiors",
+  "en": "Interiors",
+  "pt": "Interiores"
+ },
+ {
+  "id": "Apartment Interiors",
+  "en": "Apartment Interiors",
+  "pt": "Interiores de apartamentos"
+ },
+ {
+  "id": "Customisable Apartment Interiors",
+  "en": "Customisable Apartment Interiors",
+  "pt": "Interiores de apartamentos personalizáveis"
+ },
+ {
+  "id": "Office Interiors",
+  "en": "Office Interiors",
+  "pt": "Interiores de escritórios"
+ },
+ {
+  "id": "Office Garages",
+  "en": "Office Garages",
+  "pt": "Garagens de escritórios"
+ },
+ {
+  "id": "Vehicle Warehouses",
+  "en": "Vehicle Warehouses",
+  "pt": "Armazéns de veículos"
+ },
+ {
+  "id": "Biker Clubhouses",
+  "en": "Biker Clubhouses",
+  "pt": "Sedes de motoqueiros"
+ },
+ {
+  "id": "Biker Businesses",
+  "en": "Biker Businesses",
+  "pt": "Negócios de motoqueiros"
+ },
+ {
+  "id": "Bunkers",
+  "en": "Bunkers",
+  "pt": "Bunkers"
+ },
+ {
+  "id": "Company Warehouses",
+  "en": "Company Warehouses",
+  "pt": "Armazéns da empresa"
+ },
+ {
+  "id": "Hangars",
+  "en": "Hangars",
+  "pt": "Hangares"
+ },
+ {
+  "id": "Heist Facilities",
+  "en": "Heist Facilities",
+  "pt": "Instalações de assalto"
+ },
+ {
+  "id": "Yachts",
+  "en": "Yachts",
+  "pt": "Iates"
+ },
+ {
+  "id": "Moves your native character or occupied vehicle forward; keeps HMD tracking authoritative.",
+  "en": "Moves your native character or occupied vehicle forward; keeps HMD tracking authoritative.",
+  "pt": "Move seu personagem nativo ou o veículo ocupado para a frente; o rastreamento do HMD continua valendo."
+ },
+ {
+  "id": "Native interior configuration pending; no teleport was performed.",
+  "en": "Native interior configuration pending; no teleport was performed.",
+  "pt": "Configuração do interior nativo pendente; nenhum teletransporte foi feito."
+ },
+ {
+  "id": "Native interior configuration pending",
+  "en": "Native interior configuration pending",
+  "pt": "Configuração do interior nativo pendente"
+ },
+ {
+  "id": "Teleport incomplete; native state was preserved where possible.",
+  "en": "Teleport incomplete; native state was preserved where possible.",
+  "pt": "Teletransporte incompleto; o estado nativo foi preservado quando possível."
+ },
+ {
+  "id": "No vehicle nearby.",
+  "en": "No vehicle nearby.",
+  "pt": "Nenhum veículo por perto."
+ },
+ {
+  "id": "Poof!",
+  "en": "Poof!",
+  "pt": "Puf!"
+ },
+ {
+  "id": "Fix & Wash",
+  "en": "Fix & Wash",
+  "pt": "Consertar e lavar"
+ },
+ {
+  "id": "Repairs the vehicle. Left/right chooses whether to keep dirt or open windows.",
+  "en": "Repairs the vehicle. Left/right chooses whether to keep dirt or open windows.",
+  "pt": "Conserta o veículo. Esquerda/direita escolhe se mantém a sujeira ou abre as janelas."
+ },
+ {
+  "id": "Menyoo Customs",
+  "en": "Menyoo Customs",
+  "pt": "Menyoo Customs"
+ },
+ {
+  "id": "You are not in a vehicle.",
+  "en": "You are not in a vehicle.",
+  "pt": "Você não está em um veículo."
+ },
+ {
+  "id": "Cargobob Magnet",
+  "en": "Cargobob Magnet",
+  "pt": "Ímã do Cargobob"
+ },
+ {
+  "id": "Rappel From Helicopter",
+  "en": "Rappel From Helicopter",
+  "pt": "Descer de rapel do helicóptero"
+ },
+ {
+  "id": "Disable Vehicle Siren",
+  "en": "Disable Vehicle Siren",
+  "pt": "Desativar sirene do veículo"
+ },
+ {
+  "id": "Anchor Boat",
+  "en": "Anchor Boat",
+  "pt": "Ancorar barco"
+ },
+ {
+  "id": "Teleport Into Closest Vehicle",
+  "en": "Teleport Into Closest Vehicle",
+  "pt": "Teletransportar para o veículo mais próximo"
+ },
+ {
+  "id": "Vehicle Multipliers",
+  "en": "Vehicle Multipliers",
+  "pt": "Multiplicadores do veículo"
+ },
+ {
+  "id": "Multi-Platform Neons",
+  "en": "Multi-Platform Neons",
+  "pt": "Neons multiplataforma"
+ },
+ {
+  "id": "Draws neon light under any vehicle, including bikes and boats.",
+  "en": "Draws neon light under any vehicle, including bikes and boats.",
+  "pt": "Desenha luz neon sob qualquer veículo, inclusive motos e barcos."
+ },
+ {
+  "id": "Auto Drive",
+  "en": "Auto Drive",
+  "pt": "Direção automática"
+ },
+ {
+  "id": "Your vehicle drives itself to the waypoint or to random destinations.",
+  "en": "Your vehicle drives itself to the waypoint or to random destinations.",
+  "pt": "Seu veículo dirige sozinho até o marcador ou para destinos aleatórios."
+ },
+ {
+  "id": "Slam It",
+  "en": "Slam It",
+  "pt": "Rebaixar"
+ },
+ {
+  "id": "Pushes the vehicle down for a lower stance.",
+  "en": "Pushes the vehicle down for a lower stance.",
+  "pt": "Empurra o veículo para baixo para deixá-lo mais rebaixado."
+ },
+ {
+  "id": "Damage & Defense",
+  "en": "Damage & Defense",
+  "pt": "Dano e defesa"
+ },
+ {
+  "id": "Multiplies damage your vehicle deals and resists. 1.0 is normal.",
+  "en": "Multiplies damage your vehicle deals and resists. 1.0 is normal.",
+  "pt": "Multiplica o dano que seu veículo causa e resiste. 1.0 é o normal."
+ },
+ {
+  "id": "Invincibility (Looped)",
+  "en": "Invincibility (Looped)",
+  "pt": "Invencibilidade (em loop)"
+ },
+ {
+  "id": "Keeps the vehicle invincible and repaired while enabled.",
+  "en": "Keeps the vehicle invincible and repaired while enabled.",
+  "pt": "Mantém o veículo invencível e consertado enquanto estiver ligado."
+ },
+ {
+  "id": "Auto-Repair",
+  "en": "Auto-Repair",
+  "pt": "Autorreparo"
+ },
+ {
+  "id": "Auto-Flip",
+  "en": "Auto-Flip",
+  "pt": "Desvirar automático"
+ },
+ {
+  "id": "Puts the vehicle back on its wheels when it lands upside down.",
+  "en": "Puts the vehicle back on its wheels when it lands upside down.",
+  "pt": "Coloca o veículo de volta sobre as rodas quando ele cai de cabeça para baixo."
+ },
+ {
+  "id": "Keep Engine & Lights On",
+  "en": "Keep Engine & Lights On",
+  "pt": "Manter motor e luzes ligados"
+ },
+ {
+  "id": "Stops the engine and lights turning off.",
+  "en": "Stops the engine and lights turning off.",
+  "pt": "Impede que o motor e as luzes se desliguem."
+ },
+ {
+  "id": "Kill Engine",
+  "en": "Kill Engine",
+  "pt": "Matar motor"
+ },
+ {
+  "id": "Destroys the engine so the vehicle won't drive.",
+  "en": "Destroys the engine so the vehicle won't drive.",
+  "pt": "Destrói o motor para o veículo não andar."
+ },
+ {
+  "id": "Engine Killed",
+  "en": "Engine Killed",
+  "pt": "Motor destruído"
+ },
+ {
+  "id": "Engine Revived",
+  "en": "Engine Revived",
+  "pt": "Motor revivido"
+ },
+ {
+  "id": "Rainbow Mode",
+  "en": "Rainbow Mode",
+  "pt": "Modo arco-íris"
+ },
+ {
+  "id": "Cycles the paint through colours.",
+  "en": "Cycles the paint through colours.",
+  "pt": "Alterna a pintura entre várias cores."
+ },
+ {
+  "id": "Slidy Tyres",
+  "en": "Slidy Tyres",
+  "pt": "Pneus escorregadios"
+ },
+ {
+  "id": "Greatly reduces tyre grip.",
+  "en": "Greatly reduces tyre grip.",
+  "pt": "Reduz muito a aderência dos pneus."
+ },
+ {
+  "id": "Cruise Control",
+  "en": "Cruise Control",
+  "pt": "Controle de cruzeiro"
+ },
+ {
+  "id": "Holds the current speed. Accelerate/brake adjust it by 2 km/h.",
+  "en": "Holds the current speed. Accelerate/brake adjust it by 2 km/h.",
+  "pt": "Mantém a velocidade atual. Acelerar/frear ajusta em 2 km/h."
+ },
+ {
+  "id": "Vehicle Boost",
+  "en": "Vehicle Boost",
+  "pt": "Turbo do veículo"
+ },
+ {
+  "id": "Hold the horn (left stick click) for a speed boost.",
+  "en": "Hold the horn (left stick click) for a speed boost.",
+  "pt": "Segure a buzina (clique no analógico esquerdo) para um impulso de velocidade."
+ },
+ {
+  "id": "Infinite Native Boost (for e.g. Oppressor)",
+  "en": "Infinite Native Boost (for e.g. Oppressor)",
+  "pt": "Turbo nativo infinito (p. ex. Oppressor)"
+ },
+ {
+  "id": "Keeps rocket boost full on vehicles that have one (e.g. Oppressor, Voltic). Hold horn.",
+  "en": "Keeps rocket boost full on vehicles that have one (e.g. Oppressor, Voltic). Hold horn.",
+  "pt": "Mantém o turbo de foguete cheio em veículos que têm um (p. ex. Oppressor, Voltic). Segure a buzina."
+ },
+ {
+  "id": "SuprKar Mode",
+  "en": "SuprKar Mode",
+  "pt": "Modo SuprKar"
+ },
+ {
+  "id": "Much faster acceleration and instant braking while on the ground.",
+  "en": "Much faster acceleration and instant braking while on the ground.",
+  "pt": "Aceleração bem mais rápida e freada instantânea no chão."
+ },
+ {
+  "id": "Fly Mode",
+  "en": "Fly Mode",
+  "pt": "Modo voo"
+ },
+ {
+  "id": "Accelerate up, Brake down, left stick to move. The vehicle follows your view.",
+  "en": "Accelerate up, Brake down, left stick to move. The vehicle follows your view.",
+  "pt": "Acelerar sobe, frear desce, analógico esquerdo move. O veículo segue sua visão."
+ },
+ {
+  "id": "Glue to Ground",
+  "en": "Glue to Ground",
+  "pt": "Colar no chão"
+ },
+ {
+  "id": "Keeps the vehicle snapped to the ground, preventing flips.",
+  "en": "Keeps the vehicle snapped to the ground, preventing flips.",
+  "pt": "Mantém o veículo colado no chão, impedindo capotamentos."
+ },
+ {
+  "id": "Drive On Water",
+  "en": "Drive On Water",
+  "pt": "Dirigir na água"
+ },
+ {
+  "id": "Lets the vehicle drive on the water surface.",
+  "en": "Lets the vehicle drive on the water surface.",
+  "pt": "Deixa o veículo andar sobre a superfície da água."
+ },
+ {
+  "id": "Increased Mass",
+  "en": "Increased Mass",
+  "pt": "Massa aumentada"
+ },
+ {
+  "id": "Pushes other vehicles away at speed; your vehicle stays invincible and repaired.",
+  "en": "Pushes other vehicles away at speed; your vehicle stays invincible and repaired.",
+  "pt": "Empurra outros veículos em velocidade; seu veículo fica invencível e consertado."
+ },
+ {
+  "id": "Child Locks",
+  "en": "Child Locks",
+  "pt": "Trava de segurança infantil"
+ },
+ {
+  "id": "Passengers can't get out.",
+  "en": "Passengers can't get out.",
+  "pt": "Passageiros não conseguem sair."
+ },
+ {
+  "id": "Door Locks",
+  "en": "Door Locks",
+  "pt": "Travas das portas"
+ },
+ {
+  "id": "No Gravity",
+  "en": "No Gravity",
+  "pt": "Sem gravidade"
+ },
+ {
+  "id": "Freeze Vehicle",
+  "en": "Freeze Vehicle",
+  "pt": "Congelar veículo"
+ },
+ {
+  "id": "Set on Fire",
+  "en": "Set on Fire",
+  "pt": "Incendiar"
+ },
+ {
+  "id": "Delete Vehicle",
+  "en": "Delete Vehicle",
+  "pt": "Excluir veículo"
+ },
+ {
+  "id": "Display Projectile Path",
+  "en": "Display Projectile Path",
+  "pt": "Mostrar trajetória do projétil"
+ },
+ {
+  "id": "Turn All Off",
+  "en": "Turn All Off",
+  "pt": "Desligar tudo"
+ },
+ {
+  "id": "Multipliers",
+  "en": "Multipliers",
+  "pt": "Multiplicadores"
+ },
+ {
+  "id": "Acceleration",
+  "en": "Acceleration",
+  "pt": "Aceleração"
+ },
+ {
+  "id": "Braking & Reverse",
+  "en": "Braking & Reverse",
+  "pt": "Freio e ré"
+ },
+ {
+  "id": "Handling",
+  "en": "Handling",
+  "pt": "Dirigibilidade"
+ },
+ {
+  "id": "Neons",
+  "en": "Neons",
+  "pt": "Neons"
+ },
+ {
+  "id": "Toggle",
+  "en": "Toggle",
+  "pt": "Liga/desliga"
+ },
+ {
+  "id": "Intensity",
+  "en": "Intensity",
+  "pt": "Intensidade"
+ },
+ {
+  "id": "Set Colour",
+  "en": "Set Colour",
+  "pt": "Definir cor"
+ },
+ {
+  "id": "Random Destination",
+  "en": "Random Destination",
+  "pt": "Destino aleatório"
+ },
+ {
+  "id": "Go To Waypoint",
+  "en": "Go To Waypoint",
+  "pt": "Ir ao marcador"
+ },
+ {
+  "id": "Speed (KMPH)",
+  "en": "Speed (KMPH)",
+  "pt": "Velocidade (KM/H)"
+ },
+ {
+  "id": "Driving Style",
+  "en": "Driving Style",
+  "pt": "Estilo de direção"
+ },
+ {
+  "id": "Push Other Vehicles Away",
+  "en": "Push Other Vehicles Away",
+  "pt": "Empurrar outros veículos"
+ },
+ {
+  "id": "Forcefield Radius",
+  "en": "Forcefield Radius",
+  "pt": "Raio do campo de força"
+ },
+ {
+  "id": "You can even drive on walls with this value.",
+  "en": "You can even drive on walls with this value.",
+  "pt": "Com este valor você até dirige em paredes."
+ },
+ {
+  "id": "Enable again if water level is incorrect/changes.",
+  "en": "Enable again if water level is incorrect/changes.",
+  "pt": "Ligue de novo se o nível da água estiver incorreto/mudar."
+ },
+ {
+  "id": "Vehicle Gravity Disabled",
+  "en": "Vehicle Gravity Disabled",
+  "pt": "Gravidade do veículo desativada"
+ },
+ {
+  "id": "Vehicle Gravity Enabled",
+  "en": "Vehicle Gravity Enabled",
+  "pt": "Gravidade do veículo ativada"
+ },
+ {
+  "id": "Vehicle Freeze On",
+  "en": "Vehicle Freeze On",
+  "pt": "Veículo congelado"
+ },
+ {
+  "id": "Vehicle Freeze Off",
+  "en": "Vehicle Freeze Off",
+  "pt": "Veículo descongelado"
+ },
+ {
+  "id": "Full",
+  "en": "Full",
+  "pt": "Completo"
+ },
+ {
+  "id": "Keep Dirt",
+  "en": "Keep Dirt",
+  "pt": "Manter sujeira"
+ },
+ {
+  "id": "Keep windows open",
+  "en": "Keep windows open",
+  "pt": "Manter janelas abertas"
+ },
+ {
+  "id": "Keep windows open with Dirt",
+  "en": "Keep windows open with Dirt",
+  "pt": "Manter janelas abertas com sujeira"
+ },
+ {
+  "id": "Enter any vehicle once to load the game's paint list.",
+  "en": "Enter any vehicle once to load the game's paint list.",
+  "pt": "Entre em qualquer veículo uma vez para carregar a lista de pinturas do jogo."
+ },
+ {
+  "id": "Paint Index",
+  "en": "Paint Index",
+  "pt": "Índice da pintura"
+ },
+ {
+  "id": "Paints",
+  "en": "Paints",
+  "pt": "Pinturas"
+ },
+ {
+  "id": "Remove Vehicle Components and Extras",
+  "en": "Remove Vehicle Components and Extras",
+  "pt": "Remover componentes e extras do veículo"
+ },
+ {
+  "id": "Break or remove doors, wheels and windows, and toggle extras.",
+  "en": "Break or remove doors, wheels and windows, and toggle extras.",
+  "pt": "Quebre ou remova portas, rodas e janelas, e ligue ou desligue extras."
+ },
+ {
+  "id": "Roof Livery",
+  "en": "Roof Livery",
+  "pt": "Adesivo do teto"
+ },
+ {
+  "id": "Lower Suspension",
+  "en": "Lower Suspension",
+  "pt": "Rebaixar suspensão"
+ },
+ {
+  "id": "Horse Power Multiplier",
+  "en": "Horse Power Multiplier",
+  "pt": "Multiplicador de cavalos de potência"
+ },
+ {
+  "id": "Torque Multiplier",
+  "en": "Torque Multiplier",
+  "pt": "Multiplicador de torque"
+ },
+ {
+  "id": "Plane Aileron On",
+  "en": "Plane Aileron On",
+  "pt": "Aileron do avião ligado"
+ },
+ {
+  "id": "Enables the plane's aileron flaps.",
+  "en": "Enables the plane's aileron flaps.",
+  "pt": "Ativa os flaps do aileron do avião."
+ },
+ {
+  "id": "Plane Aileron Off",
+  "en": "Plane Aileron Off",
+  "pt": "Aileron do avião desligado"
+ },
+ {
+  "id": "Disables the plane's aileron flaps.",
+  "en": "Disables the plane's aileron flaps.",
+  "pt": "Desativa os flaps do aileron do avião."
+ },
+ {
+  "id": "Sirens",
+  "en": "Sirens",
+  "pt": "Sirenes"
+ },
+ {
+  "id": "Random Upgrades",
+  "en": "Random Upgrades",
+  "pt": "Melhorias aleatórias"
+ },
+ {
+  "id": "Applies random mods to every slot and makes the tyres bulletproof.",
+  "en": "Applies random mods to every slot and makes the tyres bulletproof.",
+  "pt": "Aplica modificações aleatórias em todos os espaços e deixa os pneus à prova de bala."
+ },
+ {
+  "id": "Return to Stock",
+  "en": "Return to Stock",
+  "pt": "Voltar ao original"
+ },
+ {
+  "id": "Removes all mods and restores normal tyres.",
+  "en": "Removes all mods and restores normal tyres.",
+  "pt": "Remove todas as modificações e restaura os pneus normais."
+ },
+ {
+  "id": "Interior Colour",
+  "en": "Interior Colour",
+  "pt": "Cor do interior"
+ },
+ {
+  "id": "Dashboard Colour",
+  "en": "Dashboard Colour",
+  "pt": "Cor do painel"
+ },
+ {
+  "id": "Colours cannot always be applied to stock wheels.",
+  "en": "Colours cannot always be applied to stock wheels.",
+  "pt": "As cores nem sempre podem ser aplicadas às rodas originais."
+ },
+ {
+  "id": "---Collateral---",
+  "en": "---Collateral---",
+  "pt": "---Colateral---"
+ },
+ {
+  "id": "Paint Fade",
+  "en": "Paint Fade",
+  "pt": "Desbotamento da pintura"
+ },
+ {
+  "id": "Dirt Level",
+  "en": "Dirt Level",
+  "pt": "Nível de sujeira"
+ },
+ {
+  "id": "CarVariation Colours",
+  "en": "CarVariation Colours",
+  "pt": "Cores CarVariation"
+ },
+ {
+  "id": "None (Default)",
+  "en": "None (Default)",
+  "pt": "Nenhum (padrão)"
+ },
+ {
+  "id": "Chrome",
+  "en": "Chrome",
+  "pt": "Cromado"
+ },
+ {
+  "id": "Classic",
+  "en": "Classic",
+  "pt": "Clássico"
+ },
+ {
+  "id": "Matte",
+  "en": "Matte",
+  "pt": "Fosco"
+ },
+ {
+  "id": "Metallic",
+  "en": "Metallic",
+  "pt": "Metálico"
+ },
+ {
+  "id": "Standard metallic car paints.",
+  "en": "Standard metallic car paints.",
+  "pt": "Pinturas metálicas padrão de carros."
+ },
+ {
+  "id": "Metal",
+  "en": "Metal",
+  "pt": "Metal"
+ },
+ {
+  "id": "Brushed and bare metal finishes, like steel, aluminium and gold.",
+  "en": "Brushed and bare metal finishes, like steel, aluminium and gold.",
+  "pt": "Acabamentos de metal escovado e puro, como aço, alumínio e ouro."
+ },
+ {
+  "id": "Chameleon",
+  "en": "Chameleon",
+  "pt": "Camaleão"
+ },
+ {
+  "id": "Unpainted utility-vehicle finishes.",
+  "en": "Unpainted utility-vehicle finishes.",
+  "pt": "Acabamentos de veículos utilitários sem pintura."
+ },
+ {
+  "id": "Worn",
+  "en": "Worn",
+  "pt": "Desgastado"
+ },
+ {
+  "id": "Weathered, aged paint finishes.",
+  "en": "Weathered, aged paint finishes.",
+  "pt": "Acabamentos de pintura envelhecidos e desgastados."
+ },
+ {
+  "id": "Random Index",
+  "en": "Random Index",
+  "pt": "Índice aleatório"
+ },
+ {
+  "id": "Applies a random paint from this category.",
+  "en": "Applies a random paint from this category.",
+  "pt": "Aplica uma pintura aleatória desta categoria."
+ },
+ {
+  "id": "Random RGB",
+  "en": "Random RGB",
+  "pt": "RGB aleatório"
+ },
+ {
+  "id": "Set RGB",
+  "en": "Set RGB",
+  "pt": "Definir RGB"
+ },
+ {
+  "id": "Copies this paint to the other (primary/secondary) layer.",
+  "en": "Copies this paint to the other (primary/secondary) layer.",
+  "pt": "Copia esta pintura para a outra camada (primária/secundária)."
+ },
+ {
+  "id": "Paint Finish",
+  "en": "Paint Finish",
+  "pt": "Acabamento da pintura"
+ },
+ {
+  "id": "HUD Colour",
+  "en": "HUD Colour",
+  "pt": "Cor do HUD"
+ },
+ {
+  "id": "Picks a colour from the game's HUD colour presets.",
+  "en": "Picks a colour from the game's HUD colour presets.",
+  "pt": "Escolhe uma cor entre as predefinições de cor do HUD do jogo."
+ },
+ {
+  "id": "Drift Tyres",
+  "en": "Drift Tyres",
+  "pt": "Pneus de drift"
+ },
+ {
+  "id": "Low-grip tyres for drifting.",
+  "en": "Low-grip tyres for drifting.",
+  "pt": "Pneus de pouca aderência para derrapar."
+ },
+ {
+  "id": "Uses the custom tyre style for the current wheels.",
+  "en": "Uses the custom tyre style for the current wheels.",
+  "pt": "Usa o estilo de pneu personalizado nas rodas atuais."
+ },
+ {
+  "id": "Front",
+  "en": "Front",
+  "pt": "Frente"
+ },
+ {
+  "id": "Rear",
+  "en": "Rear",
+  "pt": "Traseira"
+ },
+ {
+  "id": "Neon RGB",
+  "en": "Neon RGB",
+  "pt": "RGB do neon"
+ },
+ {
+  "id": "Neon Fade",
+  "en": "Neon Fade",
+  "pt": "Esmaecer neon"
+ },
+ {
+  "id": "Neon Flash",
+  "en": "Neon Flash",
+  "pt": "Piscar neon"
+ },
+ {
+  "id": "Animation Speed (ms)",
+  "en": "Animation Speed (ms)",
+  "pt": "Velocidade da animação (ms)"
+ },
+ {
+  "id": "Lock Status",
+  "en": "Lock Status",
+  "pt": "Estado da trava"
+ },
+ {
+  "id": "Action",
+  "en": "Action",
+  "pt": "Ação"
+ },
+ {
+  "id": "All",
+  "en": "All",
+  "pt": "Todos"
+ },
+ {
+  "id": "---Status---",
+  "en": "---Status---",
+  "pt": "---Estado---"
+ },
+ {
+  "id": "All Windows",
+  "en": "All Windows",
+  "pt": "Todas as janelas"
+ },
+ {
+  "id": "Player Crew Emblem",
+  "en": "Player Crew Emblem",
+  "pt": "Emblema da equipe do jogador"
+ },
+ {
+  "id": "No crew emblem is available offline for this player.",
+  "en": "No crew emblem is available offline for this player.",
+  "pt": "Nenhum emblema de equipe disponível offline para este jogador."
+ },
+ {
+  "id": "Adds the player's crew emblem (needs crew data; Story offline usually has none).",
+  "en": "Adds the player's crew emblem (needs crew data; Story offline usually has none).",
+  "pt": "Adiciona o emblema da equipe do jogador (precisa de dados da equipe; o modo história offline geralmente não tem)."
+ },
+ {
+  "id": "Removable Components",
+  "en": "Removable Components",
+  "pt": "Componentes removíveis"
+ },
+ {
+  "id": "Extras",
+  "en": "Extras",
+  "pt": "Extras"
+ },
+ {
+  "id": "Helicopter Parts",
+  "en": "Helicopter Parts",
+  "pt": "Peças do helicóptero"
+ },
+ {
+  "id": "Break Rudder",
+  "en": "Break Rudder",
+  "pt": "Quebrar leme"
+ },
+ {
+  "id": "Tyres",
+  "en": "Tyres",
+  "pt": "Pneus"
+ },
+ {
+  "id": "Headlights",
+  "en": "Headlights",
+  "pt": "Faróis"
+ },
+ {
+  "id": "Left Indicator",
+  "en": "Left Indicator",
+  "pt": "Seta esquerda"
+ },
+ {
+  "id": "Right Indicator",
+  "en": "Right Indicator",
+  "pt": "Seta direita"
+ },
+ {
+  "id": "Hazard Lights",
+  "en": "Hazard Lights",
+  "pt": "Pisca-alerta"
+ },
+ {
+  "id": "Copy to Secondary",
+  "en": "Copy to Secondary",
+  "pt": "Copiar para a secundária"
+ },
+ {
+  "id": "Copy to Primary",
+  "en": "Copy to Primary",
+  "pt": "Copiar para a primária"
+ },
+ {
+  "id": "Bike Wheels",
+  "en": "Bike Wheels",
+  "pt": "Rodas de moto"
+ },
+ {
+  "id": "Normal Wheels",
+  "en": "Normal Wheels",
+  "pt": "Rodas normais"
+ },
+ {
+  "id": "Detached",
+  "en": "Detached",
+  "pt": "Solto"
+ },
+ {
+  "id": "Attached",
+  "en": "Attached",
+  "pt": "Preso"
+ },
+ {
+  "id": "Deflated",
+  "en": "Deflated",
+  "pt": "Murcho"
+ },
+ {
+  "id": "Intact",
+  "en": "Intact",
+  "pt": "Intacto"
+ },
+ {
+  "id": "White",
+  "en": "White",
+  "pt": "Branco"
+ },
+ {
+  "id": "Light Blue",
+  "en": "Light Blue",
+  "pt": "Azul-claro"
+ },
+ {
+  "id": "Light Green",
+  "en": "Light Green",
+  "pt": "Verde-claro"
+ },
+ {
+  "id": "Light Yellow",
+  "en": "Light Yellow",
+  "pt": "Amarelo-claro"
+ },
+ {
+  "id": "Yellow",
+  "en": "Yellow",
+  "pt": "Amarelo"
+ },
+ {
+  "id": "Orange",
+  "en": "Orange",
+  "pt": "Laranja"
+ },
+ {
+  "id": "Light Pink",
+  "en": "Light Pink",
+  "pt": "Rosa-claro"
+ },
+ {
+  "id": "Pink",
+  "en": "Pink",
+  "pt": "Rosa"
+ },
+ {
+  "id": "Purple",
+  "en": "Purple",
+  "pt": "Roxo"
+ },
+ {
+  "id": "Light Purple",
+  "en": "Light Purple",
+  "pt": "Roxo-claro"
+ },
+ {
+  "id": "None",
+  "en": "None",
+  "pt": "Nenhum"
+ },
+ {
+  "id": "Simple",
+  "en": "Simple",
+  "pt": "Simples"
+ },
+ {
+  "id": "Heartbeat",
+  "en": "Heartbeat",
+  "pt": "Batimento"
+ },
+ {
+  "id": "Shift",
+  "en": "Shift",
+  "pt": "Troca"
+ },
+ {
+  "id": "Slide",
+  "en": "Slide",
+  "pt": "Deslizar"
+ },
+ {
+  "id": "Spin",
+  "en": "Spin",
+  "pt": "Girar"
+ },
+ {
+  "id": "SpinBack",
+  "en": "SpinBack",
+  "pt": "Girar ao contrário"
+ },
+ {
+  "id": "Firework",
+  "en": "Firework",
+  "pt": "Fogos de artifício"
+ },
+ {
+  "id": "Unlocked",
+  "en": "Unlocked",
+  "pt": "Destravado"
+ },
+ {
+  "id": "Locked",
+  "en": "Locked",
+  "pt": "Travado"
+ },
+ {
+  "id": "Open/Close",
+  "en": "Open/Close",
+  "pt": "Abrir/Fechar"
+ },
+ {
+  "id": "Close",
+  "en": "Close",
+  "pt": "Fechar"
+ },
+ {
+  "id": "Remove",
+  "en": "Remove",
+  "pt": "Remover"
+ },
+ {
+  "id": "Fix",
+  "en": "Fix",
+  "pt": "Consertar"
+ },
+ {
+  "id": "Driver Door",
+  "en": "Driver Door",
+  "pt": "Porta do motorista"
+ },
+ {
+  "id": "Passenger Door",
+  "en": "Passenger Door",
+  "pt": "Porta do passageiro"
+ },
+ {
+  "id": "Rear Left",
+  "en": "Rear Left",
+  "pt": "Traseira esquerda"
+ },
+ {
+  "id": "Rear Right",
+  "en": "Rear Right",
+  "pt": "Traseira direita"
+ },
+ {
+  "id": "Hood",
+  "en": "Hood",
+  "pt": "Capô"
+ },
+ {
+  "id": "Trunk",
+  "en": "Trunk",
+  "pt": "Porta-malas"
+ },
+ {
+  "id": "Black",
+  "en": "Black",
+  "pt": "Preto"
+ },
+ {
+  "id": "Stock",
+  "en": "Stock",
+  "pt": "Original"
+ },
+ {
+  "id": "Open",
+  "en": "Open",
+  "pt": "Abrir"
+ },
+ {
+  "id": "Break",
+  "en": "Break",
+  "pt": "Quebrar"
+ },
+ {
+  "id": "Front Left",
+  "en": "Front Left",
+  "pt": "Dianteira esquerda"
+ },
+ {
+  "id": "Front Right",
+  "en": "Front Right",
+  "pt": "Dianteira direita"
+ },
+ {
+  "id": "Back Left",
+  "en": "Back Left",
+  "pt": "Traseira esquerda"
+ },
+ {
+  "id": "Back Right",
+  "en": "Back Right",
+  "pt": "Traseira direita"
+ },
+ {
+  "id": "Front Left Door",
+  "en": "Front Left Door",
+  "pt": "Porta dianteira esquerda"
+ },
+ {
+  "id": "Front Right Door",
+  "en": "Front Right Door",
+  "pt": "Porta dianteira direita"
+ },
+ {
+  "id": "Back Left Door",
+  "en": "Back Left Door",
+  "pt": "Porta traseira esquerda"
+ },
+ {
+  "id": "Back Right Door",
+  "en": "Back Right Door",
+  "pt": "Porta traseira direita"
+ },
+ {
+  "id": "Trunk 2",
+  "en": "Trunk 2",
+  "pt": "Porta-malas 2"
+ },
+ {
+  "id": "Middle Left",
+  "en": "Middle Left",
+  "pt": "Meio esquerdo"
+ },
+ {
+  "id": "Middle Right",
+  "en": "Middle Right",
+  "pt": "Meio direito"
+ },
+ {
+  "id": "The previous vehicle is owned by the game and was kept.",
+  "en": "The previous vehicle is owned by the game and was kept.",
+  "pt": "O veículo anterior pertence ao jogo e foi mantido."
+ },
+ {
+  "id": "Added a blip.",
+  "en": "Added a blip.",
+  "pt": "Ícone adicionado ao mapa."
+ },
+ {
+  "id": "A vehicle is already being created.",
+  "en": "A vehicle is already being created.",
+  "pt": "Um veículo já está sendo criado."
+ },
+ {
+  "id": "Invalid vehicle model.",
+  "en": "Invalid vehicle model.",
+  "pt": "Modelo de veículo inválido."
+ },
+ {
+  "id": "This model has no compatible native vehicle material; nothing was created.",
+  "en": "This model has no compatible native vehicle material; nothing was created.",
+  "pt": "Este modelo não tem material de veículo nativo compatível; nada foi criado."
+ },
+ {
+  "id": "Vehicle could not be created (native vehicle limit or invalid position).",
+  "en": "Vehicle could not be created (native vehicle limit or invalid position).",
+  "pt": "Não foi possível criar o veículo (limite nativo de veículos ou posição inválida)."
+ },
+ {
+  "id": "Vehicle rejected by the native material guard; it was removed.",
+  "en": "Vehicle rejected by the native material guard; it was removed.",
+  "pt": "Veículo rejeitado pela proteção de material nativo; foi removido."
+ },
+ {
+  "id": "Vehicle model did not load in 3 s.",
+  "en": "Vehicle model did not load in 3 s.",
+  "pt": "O modelo do veículo não carregou em 3 s."
+ },
+ {
+  "id": "Spawn Settings",
+  "en": "Spawn Settings",
+  "pt": "Configurações de geração"
+ },
+ {
+  "id": "Funny Vehicles (Old)",
+  "en": "Funny Vehicles (Old)",
+  "pt": "Veículos engraçados (antigos)"
+ },
+ {
+  "id": "Pre-built joke vehicles made from attached props.",
+  "en": "Pre-built joke vehicles made from attached props.",
+  "pt": "Veículos de piada prontos, feitos de objetos acoplados."
+ },
+ {
+  "id": "---Cars---",
+  "en": "---Cars---",
+  "pt": "---Carros---"
+ },
+ {
+  "id": "---Industrial---",
+  "en": "---Industrial---",
+  "pt": "---Industriais---"
+ },
+ {
+  "id": "---Others---",
+  "en": "---Others---",
+  "pt": "---Outros---"
+ },
+ {
+  "id": "DLC Vehicles",
+  "en": "DLC Vehicles",
+  "pt": "Veículos de DLC"
+ },
+ {
+  "id": "Vehicles grouped by the update that added them.",
+  "en": "Vehicles grouped by the update that added them.",
+  "pt": "Veículos agrupados pela atualização que os adicionou."
+ },
+ {
+  "id": "Random Vehicle",
+  "en": "Random Vehicle",
+  "pt": "Veículo aleatório"
+ },
+ {
+  "id": "Spawns a random vehicle.",
+  "en": "Spawns a random vehicle.",
+  "pt": "Gera um veículo aleatório."
+ },
+ {
+  "id": "Invalid Category",
+  "en": "Invalid Category",
+  "pt": "Categoria inválida"
+ },
+ {
+  "id": "This model is not installed in this game version.",
+  "en": "This model is not installed in this game version.",
+  "pt": "Este modelo não está instalado nesta versão do jogo."
+ },
+ {
+  "id": "Delete Old Vehicle",
+  "en": "Delete Old Vehicle",
+  "pt": "Excluir veículo antigo"
+ },
+ {
+  "id": "Deletes your previous vehicle when you spawn a new one.",
+  "en": "Deletes your previous vehicle when you spawn a new one.",
+  "pt": "Exclui seu veículo anterior ao gerar um novo."
+ },
+ {
+  "id": "Auto-Sit In Vehicle",
+  "en": "Auto-Sit In Vehicle",
+  "pt": "Sentar automaticamente no veículo"
+ },
+ {
+  "id": "Puts you in the driver seat after spawning.",
+  "en": "Puts you in the driver seat after spawning.",
+  "pt": "Coloca você no banco do motorista após gerar."
+ },
+ {
+  "id": "Add Blip For Spawned Vehicles",
+  "en": "Add Blip For Spawned Vehicles",
+  "pt": "Ícone nos veículos gerados"
+ },
+ {
+  "id": "Adds a map blip on each spawned vehicle.",
+  "en": "Adds a map blip on each spawned vehicle.",
+  "pt": "Adiciona um ícone no mapa em cada veículo gerado."
+ },
+ {
+  "id": "Spawn At Nearest Node",
+  "en": "Spawn At Nearest Node",
+  "pt": "Gerar no nó mais próximo"
+ },
+ {
+  "id": "Spawns on the nearest road instead of in front of you.",
+  "en": "Spawns on the nearest road instead of in front of you.",
+  "pt": "Gera na estrada mais próxima em vez de na sua frente."
+ },
+ {
+  "id": "Spawn Pre-Upgraded",
+  "en": "Spawn Pre-Upgraded",
+  "pt": "Gerar já melhorado"
+ },
+ {
+  "id": "Applies upgrades to new vehicles.",
+  "en": "Applies upgrades to new vehicles.",
+  "pt": "Aplica melhorias aos novos veículos."
+ },
+ {
+  "id": "Spawn Invincible",
+  "en": "Spawn Invincible",
+  "pt": "Gerar invencível"
+ },
+ {
+  "id": "Spawn Persistent",
+  "en": "Spawn Persistent",
+  "pt": "Gerar persistente"
+ },
+ {
+  "id": "Spawned vehicles won't despawn.",
+  "en": "Spawned vehicles won't despawn.",
+  "pt": "Veículos gerados não somem."
+ },
+ {
+  "id": "Primary Paint",
+  "en": "Primary Paint",
+  "pt": "Pintura primária"
+ },
+ {
+  "id": "Secondary Paint",
+  "en": "Secondary Paint",
+  "pt": "Pintura secundária"
+ },
+ {
+  "id": "---Neons---",
+  "en": "---Neons---",
+  "pt": "---Neons---"
+ },
+ {
+  "id": "Spawned vehicles get neon lights in the colour below.",
+  "en": "Spawned vehicles get neon lights in the colour below.",
+  "pt": "Veículos gerados ganham luzes neon na cor abaixo."
+ },
+ {
+  "id": "RGB Colour",
+  "en": "RGB Colour",
+  "pt": "Cor RGB"
+ },
+ {
+  "id": "---Plate---",
+  "en": "---Plate---",
+  "pt": "---Placa---"
+ },
+ {
+  "id": "Text",
+  "en": "Text",
+  "pt": "Texto"
+ },
+ {
+  "id": "Random",
+  "en": "Random",
+  "pt": "Aleatório"
+ },
+ {
+  "id": "MENYOO or the game's random plate text. Typing custom text is not available in VR.",
+  "en": "MENYOO or the game's random plate text. Typing custom text is not available in VR.",
+  "pt": "Texto de placa do MENYOO ou aleatório do jogo. Digitar texto personalizado não está disponível em VR."
+ },
+ {
+  "id": "---Previews---",
+  "en": "---Previews---",
+  "pt": "---Prévias---"
+ },
+ {
+  "id": "Enable Previews",
+  "en": "Enable Previews",
+  "pt": "Ativar prévias"
+ },
+ {
+  "id": "Shows a vehicle image while browsing.",
+  "en": "Shows a vehicle image while browsing.",
+  "pt": "Mostra uma imagem do veículo ao navegar."
+ },
+ {
+  "id": "Reload Previews",
+  "en": "Reload Previews",
+  "pt": "Recarregar prévias"
+ },
+ {
+  "id": "Previews reloaded.",
+  "en": "Previews reloaded.",
+  "pt": "Prévias recarregadas."
+ },
+ {
+  "id": "Reloads the preview image files.",
+  "en": "Reloads the preview image files.",
+  "pt": "Recarrega os arquivos de imagem das prévias."
+ },
+ {
+  "id": "Badly Constructed Vehicles",
+  "en": "Badly Constructed Vehicles",
+  "pt": "Veículos mal construídos"
+ },
+ {
+  "id": "No preview available",
+  "en": "No preview available",
+  "pt": "Sem prévia disponível"
+ },
+ {
+  "id": "Teleport rejected; native state was preserved.",
+  "en": "Teleport rejected; native state was preserved.",
+  "pt": "Teletransporte rejeitado; o estado nativo foi preservado."
+ },
+ {
+  "id": "~b~Note:~s~ You cannot use other Menyoo weapon mods with this on.",
+  "en": "~b~Note:~s~ You cannot use other Menyoo weapon mods with this on.",
+  "pt": "~b~Nota:~s~ Você não pode usar outros mods de armas do Menyoo com isto ligado."
+ },
+ {
+  "id": "Shoot ~b~scrubs~s~ with the ~b~combat pistol~s~ for hax!",
+  "en": "Shoot ~b~scrubs~s~ with the ~b~combat pistol~s~ for hax!",
+  "pt": "Atire em ~b~otários~s~ com a ~b~pistola de combate~s~ para hackear!"
+ },
+ {
+  "id": "Use the ~b~Heavy pistol~s~ to teleport to places.",
+  "en": "Use the ~b~Heavy pistol~s~ to teleport to places.",
+  "pt": "Use a ~b~pistola pesada~s~ para teletransportar para lugares."
+ },
+ {
+  "id": "Shoot ~b~dead people~s~ with the ~b~stun gun~s~ to bring them back from the other side.",
+  "en": "Shoot ~b~dead people~s~ with the ~b~stun gun~s~ to bring them back from the other side.",
+  "pt": "Atire em ~b~pessoas mortas~s~ com a ~b~arma de choque~s~ para trazê-las de volta do outro lado."
+ },
+ {
+  "id": "Shoot ~b~anything*~s~ with the ~b~SNS pistol~s~ to delete it.",
+  "en": "Shoot ~b~anything*~s~ with the ~b~SNS pistol~s~ to delete it.",
+  "pt": "Atire em ~b~qualquer coisa*~s~ com a ~b~pistola SNS~s~ para excluí-la."
+ },
+ {
+  "id": "Individual Weapons",
+  "en": "Individual Weapons",
+  "pt": "Armas individuais"
+ },
+ {
+  "id": "Currently Held Weapon",
+  "en": "Currently Held Weapon",
+  "pt": "Arma segurada no momento"
+ },
+ {
+  "id": "Hold a catalogued weapon to customise it.",
+  "en": "Hold a catalogued weapon to customise it.",
+  "pt": "Segure uma arma do catálogo para personalizá-la."
+ },
+ {
+  "id": "Parachutes",
+  "en": "Parachutes",
+  "pt": "Paraquedas"
+ },
+ {
+  "id": "Error: Unable to save favourites.",
+  "en": "Error: Unable to save favourites.",
+  "pt": "Erro: não foi possível salvar os favoritos."
+ },
+ {
+  "id": "Adds the weapon in your hand using its installed name.",
+  "en": "Adds the weapon in your hand using its installed name.",
+  "pt": "Adiciona a arma na sua mão usando o nome instalado."
+ },
+ {
+  "id": "---Added Weapons---",
+  "en": "---Added Weapons---",
+  "pt": "---Armas adicionadas---"
+ },
+ {
+  "id": "Y: remove from favourites.",
+  "en": "Y: remove from favourites.",
+  "pt": "Y: remover dos favoritos."
+ },
+ {
+  "id": "Y: add to favourites.",
+  "en": "Y: add to favourites.",
+  "pt": "Y: adicionar aos favoritos."
+ },
+ {
+  "id": "Equip Weapon",
+  "en": "Equip Weapon",
+  "pt": "Equipar arma"
+ },
+ {
+  "id": "Fill Ammo",
+  "en": "Fill Ammo",
+  "pt": "Encher munição"
+ },
+ {
+  "id": "Sets this weapon's ammo to max.",
+  "en": "Sets this weapon's ammo to max.",
+  "pt": "Deixa a munição desta arma no máximo."
+ },
+ {
+  "id": "Empty Ammo",
+  "en": "Empty Ammo",
+  "pt": "Esvaziar munição"
+ },
+ {
+  "id": "Sets this weapon's ammo to zero.",
+  "en": "Sets this weapon's ammo to zero.",
+  "pt": "Zera a munição desta arma."
+ },
+ {
+  "id": "Remove Weapon",
+  "en": "Remove Weapon",
+  "pt": "Remover arma"
+ },
+ {
+  "id": "Attachments & Tints",
+  "en": "Attachments & Tints",
+  "pt": "Acessórios e cores"
+ },
+ {
+  "id": "---Tints---",
+  "en": "---Tints---",
+  "pt": "---Cores---"
+ },
+ {
+  "id": "Parachute",
+  "en": "Parachute",
+  "pt": "Paraquedas"
+ },
+ {
+  "id": "Equip Primary",
+  "en": "Equip Primary",
+  "pt": "Equipar primária"
+ },
+ {
+  "id": "Equip Secondary",
+  "en": "Equip Secondary",
+  "pt": "Equipar secundária"
+ },
+ {
+  "id": "Set Smoke Colour",
+  "en": "Set Smoke Colour",
+  "pt": "Definir cor da fumaça"
+ },
+ {
+  "id": "Save Current Loadout",
+  "en": "Save Current Loadout",
+  "pt": "Salvar equipamento atual"
+ },
+ {
+  "id": "Error: Unable to save loadout.",
+  "en": "Error: Unable to save loadout.",
+  "pt": "Erro: não foi possível salvar o equipamento."
+ },
+ {
+  "id": "Saves all weapons, attachments and tints you're carrying to a new numbered file.",
+  "en": "Saves all weapons, attachments and tints you're carrying to a new numbered file.",
+  "pt": "Salva todas as armas, acessórios e cores que você carrega em um novo arquivo numerado."
+ },
+ {
+  "id": "---Found Files---",
+  "en": "---Found Files---",
+  "pt": "---Arquivos encontrados---"
+ },
+ {
+  "id": "Replaces your weapons with this loadout.",
+  "en": "Replaces your weapons with this loadout.",
+  "pt": "Substitui suas armas por este equipamento."
+ },
+ {
+  "id": "Overwrite File",
+  "en": "Overwrite File",
+  "pt": "Sobrescrever arquivo"
+ },
+ {
+  "id": "Delete File",
+  "en": "Delete File",
+  "pt": "Excluir arquivo"
+ },
+ {
+  "id": "Weapon added.",
+  "en": "Weapon added.",
+  "pt": "Arma adicionada."
+ },
+ {
+  "id": "Weapon removed.",
+  "en": "Weapon removed.",
+  "pt": "Arma removida."
+ },
+ {
+  "id": "Loadout saved.",
+  "en": "Loadout saved.",
+  "pt": "Equipamento salvo."
+ },
+ {
+  "id": "Loadout applied.",
+  "en": "Loadout applied.",
+  "pt": "Equipamento aplicado."
+ },
+ {
+  "id": "Error applying loadout.",
+  "en": "Error applying loadout.",
+  "pt": "Erro ao aplicar o equipamento."
+ },
+ {
+  "id": "File overwritten.",
+  "en": "File overwritten.",
+  "pt": "Arquivo sobrescrito."
+ },
+ {
+  "id": "Error: Unable to overwrite file.",
+  "en": "Error: Unable to overwrite file.",
+  "pt": "Erro: não foi possível sobrescrever o arquivo."
+ },
+ {
+  "id": "File deleted.",
+  "en": "File deleted.",
+  "pt": "Arquivo excluído."
+ },
+ {
+  "id": "Error deleting file.",
+  "en": "Error deleting file.",
+  "pt": "Erro ao excluir o arquivo."
+ },
+ {
+  "id": "Opacity",
+  "en": "Opacity",
+  "pt": "Opacidade"
+ },
+ {
+  "id": "No mission objective blip found.",
+  "en": "No mission objective blip found.",
+  "pt": "Nenhum ícone de objetivo de missão encontrado."
+ },
+ {
+  "id": "~r~Error:~s~ No Waypoint set.",
+  "en": "~r~Error:~s~ No Waypoint set.",
+  "pt": "~r~Erro:~s~ Nenhum marcador definido."
+ },
+ {
+  "id": "Waypoint",
+  "en": "Waypoint",
+  "pt": "Marcador"
+ },
+ {
+  "id": "Mission Objective",
+  "en": "Mission Objective",
+  "pt": "Objetivo da missão"
+ },
+ {
+  "id": "Teleports to the current mission objective blip.",
+  "en": "Teleports to the current mission objective blip.",
+  "pt": "Teletransporta para o ícone do objetivo de missão atual."
+ },
+ {
+  "id": "Map Blips",
+  "en": "Map Blips",
+  "pt": "Ícones do mapa"
+ },
+ {
+  "id": "No blips",
+  "en": "No blips",
+  "pt": "Nenhum ícone"
+ },
+ {
+  "id": "---Collection Data---",
+  "en": "---Collection Data---",
+  "pt": "---Dados da coleção---"
+ },
+ {
+  "id": "Collection",
+  "en": "Collection",
+  "pt": "Coleção"
+ },
+ {
+  "id": "The clothing set this item was added in (base game, a game update or a mod). Base game items are listed as \"basegame\".",
+  "en": "The clothing set this item was added in (base game, a game update or a mod). Base game items are listed as \"basegame\".",
+  "pt": "O conjunto de roupas em que este item foi adicionado (jogo base, uma atualização ou um mod). Itens do jogo base aparecem como \"basegame\"."
+ },
+ {
+  "id": "Local ID",
+  "en": "Local ID",
+  "pt": "ID local"
+ },
+ {
+  "id": "The item's number within its collection. Unlike Type, it stays the same after game updates.",
+  "en": "The item's number within its collection. Unlike Type, it stays the same after game updates.",
+  "pt": "O número do item dentro da coleção. Ao contrário do Tipo, continua o mesmo após atualizações do jogo."
+ },
+ {
+  "id": "Maximizes Story stats for Michael, Franklin and Trevor. Resets do not undo them.",
+  "en": "Maximizes Story stats for Michael, Franklin and Trevor. Resets do not undo them.",
+  "pt": "Maximiza as estatísticas do modo história de Michael, Franklin e Trevor. Redefinir não desfaz."
+ },
+ {
+  "id": "Vehicle effect paused: native operation unavailable.",
+  "en": "Vehicle effect paused: native operation unavailable.",
+  "pt": "Efeito do veículo pausado: operação nativa indisponível."
+ },
+ {
+  "id": "Weapon effect paused: native operation unavailable.",
+  "en": "Weapon effect paused: native operation unavailable.",
+  "pt": "Efeito da arma pausado: operação nativa indisponível."
+ },
+ {
+  "id": "English",
+  "en": "English",
+  "pt": "English"
+ },
+ {
+  "id": "Spanish",
+  "en": "Spanish",
+  "pt": "Espanhol"
+ }
+]

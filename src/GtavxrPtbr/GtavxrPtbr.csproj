@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RootNamespace>GtavxrPtbr</RootNamespace>
+    <AssemblyName>GtavxrPtbr</AssemblyName>
+    <Version>1.0.0</Version>
+    <Product>GTAVXR PT-BR</Product>
+    <Company>Scarlet Modder</Company>
+    <Copyright>Scarlet Modder</Copyright>
+    <Description>Applies the Brazilian Portuguese translation to the GTAVXR Suite.</Description>
+    <ApplicationIcon>..\..\assets\icon.ico</ApplicationIcon>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+    <DebugType>none</DebugType>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.11.6" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\translations\suite.pt-BR.json" Link="translations\suite.pt-BR.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\translations\content-catalog.pt-BR.json" Link="translations\content-catalog.pt-BR.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GtavxrPtbr.Tests" />
+  </ItemGroup>
+
+</Project>

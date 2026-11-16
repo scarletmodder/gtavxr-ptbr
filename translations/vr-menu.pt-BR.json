@@ -1,0 +1,1542 @@
+[
+ {
+  "id": "SETTINGS / AJUSTES",
+  "en": "Settings",
+  "pt": "Ajustes"
+ },
+ {
+  "id": "Calibration / Calibracion  >",
+  "en": "Calibration  >",
+  "pt": "Calibração  >"
+ },
+ {
+  "id": "Giro: %s",
+  "en": "Turning: %s",
+  "pt": "Giro: %s"
+ },
+ {
+  "id": "SUAVE",
+  "en": "SMOOTH",
+  "pt": "SUAVE"
+ },
+ {
+  "id": "POR PASOS",
+  "en": "SNAP",
+  "pt": "POR PASSOS"
+ },
+ {
+  "id": "Velocidad: %d grados/s",
+  "en": "Speed: %d degrees/s",
+  "pt": "Velocidade: %d graus/s"
+ },
+ {
+  "id": "Paso: %d grados",
+  "en": "Step: %d degrees",
+  "pt": "Passo: %d graus"
+ },
+ {
+  "id": "Conduccion con mandos: %s",
+  "en": "Tracked Steering: %s",
+  "pt": "Direção por controles: %s"
+ },
+ {
+  "id": "SI",
+  "en": "ON",
+  "pt": "ON"
+ },
+ {
+  "id": "NO",
+  "en": "OFF",
+  "pt": "OFF"
+ },
+ {
+  "id": "HUD nativo / munecas  >",
+  "en": "Wrist HUD  >",
+  "pt": "HUD de pulso  >"
+ },
+ {
+  "id": "Vibracion  >",
+  "en": "Haptics  >",
+  "pt": "Vibração  >"
+ },
+ {
+  "id": "Cambiar camara nativa",
+  "en": "Change Native Camera",
+  "pt": "Trocar câmera nativa"
+ },
+ {
+  "id": "<  Volver",
+  "en": "<  Back",
+  "pt": "<  Voltar"
+ },
+ {
+  "id": "<  Volver a ajustes",
+  "en": "<  Back to Settings",
+  "pt": "<  Voltar a Ajustes"
+ },
+ {
+  "id": "<  Volver a calibracion",
+  "en": "<  Back to Calibration",
+  "pt": "<  Voltar à calibração"
+ },
+ {
+  "id": "<  Volver a fisica",
+  "en": "<  Back to Physics",
+  "pt": "<  Voltar à física"
+ },
+ {
+  "id": "<  Volver a interfaces",
+  "en": "<  Back to Interfaces",
+  "pt": "<  Voltar às interfaces"
+ },
+ {
+  "id": "<  Volver a mapa",
+  "en": "<  Back to Map",
+  "pt": "<  Voltar ao mapa"
+ },
+ {
+  "id": "<  Volver a panel derecho",
+  "en": "<  Back to Right Wrist",
+  "pt": "<  Voltar ao pulso direito"
+ },
+ {
+  "id": "<  Volver a elementos",
+  "en": "<  Back to Elements",
+  "pt": "<  Voltar aos elementos"
+ },
+ {
+  "id": "Physics / Fisica  >",
+  "en": "Physics  >",
+  "pt": "Física  >"
+ },
+ {
+  "id": "PHYSICS / FUERZA FINITA",
+  "en": "Physics / Finite Effort",
+  "pt": "Física / esforço finito"
+ },
+ {
+  "id": "Agarrar / sostener: %d%%  >",
+  "en": "Grab / Hold: %d%%  >",
+  "pt": "Agarrar / segurar: %d%%  >"
+ },
+ {
+  "id": "Empujar por contacto: %d%%  >",
+  "en": "Contact Push: %d%%  >",
+  "pt": "Empurrão por contato: %d%%  >"
+ },
+ {
+  "id": "Cuerpo / presupuesto esfuerzo: %d%%  >",
+  "en": "Body Effort Budget: %d%%  >",
+  "pt": "Esforço do corpo: %d%%  >"
+ },
+ {
+  "id": "Restablecer fuerzas: 100%",
+  "en": "Reset Forces: 100%",
+  "pt": "Redefinir forças: 100%"
+ },
+ {
+  "id": "FUERZA %s [%d%%]",
+  "en": "EFFORT %s [%d%%]",
+  "pt": "ESFORÇO %s [%d%%]"
+ },
+ {
+  "id": "CUERPO",
+  "en": "BODY",
+  "pt": "CORPO"
+ },
+ {
+  "id": "CONTACTO",
+  "en": "CONTACT",
+  "pt": "CONTATO"
+ },
+ {
+  "id": "AGARRE",
+  "en": "GRAB",
+  "pt": "AGARRE"
+ },
+ {
+  "id": "Aumentar +25%",
+  "en": "Increase +25%",
+  "pt": "Aumentar +25%"
+ },
+ {
+  "id": "Disminuir -25%",
+  "en": "Decrease -25%",
+  "pt": "Diminuir -25%"
+ },
+ {
+  "id": "Aumentar +5%",
+  "en": "Increase +5%",
+  "pt": "Aumentar +5%"
+ },
+ {
+  "id": "Disminuir -5%",
+  "en": "Decrease -5%",
+  "pt": "Diminuir -5%"
+ },
+ {
+  "id": "Restablecer: 100%",
+  "en": "Reset: 100%",
+  "pt": "Redefinir: 100%"
+ },
+ {
+  "id": "Restaurar: 100%",
+  "en": "Reset: 100%",
+  "pt": "Redefinir: 100%"
+ },
+ {
+  "id": "CALIBRATION / CALIBRACION",
+  "en": "Calibration",
+  "pt": "Calibração"
+ },
+ {
+  "id": "CALIBRATION / INTERFACES",
+  "en": "Calibration / Interfaces",
+  "pt": "Calibração / Interfaces"
+ },
+ {
+  "id": "CALIBRATION / WRIST HUD",
+  "en": "Calibration / Wrist HUD",
+  "pt": "Calibração / HUD de pulso"
+ },
+ {
+  "id": "Hands / Manos  >",
+  "en": "Hands  >",
+  "pt": "Mãos  >"
+ },
+ {
+  "id": "Arma derecha  >",
+  "en": "Right Weapon  >",
+  "pt": "Arma direita  >"
+ },
+ {
+  "id": "Arma izquierda / Follow Right  >",
+  "en": "Left Weapon / Follow Right  >",
+  "pt": "Arma esquerda / Seguir direita  >"
+ },
+ {
+  "id": "Apoyo arma derecha / mano izquierda  >",
+  "en": "Right Weapon / Left Support  >",
+  "pt": "Arma direita / apoio esquerdo  >"
+ },
+ {
+  "id": "Apoyo arma izquierda / mano derecha  >",
+  "en": "Left Weapon / Right Support  >",
+  "pt": "Arma esquerda / apoio direito  >"
+ },
+ {
+  "id": "Height / Altura  >",
+  "en": "Height  >",
+  "pt": "Altura  >"
+ },
+ {
+  "id": "Vehicles / Vehiculo actual  >",
+  "en": "Vehicles / Current Model  >",
+  "pt": "Veículos / modelo atual  >"
+ },
+ {
+  "id": "Wrist HUD / Paneles de munecas  >",
+  "en": "Wrist HUD  >",
+  "pt": "HUD de pulso  >"
+ },
+ {
+  "id": "Interfaces / Menus y pausa  >",
+  "en": "Interfaces / Menus and Pause  >",
+  "pt": "Interfaces / menus e pausa  >"
+ },
+ {
+  "id": "Tamano menus / apps nativas  >",
+  "en": "Native Menu / App Size  >",
+  "pt": "Tamanho de menu / app nativo  >"
+ },
+ {
+  "id": "Tamano pantalla pausa (cine)  >",
+  "en": "Pause Cinema Screen Size  >",
+  "pt": "Tela de pausa (cine)  >"
+ },
+ {
+  "id": "MENUS NATIVOS [%d%%]",
+  "en": "NATIVE MENUS [%d%%]",
+  "pt": "MENUS NATIVOS [%d%%]"
+ },
+ {
+  "id": "ALTURA / DE PIE Y SENTADO",
+  "en": "Height / Standing and Seated",
+  "pt": "Altura / em pé e sentado"
+ },
+ {
+  "id": "Recentrar vista y altura",
+  "en": "Recenter View and Height",
+  "pt": "Recentralizar vista e altura"
+ },
+ {
+  "id": "Subir +2 cm [actual %+d cm]",
+  "en": "Raise +2 cm [current %+d cm]",
+  "pt": "Subir +2 cm [atual %+d cm]"
+ },
+ {
+  "id": "Bajar -2 cm",
+  "en": "Lower -2 cm",
+  "pt": "Descer -2 cm"
+ },
+ {
+  "id": "HUD NATIVO / MUNECAS",
+  "en": "Native Wrist HUD",
+  "pt": "HUD de pulso nativo"
+ },
+ {
+  "id": "HUD de munecas: %s",
+  "en": "Wrist HUD: %s",
+  "pt": "HUD de pulso: %s"
+ },
+ {
+  "id": "Izq: mapa + estrellas / Der: dinero y avisos",
+  "en": "Left: Map + Stars / Right: Money + Messages",
+  "pt": "Esq: mapa + estrelas / Dir: dinheiro e avisos"
+ },
+ {
+  "id": "Indicators propios GTAVXR: %s",
+  "en": "Contextual Hand Indicators: %s",
+  "pt": "Indicadores das mãos: %s"
+ },
+ {
+  "id": "Calibrar paneles de munecas  >",
+  "en": "Calibrate Wrist Panels  >",
+  "pt": "Calibrar painéis de pulso  >"
+ },
+ {
+  "id": "Visibilidad individual HUD  >",
+  "en": "Individual HUD Visibility  >",
+  "pt": "Visibilidade individual do HUD  >"
+ },
+ {
+  "id": "Tamano pantalla pausa  >",
+  "en": "Pause Screen Size  >",
+  "pt": "Tamanho da tela de pausa  >"
+ },
+ {
+  "id": "Restaurar visibles",
+  "en": "Reset Visibility",
+  "pt": "Redefinir visibilidade"
+ },
+ {
+  "id": "%s / %u-%u de %u",
+  "en": "%s / %u-%u of %u",
+  "pt": "%s / %u-%u de %u"
+ },
+ {
+  "id": "Crear %.63s",
+  "en": "Spawn %.63s",
+  "pt": "Gerar %.63s"
+ },
+ {
+  "id": "Dar %.63s",
+  "en": "Give %.63s",
+  "pt": "Dar %.63s"
+ },
+ {
+  "id": "%08X / %s / %s / ejes locales del vehiculo",
+  "en": "%08X / %s / %s / vehicle-local axes",
+  "pt": "%08X / %s / %s / eixos locais do veículo"
+ },
+ {
+  "id": "%s ARMA %s / %.32s",
+  "en": "%s WEAPON %s / %.32s",
+  "pt": "%s ARMA %s / %.32s"
+ },
+ {
+  "id": "+%d %s [actual %+d]",
+  "en": "+%d %s [current %+d]",
+  "pt": "+%d %s [atual %+d]"
+ },
+ {
+  "id": "+2 %s [actual %+d]",
+  "en": "+2 %s [current %+d]",
+  "pt": "+2 %s [atual %+d]"
+ },
+ {
+  "id": "25-250%, default100%. Motor finito; tracking y masas intactos.",
+  "en": "25-250%, default 100%. Finite motors; tracking and masses unchanged.",
+  "pt": "25-250%, padrão 100%. Motores finitos; rastreamento e massas intactos."
+ },
+ {
+  "id": "ANCLA",
+  "en": "ANCHOR",
+  "pt": "ÂNCORA"
+ },
+ {
+  "id": "APOYO",
+  "en": "SUPPORT",
+  "pt": "APOIO"
+ },
+ {
+  "id": "ARMA %s / %s %c",
+  "en": "WEAPON %s / %s %c",
+  "pt": "ARMA %s / %s %c"
+ },
+ {
+  "id": "AUTOMATICO (layout actual)",
+  "en": "AUTOMATIC (current layout)",
+  "pt": "AUTOMÁTICO (layout atual)"
+ },
+ {
+  "id": "Aun no independiente; ajusta Notificaciones",
+  "en": "Not independent yet; adjust Notifications",
+  "pt": "Ainda não independente; ajuste Notificações"
+ },
+ {
+  "id": "Bajar nivel de busqueda",
+  "en": "Decrease Wanted Level",
+  "pt": "Diminuir nível de procurado"
+ },
+ {
+  "id": "Subir nivel de busqueda",
+  "en": "Increase Wanted Level",
+  "pt": "Aumentar nível de procurado"
+ },
+ {
+  "id": "Quitar nivel de busqueda",
+  "en": "Clear Wanted Level",
+  "pt": "Zerar nível de procurado"
+ },
+ {
+  "id": "Balas explosivas: %s",
+  "en": "Explosive Ammo: %s",
+  "pt": "Balas explosivas: %s"
+ },
+ {
+  "id": "Balas incendiarias: %s",
+  "en": "Flaming Ammo: %s",
+  "pt": "Balas incendiárias: %s"
+ },
+ {
+  "id": "CLASE / familia",
+  "en": "CLASS / family",
+  "pt": "CLASSE / família"
+ },
+ {
+  "id": "Cambiar protagonista Story  >",
+  "en": "Switch Story Protagonist  >",
+  "pt": "Trocar protagonista (história)  >"
+ },
+ {
+  "id": "Clima automatico",
+  "en": "Automatic Weather",
+  "pt": "Clima automático"
+ },
+ {
+  "id": "Congelar reloj: %s",
+  "en": "Freeze Clock: %s",
+  "pt": "Congelar relógio: %s"
+ },
+ {
+  "id": "DERECHA",
+  "en": "RIGHT",
+  "pt": "DIREITA"
+ },
+ {
+  "id": "IZQUIERDA",
+  "en": "LEFT",
+  "pt": "ESQUERDA"
+ },
+ {
+  "id": "Dar paracaidas",
+  "en": "Give Parachute",
+  "pt": "Dar paraquedas"
+ },
+ {
+  "id": "Dar todas las armas disponibles",
+  "en": "Give All Available Weapons",
+  "pt": "Dar todas as armas disponíveis"
+ },
+ {
+  "id": "Derecha / dinero y avisos  >",
+  "en": "Right Wrist / Money and Messages  >",
+  "pt": "Pulso direito / dinheiro e avisos  >"
+ },
+ {
+  "id": "Izquierda / mapa + estrellas  >",
+  "en": "Left Wrist / Map and Stars  >",
+  "pt": "Pulso esquerdo / mapa + estrelas  >"
+ },
+ {
+  "id": "Derecha: inclinacion +2  [%+d grados]",
+  "en": "Right: Pitch +2  [%+d degrees]",
+  "pt": "Direita: inclinação +2  [%+d graus]"
+ },
+ {
+  "id": "Derecha: inclinacion -2",
+  "en": "Right: Pitch -2",
+  "pt": "Direita: inclinação -2"
+ },
+ {
+  "id": "Izquierda: inclinacion +2  [%+d grados]",
+  "en": "Left: Pitch +2  [%+d degrees]",
+  "pt": "Esquerda: inclinação +2  [%+d graus]"
+ },
+ {
+  "id": "Izquierda: inclinacion -2",
+  "en": "Left: Pitch -2",
+  "pt": "Esquerda: inclinação -2"
+ },
+ {
+  "id": "Desbloquear puertas",
+  "en": "Unlock Doors",
+  "pt": "Destrancar portas"
+ },
+ {
+  "id": "ELEMENTO / %s",
+  "en": "ELEMENT / %s",
+  "pt": "ELEMENTO / %s"
+ },
+ {
+  "id": "ELEMENTO / %s / %s %c",
+  "en": "ELEMENT / %s / %s %c",
+  "pt": "ELEMENTO / %s / %s %c"
+ },
+ {
+  "id": "ELEMENTOS / MUNECA DERECHA",
+  "en": "ELEMENTS / RIGHT WRIST",
+  "pt": "ELEMENTOS / PULSO DIREITO"
+ },
+ {
+  "id": "ELEMENTOS / MUNECA IZQUIERDA",
+  "en": "ELEMENTS / LEFT WRIST",
+  "pt": "ELEMENTOS / PULSO ESQUERDO"
+ },
+ {
+  "id": "ERROR: no guardado",
+  "en": "ERROR: not saved",
+  "pt": "ERRO: não salvo"
+ },
+ {
+  "id": "ESTA ARMA",
+  "en": "THIS WEAPON",
+  "pt": "ESTA ARMA"
+ },
+ {
+  "id": "Editar %s (A cambia)",
+  "en": "Edit %s (A changes)",
+  "pt": "Editar %s (A muda)"
+ },
+ {
+  "id": "Eje %c: +2 mm  [actual %+d mm]",
+  "en": "Axis %c: +2 mm  [current %+d mm]",
+  "pt": "Eixo %c: +2 mm  [atual %+d mm]"
+ },
+ {
+  "id": "Eje %c: -2 mm",
+  "en": "Axis %c: -2 mm",
+  "pt": "Eixo %c: -2 mm"
+ },
+ {
+  "id": "Elegir arma por categoria  >",
+  "en": "Select Weapon by Category  >",
+  "pt": "Escolher arma por categoria  >"
+ },
+ {
+  "id": "Elementos independientes  >",
+  "en": "Individual Elements  >",
+  "pt": "Elementos individuais  >"
+ },
+ {
+  "id": "Encender motor",
+  "en": "Start Engine",
+  "pt": "Ligar motor"
+ },
+ {
+  "id": "Entra a un vehiculo para calibrar; no modifica otros modelos",
+  "en": "Enter a vehicle to calibrate; other models are unchanged",
+  "pt": "Entre em um veículo para calibrar; outros modelos não mudam"
+ },
+ {
+  "id": "Estrellas de busqueda  >",
+  "en": "Wanted Stars  >",
+  "pt": "Estrelas de procurado  >"
+ },
+ {
+  "id": "Estrellas debajo del mapa  >",
+  "en": "Stars Below Map  >",
+  "pt": "Estrelas abaixo do mapa  >"
+ },
+ {
+  "id": "GTAVXR  /  AJUSTES VR",
+  "en": "GTAVXR / VR Settings",
+  "pt": "GTAVXR / Ajustes VR"
+ },
+ {
+  "id": "GTAVXR  /  TRAINER",
+  "en": "GTAVXR / Trainer",
+  "pt": "GTAVXR / Trainer"
+ },
+ {
+  "id": "GTAVXR  /  VEHICULOS",
+  "en": "GTAVXR / Vehicles",
+  "pt": "GTAVXR / Veículos"
+ },
+ {
+  "id": "GTAVXR / HORA %02d:%02d",
+  "en": "GTAVXR / TIME %02d:%02d",
+  "pt": "GTAVXR / HORA %02d:%02d"
+ },
+ {
+  "id": "GTAVXR / MI VEHICULO",
+  "en": "GTAVXR / My Vehicle",
+  "pt": "GTAVXR / Meu veículo"
+ },
+ {
+  "id": "GTAVXR / PERSONAJE Y POLICIA",
+  "en": "GTAVXR / Player and Police",
+  "pt": "GTAVXR / Jogador e polícia"
+ },
+ {
+  "id": "Habilidad especial infinita: %s",
+  "en": "Unlimited Special Ability: %s",
+  "pt": "Habilidade especial infinita: %s"
+ },
+ {
+  "id": "Habilidades / superpoderes  >",
+  "en": "Abilities / Superpowers  >",
+  "pt": "Habilidades / superpoderes  >"
+ },
+ {
+  "id": "INDIVIDUAL",
+  "en": "INDIVIDUAL",
+  "pt": "INDIVIDUAL"
+ },
+ {
+  "id": "Idioma: %s",
+  "en": "Language: %s",
+  "pt": "Idioma: %s"
+ },
+ {
+  "id": "Indestructible: %s",
+  "en": "Indestructible: %s",
+  "pt": "Indestrutível: %s"
+ },
+ {
+  "id": "Invencible: %s",
+  "en": "Invincible: %s",
+  "pt": "Invencível: %s"
+ },
+ {
+  "id": "JUGADOR / HABILIDADES",
+  "en": "Player / Abilities",
+  "pt": "Jogador / habilidades"
+ },
+ {
+  "id": "La primera edicion activa Individual; reset conserva el modo.",
+  "en": "The first edit enables Individual; reset keeps that mode.",
+  "pt": "A primeira edição ativa Individual; redefinir mantém o modo."
+ },
+ {
+  "id": "Limpiar vehiculo actual",
+  "en": "Clean Current Vehicle",
+  "pt": "Limpar veículo atual"
+ },
+ {
+  "id": "Reparar vehiculo actual",
+  "en": "Repair Current Vehicle",
+  "pt": "Reparar veículo atual"
+ },
+ {
+  "id": "MANOS / 0 = TU BASE ACEPTADA",
+  "en": "Hands / 0 = Your Accepted Base",
+  "pt": "Mãos / 0 = sua base aceita"
+ },
+ {
+  "id": "Model Changer (solo modelo)  >",
+  "en": "Model Changer (Visual Model Only)  >",
+  "pt": "Trocador de modelo (só visual)  >"
+ },
+ {
+  "id": "Modelo %.63s",
+  "en": "Model %.63s",
+  "pt": "Modelo %.63s"
+ },
+ {
+  "id": "Modelos instalados por categoria  >",
+  "en": "Installed Models by Category  >",
+  "pt": "Modelos instalados por categoria  >"
+ },
+ {
+  "id": "Modo: %s",
+  "en": "Mode: %s",
+  "pt": "Modo: %s"
+ },
+ {
+  "id": "Municion al maximo (armas poseidas)",
+  "en": "Max Ammo (Owned Weapons)",
+  "pt": "Munição máxima (armas possuídas)"
+ },
+ {
+  "id": "Municion infinita: %s",
+  "en": "Infinite Ammo: %s",
+  "pt": "Munição infinita: %s"
+ },
+ {
+  "id": "Nunca buscado: %s",
+  "en": "Never Wanted: %s",
+  "pt": "Nunca procurado: %s"
+ },
+ {
+  "id": "PANEL %s / %s %c",
+  "en": "PANEL %s / %s %c",
+  "pt": "PAINEL %s / %s %c"
+ },
+ {
+  "id": "PANEL MUNECA %s / ejes locales del mando",
+  "en": "WRIST PANEL %s / controller-local axes",
+  "pt": "PAINEL DE PULSO %s / eixos locais do controle"
+ },
+ {
+  "id": "PANTALLA PAUSA [%d%%]",
+  "en": "PAUSE SCREEN [%d%%]",
+  "pt": "TELA DE PAUSA [%d%%]"
+ },
+ {
+  "id": "PERSONAJE / MODEL CHANGER",
+  "en": "Player / Model Changer",
+  "pt": "Jogador / trocador de modelo"
+ },
+ {
+  "id": "PERSONAJE / PROTAGONISTA STORY",
+  "en": "Player / Story Protagonist",
+  "pt": "Jogador / protagonista do modo história"
+ },
+ {
+  "id": "POSICION",
+  "en": "POSITION",
+  "pt": "POSIÇÃO"
+ },
+ {
+  "id": "ROTACION",
+  "en": "ROTATION",
+  "pt": "ROTAÇÃO"
+ },
+ {
+  "id": "Posicion",
+  "en": "Position",
+  "pt": "Posição"
+ },
+ {
+  "id": "Rotacion",
+  "en": "Rotation",
+  "pt": "Rotação"
+ },
+ {
+  "id": "POSICION %s / ejes locales del mando",
+  "en": "POSITION %s / controller-local axes",
+  "pt": "POSIÇÃO %s / eixos locais do controle"
+ },
+ {
+  "id": "Posicion %c [%+d mm]  >",
+  "en": "Position %c [%+d mm]  >",
+  "pt": "Posição %c [%+d mm]  >"
+ },
+ {
+  "id": "Posicion mano derecha  >",
+  "en": "Right Hand Position  >",
+  "pt": "Posição da mão direita  >"
+ },
+ {
+  "id": "Posicion mano izquierda  >",
+  "en": "Left Hand Position  >",
+  "pt": "Posição da mão esquerda  >"
+ },
+ {
+  "id": "Position %c +2 mm [actual %+d]",
+  "en": "Position %c +2 mm [current %+d]",
+  "pt": "Posição %c +2 mm [atual %+d]"
+ },
+ {
+  "id": "Position %c -2 mm",
+  "en": "Position %c -2 mm",
+  "pt": "Posição %c -2 mm"
+ },
+ {
+  "id": "Recargar habilidad especial",
+  "en": "Refill Special Ability",
+  "pt": "Recarregar habilidade especial"
+ },
+ {
+  "id": "Reparacion automatica: %s",
+  "en": "Auto-Repair: %s",
+  "pt": "Reparo automático: %s"
+ },
+ {
+  "id": "Reset Current Vehicle / default de clase",
+  "en": "Reset Current Vehicle / Class Default",
+  "pt": "Redefinir veículo atual / padrão da classe"
+ },
+ {
+  "id": "Reset este parametro / FOLLOW RIGHT",
+  "en": "Reset This Parameter / Follow Right",
+  "pt": "Redefinir este parâmetro / Seguir direita"
+ },
+ {
+  "id": "Reset este parametro / heredar",
+  "en": "Reset This Parameter / Inherit",
+  "pt": "Redefinir este parâmetro / herdar"
+ },
+ {
+  "id": "Reset parametros / heredar",
+  "en": "Reset Parameters / Inherit",
+  "pt": "Redefinir parâmetros / herdar"
+ },
+ {
+  "id": "Reset todos / FOLLOW RIGHT",
+  "en": "Reset All / Follow Right",
+  "pt": "Redefinir todos / Seguir direita"
+ },
+ {
+  "id": "Resistencia ilimitada: %s",
+  "en": "Unlimited Stamina: %s",
+  "pt": "Resistência ilimitada: %s"
+ },
+ {
+  "id": "Restaurar SOLO elementos derechos",
+  "en": "Reset RIGHT Elements Only",
+  "pt": "Redefinir só elementos DIREITOS"
+ },
+ {
+  "id": "Restaurar SOLO esta muneca",
+  "en": "Reset THIS Wrist Only",
+  "pt": "Redefinir só ESTE pulso"
+ },
+ {
+  "id": "Restaurar SOLO este elemento",
+  "en": "Reset THIS Element Only",
+  "pt": "Redefinir só ESTE elemento"
+ },
+ {
+  "id": "Restaurar SOLO estrellas",
+  "en": "Reset Stars Only",
+  "pt": "Redefinir só as estrelas"
+ },
+ {
+  "id": "Restaurar armadura",
+  "en": "Restore Armour",
+  "pt": "Restaurar colete"
+ },
+ {
+  "id": "Restaurar este parametro",
+  "en": "Reset This Parameter",
+  "pt": "Redefinir este parâmetro"
+ },
+ {
+  "id": "Restaurar inclinacion base (0)",
+  "en": "Reset Base Pitch (0)",
+  "pt": "Redefinir inclinação base (0)"
+ },
+ {
+  "id": "Restaurar personaje Story / original",
+  "en": "Restore Story / Original Player",
+  "pt": "Restaurar jogador original do modo história"
+ },
+ {
+  "id": "Restaurar salud",
+  "en": "Restore Health",
+  "pt": "Restaurar saúde"
+ },
+ {
+  "id": "Restaurar tu base aceptada (0 mm)",
+  "en": "Reset Your Accepted Base (0 mm)",
+  "pt": "Redefinir sua base aceita (0 mm)"
+ },
+ {
+  "id": "Rotacion %c [%+d grados]  >",
+  "en": "Rotation %c [%+d degrees]  >",
+  "pt": "Rotação %c [%+d graus]  >"
+ },
+ {
+  "id": "Selecciona un arma; no cambia tracking ni VRIK",
+  "en": "Select a weapon; tracking and VRIK are unchanged",
+  "pt": "Selecione uma arma; rastreamento e VRIK não mudam"
+ },
+ {
+  "id": "Sin armas disponibles",
+  "en": "No Weapons Available",
+  "pt": "Nenhuma arma disponível"
+ },
+ {
+  "id": "Sin modelos de ped registrados",
+  "en": "No Registered Ped Models",
+  "pt": "Nenhum modelo de pedestre registrado"
+ },
+ {
+  "id": "Sin modelos disponibles",
+  "en": "No Models Available",
+  "pt": "Nenhum modelo disponível"
+ },
+ {
+  "id": "Sin recargar / clip infinito: %s",
+  "en": "No Reload / Infinite Clip: %s",
+  "pt": "Sem recarga / pente infinito: %s"
+ },
+ {
+  "id": "Solo indicadores propios: el HUD y las acciones originales siguen activos.",
+  "en": "Indicators only: the original HUD and interactions remain active.",
+  "pt": "Só indicadores: o HUD e as interações originais continuam ativos."
+ },
+ {
+  "id": "TAMANO",
+  "en": "SIZE",
+  "pt": "TAMANHO"
+ },
+ {
+  "id": "TELEFONO / COMPARTIDO CON FEED",
+  "en": "PHONE / SHARED WITH FEED",
+  "pt": "TELEFONE / COMPARTILHADO COM FEED"
+ },
+ {
+  "id": "TRAINER / ARMAS Y MUNICION",
+  "en": "Trainer / Weapons and Ammo",
+  "pt": "Trainer / armas e munição"
+ },
+ {
+  "id": "Tamano [%d%%]  >",
+  "en": "Size [%d%%]  >",
+  "pt": "Tamanho [%d%%]  >"
+ },
+ {
+  "id": "VEHICLES / %.45s / asiento %d",
+  "en": "VEHICLES / %.45s / seat %d",
+  "pt": "VEÍCULOS / %.45s / assento %d"
+ },
+ {
+  "id": "VIBRACION",
+  "en": "Haptics",
+  "pt": "Vibração"
+ },
+ {
+  "id": "VISIBILIDAD / ELEMENTOS HUD",
+  "en": "Visibility / HUD Elements",
+  "pt": "Visibilidade / elementos do HUD"
+ },
+ {
+  "id": "Vibracion nativa: %d%%",
+  "en": "Native Haptics: %d%%",
+  "pt": "Vibração nativa: %d%%"
+ },
+ {
+  "id": "Vibracion suave de motor: %s",
+  "en": "Continuous Engine Haptics: %s",
+  "pt": "Vibração contínua do motor: %s"
+ },
+ {
+  "id": "grados",
+  "en": "degrees",
+  "pt": "graus"
+ },
+ {
+  "id": "guardado automatico",
+  "en": "auto-saved",
+  "pt": "salvo auto"
+ },
+ {
+  "id": "<  Back",
+  "en": "<  Back",
+  "pt": "<  Voltar"
+ },
+ {
+  "id": "APARIENCIA DEL MENÚ",
+  "en": "Menu Appearance",
+  "pt": "Aparência do menu"
+ },
+ {
+  "id": "Apariencia del menú  >",
+  "en": "Menu Appearance  >",
+  "pt": "Aparência do menu  >"
+ },
+ {
+  "id": "COLORES",
+  "en": "Colours",
+  "pt": "Cores"
+ },
+ {
+  "id": "COLOURS",
+  "en": "Colours",
+  "pt": "Cores"
+ },
+ {
+  "id": "Colores  >",
+  "en": "Colours  >",
+  "pt": "Cores  >"
+ },
+ {
+  "id": "Colours  >",
+  "en": "Colours  >",
+  "pt": "Cores  >"
+ },
+ {
+  "id": "MENU APPEARANCE",
+  "en": "Menu Appearance",
+  "pt": "Aparência do menu"
+ },
+ {
+  "id": "Menu Appearance  >",
+  "en": "Menu Appearance  >",
+  "pt": "Aparência do menu  >"
+ },
+ {
+  "id": "Language: %s",
+  "en": "Language: %s",
+  "pt": "Idioma: %s"
+ },
+ {
+  "id": "Reset Appearance",
+  "en": "Reset Appearance",
+  "pt": "Redefinir aparência"
+ },
+ {
+  "id": "Reset Colour",
+  "en": "Reset Colour",
+  "pt": "Redefinir cor"
+ },
+ {
+  "id": "Restablecer apariencia",
+  "en": "Reset Appearance",
+  "pt": "Redefinir aparência"
+ },
+ {
+  "id": "Restablecer color",
+  "en": "Reset Colour",
+  "pt": "Redefinir cor"
+ },
+ {
+  "id": "Dinero",
+  "en": "Money",
+  "pt": "Dinheiro"
+ },
+ {
+  "id": "Notificaciones",
+  "en": "Notifications",
+  "pt": "Notificações"
+ },
+ {
+  "id": "Mensajes telefono",
+  "en": "Phone Messages",
+  "pt": "Mensagens do telefone"
+ },
+ {
+  "id": "Ayuda / actividades",
+  "en": "Help / Activities",
+  "pt": "Ajuda / atividades"
+ },
+ {
+  "id": "Subtitulos (panel)",
+  "en": "Subtitles (Panel)",
+  "pt": "Legendas (painel)"
+ },
+ {
+  "id": "Ubicacion",
+  "en": "Location",
+  "pt": "Localização"
+ },
+ {
+  "id": "Estado",
+  "en": "Status",
+  "pt": "Status"
+ },
+ {
+  "id": "Otros HUD",
+  "en": "Other HUD",
+  "pt": "Outros HUD"
+ },
+ {
+  "id": "Estrellas",
+  "en": "Wanted Stars",
+  "pt": "Estrelas"
+ },
+ {
+  "id": "Mapa",
+  "en": "Map",
+  "pt": "Mapa"
+ },
+ {
+  "id": "Avisos grandes",
+  "en": "Large Notices",
+  "pt": "Avisos grandes"
+ },
+ {
+  "id": "Dinero  >",
+  "en": "Money  >",
+  "pt": "Dinheiro  >"
+ },
+ {
+  "id": "Feed nativo (incluye mensajes telefono)  >",
+  "en": "Native Feed (Includes Phone Messages)  >",
+  "pt": "Feed nativo (inclui mensagens do telefone)  >"
+ },
+ {
+  "id": "Telefono: compartido con feed  >",
+  "en": "Phone: Shared with Feed  >",
+  "pt": "Telefone: compartilhado com feed  >"
+ },
+ {
+  "id": "Ayuda/accion nativa  >",
+  "en": "Native Help / Action  >",
+  "pt": "Ajuda/ação nativa  >"
+ },
+ {
+  "id": "Subtitulos  >",
+  "en": "Subtitles  >",
+  "pt": "Legendas  >"
+ },
+ {
+  "id": "Ubicacion  >",
+  "en": "Location  >",
+  "pt": "Localização  >"
+ },
+ {
+  "id": "Estado  >",
+  "en": "Status  >",
+  "pt": "Status  >"
+ },
+ {
+  "id": "Otros  >",
+  "en": "Other  >",
+  "pt": "Outros  >"
+ },
+ {
+  "id": "DINERO",
+  "en": "MONEY",
+  "pt": "DINHEIRO"
+ },
+ {
+  "id": "NOTIFICACIONES",
+  "en": "NOTIFICATIONS",
+  "pt": "NOTIFICAÇÕES"
+ },
+ {
+  "id": "TELEFONO",
+  "en": "PHONE",
+  "pt": "TELEFONE"
+ },
+ {
+  "id": "AYUDA NATIVA",
+  "en": "NATIVE HELP",
+  "pt": "AJUDA NATIVA"
+ },
+ {
+  "id": "SUBTITULOS",
+  "en": "SUBTITLES",
+  "pt": "LEGENDAS"
+ },
+ {
+  "id": "UBICACION",
+  "en": "LOCATION",
+  "pt": "LOCALIZAÇÃO"
+ },
+ {
+  "id": "ESTADO",
+  "en": "STATUS",
+  "pt": "STATUS"
+ },
+ {
+  "id": "OTROS",
+  "en": "OTHER",
+  "pt": "OUTROS"
+ },
+ {
+  "id": "ESTRELLAS IZQ",
+  "en": "LEFT WRIST STARS",
+  "pt": "ESTRELAS PULSO ESQ"
+ },
+ {
+  "id": "Personaje / policia  >",
+  "en": "Player / Police  >",
+  "pt": "Jogador / polícia  >"
+ },
+ {
+  "id": "Armas / municion  >",
+  "en": "Weapons / Ammo  >",
+  "pt": "Armas / munição  >"
+ },
+ {
+  "id": "Crear vehiculo por categoria  >",
+  "en": "Spawn Vehicle by Category  >",
+  "pt": "Gerar veículo por categoria  >"
+ },
+ {
+  "id": "Mi vehiculo  >",
+  "en": "My Vehicle  >",
+  "pt": "Meu veículo  >"
+ },
+ {
+  "id": "Clima  >",
+  "en": "Weather  >",
+  "pt": "Clima  >"
+ },
+ {
+  "id": "Hora  >",
+  "en": "Time  >",
+  "pt": "Hora  >"
+ },
+ {
+  "id": "Desactivar todos los cheats",
+  "en": "Reset All Cheats",
+  "pt": "Redefinir todas as trapaças"
+ },
+ {
+  "id": "Actualizar catalogo instalado",
+  "en": "Refresh Installed Catalogue",
+  "pt": "Atualizar catálogo instalado"
+ },
+ {
+  "id": "Super salto",
+  "en": "Super Jump",
+  "pt": "Super pulo"
+ },
+ {
+  "id": "Super fuerza (dano/fuerza x10)",
+  "en": "Super Strength (Damage / Force x10)",
+  "pt": "Super força (dano/força x10)"
+ },
+ {
+  "id": "Golpes explosivos",
+  "en": "Explosive Melee",
+  "pt": "Golpes explosivos"
+ },
+ {
+  "id": "Correr mas rapido (x1.49)",
+  "en": "Faster Running (x1.49)",
+  "pt": "Correr mais rápido (x1.49)"
+ },
+ {
+  "id": "Nadar mas rapido (x1.49)",
+  "en": "Faster Swimming (x1.49)",
+  "pt": "Nadar mais rápido (x1.49)"
+ },
+ {
+  "id": "Amanecer 06:00",
+  "en": "Sunrise 06:00",
+  "pt": "Amanhecer 06:00"
+ },
+ {
+  "id": "Mediodia 12:00",
+  "en": "Noon 12:00",
+  "pt": "Meio-dia 12:00"
+ },
+ {
+  "id": "Atardecer 18:00",
+  "en": "Sunset 18:00",
+  "pt": "Entardecer 18:00"
+ },
+ {
+  "id": "Medianoche 00:00",
+  "en": "Midnight 00:00",
+  "pt": "Meia-noite 00:00"
+ },
+ {
+  "id": "Adelantar 1 hora",
+  "en": "Advance 1 Hour",
+  "pt": "Avançar 1 hora"
+ },
+ {
+  "id": "Retroceder 1 hora",
+  "en": "Rewind 1 Hour",
+  "pt": "Voltar 1 hora"
+ },
+ {
+  "id": "DER",
+  "en": "RIGHT",
+  "pt": "DIR"
+ },
+ {
+  "id": "IZQ",
+  "en": "LEFT",
+  "pt": "ESQ"
+ },
+ {
+  "id": "MODELO",
+  "en": "MODEL",
+  "pt": "MODELO"
+ },
+ {
+  "id": "DEFAULT CLASE",
+  "en": "CLASS DEFAULT",
+  "pt": "PADRÃO DA CLASSE"
+ },
+ {
+  "id": "DEFAULT / referencia nativa",
+  "en": "DEFAULT / native reference",
+  "pt": "PADRÃO / referência nativa"
+ },
+ {
+  "id": "CLASE",
+  "en": "CLASS",
+  "pt": "CLASSE"
+ },
+ {
+  "id": "ARMA",
+  "en": "WEAPON",
+  "pt": "ARMA"
+ },
+ {
+  "id": "guardado",
+  "en": "saved",
+  "pt": "salvo"
+ },
+ {
+  "id": "independiente / herencia",
+  "en": "independent / inherited",
+  "pt": "independente / herdado"
+ },
+ {
+  "id": "arma R / apoyo control L",
+  "en": "right weapon / left controller support",
+  "pt": "arma dir / apoio controle esq"
+ },
+ {
+  "id": "arma L / apoyo control R",
+  "en": "left weapon / right controller support",
+  "pt": "arma esq / apoio controle dir"
+ },
+ {
+  "id": "arma R / control R",
+  "en": "right weapon / right controller",
+  "pt": "arma dir / controle dir"
+ },
+ {
+  "id": "FOLLOW RIGHT por parametro / control L",
+  "en": "FOLLOW RIGHT per parameter / left controller",
+  "pt": "SEGUIR DIREITA por parâmetro / controle esq"
+ },
+ {
+  "id": "MODEL CHANGER / CATEGORIAS",
+  "en": "Model Changer / Categories",
+  "pt": "Trocador de modelo / categorias"
+ },
+ {
+  "id": "CATEGORIAS VEHICULOS",
+  "en": "Vehicle Categories",
+  "pt": "Categorias de veículos"
+ },
+ {
+  "id": "CATEGORIAS ARMAS",
+  "en": "Weapon Categories",
+  "pt": "Categorias de armas"
+ },
+ {
+  "id": "CLIMA",
+  "en": "Weather",
+  "pt": "Clima"
+ },
+ {
+  "id": "Compactos",
+  "en": "Compacts",
+  "pt": "Compactos"
+ },
+ {
+  "id": "Sedanes",
+  "en": "Sedans",
+  "pt": "Sedãs"
+ },
+ {
+  "id": "SUV",
+  "en": "SUVs",
+  "pt": "SUVs"
+ },
+ {
+  "id": "Coupes",
+  "en": "Coupes",
+  "pt": "Cupês"
+ },
+ {
+  "id": "Muscle",
+  "en": "Muscle",
+  "pt": "Muscle"
+ },
+ {
+  "id": "Clasicos deportivos",
+  "en": "Sports Classics",
+  "pt": "Clássicos esportivos"
+ },
+ {
+  "id": "Deportivos",
+  "en": "Sports",
+  "pt": "Esportivos"
+ },
+ {
+  "id": "Super",
+  "en": "Super",
+  "pt": "Super"
+ },
+ {
+  "id": "Motos",
+  "en": "Motorcycles",
+  "pt": "Motos"
+ },
+ {
+  "id": "Todoterreno",
+  "en": "Off-Road",
+  "pt": "Off-road"
+ },
+ {
+  "id": "Industriales",
+  "en": "Industrial",
+  "pt": "Industriais"
+ },
+ {
+  "id": "Utilitarios",
+  "en": "Utility",
+  "pt": "Utilitários"
+ },
+ {
+  "id": "Furgonetas",
+  "en": "Vans",
+  "pt": "Vans"
+ },
+ {
+  "id": "Bicicletas",
+  "en": "Cycles",
+  "pt": "Bicicletas"
+ },
+ {
+  "id": "Barcos",
+  "en": "Boats",
+  "pt": "Barcos"
+ },
+ {
+  "id": "Helicopteros",
+  "en": "Helicopters",
+  "pt": "Helicópteros"
+ },
+ {
+  "id": "Aviones",
+  "en": "Planes",
+  "pt": "Aviões"
+ },
+ {
+  "id": "Servicio",
+  "en": "Service",
+  "pt": "Serviço"
+ },
+ {
+  "id": "Emergencias",
+  "en": "Emergency",
+  "pt": "Emergência"
+ },
+ {
+  "id": "Militares",
+  "en": "Military",
+  "pt": "Militares"
+ },
+ {
+  "id": "Comerciales",
+  "en": "Commercial",
+  "pt": "Comerciais"
+ },
+ {
+  "id": "Trenes (requiere via)",
+  "en": "Trains (Track Required)",
+  "pt": "Trens (requer trilho)"
+ },
+ {
+  "id": "Formula",
+  "en": "Open Wheel",
+  "pt": "Monopostos"
+ },
+ {
+  "id": "Otros",
+  "en": "Others",
+  "pt": "Outros"
+ },
+ {
+  "id": "Otras",
+  "en": "Others",
+  "pt": "Outras"
+ },
+ {
+  "id": "Story (solo modelo visual)",
+  "en": "Story (Visual Model Only)",
+  "pt": "Modo história (só modelo visual)"
+ },
+ {
+  "id": "Ambientales masculinos",
+  "en": "Ambient Males",
+  "pt": "Figurantes masculinos"
+ },
+ {
+  "id": "Ambientales femeninos",
+  "en": "Ambient Females",
+  "pt": "Figurantes femininos"
+ },
+ {
+  "id": "Servicios / profesiones",
+  "en": "Services / Professions",
+  "pt": "Serviços / profissões"
+ },
+ {
+  "id": "Pandillas",
+  "en": "Gangs",
+  "pt": "Gangues"
+ },
+ {
+  "id": "Personajes de misiones",
+  "en": "Mission Characters",
+  "pt": "Personagens de missões"
+ },
+ {
+  "id": "Cutscenes",
+  "en": "Cutscene Models",
+  "pt": "Modelos de cutscene"
+ },
+ {
+  "id": "Freemode / Online (solo Story)",
+  "en": "Freemode / Online (Story Only)",
+  "pt": "Freemode / Online (só modo história)"
+ },
+ {
+  "id": "Animales / no humanos",
+  "en": "Animals / Nonhuman",
+  "pt": "Animais / não humanos"
+ },
+ {
+  "id": "Otros instalados",
+  "en": "Other Installed Models",
+  "pt": "Outros modelos instalados"
+ },
+ {
+  "id": "Pistolas",
+  "en": "Pistols",
+  "pt": "Pistolas"
+ },
+ {
+  "id": "Subfusiles / ametralladoras",
+  "en": "SMGs / Machine Guns",
+  "pt": "Submetralhadoras / metralhadoras"
+ },
+ {
+  "id": "Rifles",
+  "en": "Rifles",
+  "pt": "Rifles"
+ },
+ {
+  "id": "Francotiradores",
+  "en": "Sniper Rifles",
+  "pt": "Rifles de precisão"
+ },
+ {
+  "id": "Cuerpo a cuerpo",
+  "en": "Melee",
+  "pt": "Corpo a corpo"
+ },
+ {
+  "id": "Escopetas",
+  "en": "Shotguns",
+  "pt": "Escopetas"
+ },
+ {
+  "id": "Armas pesadas",
+  "en": "Heavy Weapons",
+  "pt": "Armas pesadas"
+ },
+ {
+  "id": "Arrojadizas / especiales",
+  "en": "Throwables / Special",
+  "pt": "Arremessáveis / especiais"
+ }
+]

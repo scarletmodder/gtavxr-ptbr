@@ -1,0 +1,22 @@
+# Personal context and drafts: never versioned.
+private/
+local/
+work/
+
+# Backups made by scripts
+*.bak-*
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+
+# Build output
+dist/
+
+# Agent guidance and local notes
+CLAUDE.md
+CLAUDE.local.md
+.claude/
